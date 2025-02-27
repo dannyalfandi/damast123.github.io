@@ -1,0 +1,14 @@
+extends base
+
+block append head
+
+block content
+    main.main
+      section#hero.hero.section
+        img(src="/img/background.jpg", alt="Hero background image", data-aos="fade-in")
+        .container.text-center(data-aos="zoom-out", data-aos-delay="100")
+          .row.justify-content-center
+            .col-lg-8
+              h2 Danny Alfandi
+              p He&apos;s a backend/fullstack developer
+              a.btn-get-started(href="/about") About Me

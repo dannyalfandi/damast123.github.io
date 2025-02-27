@@ -1,0 +1,80 @@
+extends base
+
+block append head
+
+block content
+    main.main
+        section#portfolio.portfolio.section
+            .container.section-title(data-aos="fade-up")
+                h2 Portfolio
+                p This is Danny Alfandi's portfolio from his previous work and freelance
+            .container
+                .isotope-layout(data-default-filter="*", data-layout="masonry", data-sort="original-order")
+                    ul.portfolio-filters.isotope-filters(data-aos="fade-up", data-aos-delay="100")
+                        li.filter-active(data-filter="*") All
+                        li(data-filter=".filter-mobile-app") Mobile App
+                        li(data-filter=".filter-web-app") Web App
+                    .row.gy-4.isotope-container(data-aos="fade-up", data-aos-delay="200")
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-mobile-app
+                            img.img-fluid(src="/img/portfolio/BBP/home_tracking.jpg", alt="", width="300", height="300")
+                            .portfolio-info
+                                h4 BPP
+                                p Tracking distribution
+                                a.glightbox.preview-link(href="/img/portfolio/BBP/home_tracking.jpg", title="BPP", data-gallery="portfolio-gallery-app")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio/BBP", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-web-app
+                            img.img-fluid(src="/img/portfolio/Ayugold/TY_Page.png", alt="")
+                            .portfolio-info
+                                h4 Ayugold
+                                p e commerce website ayugold
+                                a.glightbox.preview-link(href="/img/portfolio/Ayugold/TY_Page.png", title="Ayugold", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio/Ayugold", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-web-app
+                            img.img-fluid(src="/img/portfolio/Sinarmasapp/2.png", alt="")
+                            .portfolio-info
+                                h4 Sinarmas App
+                                p e commerce website Sinarmas App
+                                a.glightbox.preview-link(href="/img/portfolio/Sinarmasapp/2.png", title="Sinarmasapp", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-web-app
+                            img.img-fluid(src="/img/portfolio/alwayshappi/2.png", alt="")
+                            .portfolio-info
+                                h4 Alwayshappi
+                                p e commerce website Alwasyhappi
+                                a.glightbox.preview-link(href="/img/portfolio/alwayshappi/2.png", title="alwayshappi", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-web-app
+                            img.img-fluid(src="/img/portfolio/Samsonite/search.jpg", alt="")
+                            .portfolio-info
+                                h4 Samsonite
+                                p admin website Samsonite
+                                a.glightbox.preview-link(href="/img/portfolio/Samsonite/search.jpg", title="Samsonite", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-mobile-app
+                            img.img-fluid(src="/img/portfolio/ms_glow/geolocator.jpg", alt="", width="300", height="300")
+                            .portfolio-info
+                                h4 Ms Glow
+                                p Admin mobile app
+                                a.glightbox.preview-link(href="/img/portfolio/ms_glow/geolocator.jpg", title="ms glow", data-gallery="portfolio-gallery-app")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-web-app
+                            img.img-fluid(src="/img/portfolio/natours/homePage.png", alt="")
+                            .portfolio-info
+                                h4 Natours 
+                                p This is a web from learning on udemy
+                                a.glightbox.preview-link(href="/img/portfolio/natours/homePage.png", title="Product 3", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="/detail-portfolio", title="More Details")
+                                    i.bi.bi-link-45deg

@@ -1,0 +1,58 @@
+extends base
+
+block append head
+
+block content
+    main.main
+        // Contact Section
+        section#contact.contact.section
+            // Section Title
+            .container.section-title(data-aos="fade-up")
+                h2 Contact
+                p If you want to discuss more with me, just contact at here. Thank you
+            // End Section Title
+            .container(data-aos="fade-up", data-aos-delay="100")
+                .row.gy-4
+                    .col-lg-12
+                        .info-wrap
+                            .info-item.d-flex(data-aos="fade-up", data-aos-delay="200")
+                                i.bi.bi-geo-alt.flex-shrink-0
+                                div
+                                    h3 Address
+                                    p Surabaya, East Java, Indonesia
+                            // End Info Item
+                            .info-item.d-flex(data-aos="fade-up", data-aos-delay="300")
+                                i.bi.bi-telephone.flex-shrink-0
+                                div
+                                    h3 Whatsapp Number
+                                    p +62 81333091683
+                            // End Info Item
+                            .info-item.d-flex(data-aos="fade-up", data-aos-delay="400")
+                                i.bi.bi-envelope.flex-shrink-0
+                                div
+                                    h3 Email me
+                                    p dannyalfandi@gmail.com
+                            // End Info Item
+                            //- iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus", frameborder="0", style="border:0; width: 100%; height: 270px;", allowfullscreen="", loading="lazy", referrerpolicy="no-referrer-when-downgrade")
+                    //- .col-lg-7
+                    //-     form.php-email-form(action="forms/contact.php", method="post", data-aos="fade-up", data-aos-delay="200")
+                    //-         .row.gy-4
+                    //-             .col-md-6
+                    //-                 label.pb-2(for="name-field") Your Name
+                    //-                 input#name-field.form-control(type="text", name="name", required="")
+                    //-             .col-md-6
+                    //-                 label.pb-2(for="email-field") Your Email
+                    //-                 input#email-field.form-control(type="email", name="email", required="")
+                    //-             .col-md-12
+                    //-                 label.pb-2(for="subject-field") Subject
+                    //-                 input#subject-field.form-control(type="text", name="subject", required="")
+                    //-             .col-md-12
+                    //-                 label.pb-2(for="message-field") Message
+                    //-                 textarea#message-field.form-control(name="message", rows="10", required="")
+                    //-             .col-md-12.text-center
+                    //-                 .loading Loading
+                    //-                 .error-message
+                    //-                 .sent-message Your message has been sent. Thank you!
+                    //-                 button(type="submit") Send Message
+                    // End Contact Form
+                    // /Contact Section

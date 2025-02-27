@@ -1,0 +1,48 @@
+header#header.header.d-flex.align-items-center.light-background.sticky-top
+    .container-fluid.position-relative.d-flex.align-items-center.justify-content-between
+        a.logo.d-flex.align-items-center.me-auto.me-xl-0(href="index.html")
+            // Uncomment the line below if you also wish to use an image logo
+            // <img src="/img/logo.png" alt="">
+            h1.sitename Danny A
+        nav#navmenu.navmenu
+            ul
+                li
+                    if title == 'home'
+                        a.active(href="/") Home
+                    else
+                        a(href="/") Home
+                li
+                    if title == 'about'
+                        a.active(href="/about") About
+                    else
+                        a(href="/about") About
+                li
+                    if title == 'resume'
+                        a.active(href="/resume") Resume
+                    else
+                        a(href="/resume") Resume
+                //- li
+                //-     if title == 'services'
+                //-         a.active(href="/services") Services
+                //-     else
+                //-         a(href="/services") Services
+                li
+                    if title == 'portfolio'
+                        a.active(href="/portfolio") Portfolio
+                    else
+                        a(href="/portfolio") Portfolio 
+                li
+                    if title == 'contact'
+                        a.active(href="/contact") Contact
+                    else
+                        a(href="/contact") Contact
+            i.mobile-nav-toggle.d-xl-none.bi.bi-list
+        .header-social-links
+            a.facebook(href="https://www.facebook.com/dannyalfandi06", target="_blank")
+                i.bi.bi-facebook
+            a.instagram(href="https://www.instagram.com/dannyalfandi06", target="_blank")
+                i.bi.bi-instagram
+            a.linkedin(href="https://www.linkedin.com/in/danny-alfandi-496374196", target="_blank")
+                i.bi.bi-linkedin
+            a.github(href="https://github.com/damast123", target="_blank")
+                i.bi.bi-github
