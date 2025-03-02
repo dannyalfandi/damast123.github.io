@@ -1,0 +1,11 @@
+mixin itemPortfolio(portfolio)
+    .col-lg-4.col-md-6.portfolio-item.isotope-item(class=portfolio.filter_type)
+        img.img-fluid(src=`/img/portfolio/${portfolio.images[0]}`, alt="", width="300", height="300")
+        .portfolio-info
+            h4 #{portfolio.project_name}
+            p #{portfolio.highlight}
+            a.glightbox.preview-link(href=`/img/portfolio/${portfolio.images[0]}`, title=`${portfolio.project_name}`, data-gallery="portfolio-gallery-app")
+                i.bi.bi-zoom-in
+            form
+            a.details-link(href=`/detail-portfolio/${portfolio.slug}`, title="More Details")
+                i.bi.bi-link-45deg

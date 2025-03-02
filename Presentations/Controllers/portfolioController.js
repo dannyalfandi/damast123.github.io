@@ -29,10 +29,10 @@ exports.createPortfolio = catchAsync(async(req, res, next) => {
 });
 
 exports.updatePortfolio = catchAsync(async(req, res, next) => {
-    const body = {project_name: req.body.project_name, category_project: req.body.category_project, project_from:project_from, project_date:project_date, highlight:highlight, description:description, images:images};
+    const body = {images:req.body.images};
 
-    const response = await fetchNode(process.env.API_URL+'/detail', {
-        method: 'post',
+    const response = await fetchNode(process.env.API_URL+'/detail'+req.params.id, {
+        method: 'put',
         body: JSON.stringify(body),
         headers: {'Content-Type': 'application/json'}
     });
@@ -60,7 +60,7 @@ exports.getPortfolio = catchAsync(async(req, res, next) => {
         headers: {'Content-Type': 'application/json'}
     });
     const getPortfolios = await response.json();
-    res.status(200).render('about',{
+    res.status(200).render('portfolio',{
         title: 'portfolio',
         portfolios: getPortfolios
     });
@@ -72,7 +72,8 @@ exports.getDetailPortfolio = catchAsync(async(req, res, next) => {
         headers: {'Content-Type': 'application/json'}
     });
     const getPortfolio = await response.json();
-    res.status(200).render('about',{
-        title: 'about'
+    res.status(200).render('detail_portfolio',{
+        title: 'detail_portfolio',
+        detailPorto: getPortfolio
     });
 });
