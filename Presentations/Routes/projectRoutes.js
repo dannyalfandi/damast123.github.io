@@ -2,11 +2,15 @@ const express = require('express');
 
 const router = express.Router();
 
+const authController = require('./../../Presentations/Controllers/authController');
 const portfolioController = require('./../../Presentations/Controllers/portfolioController');
 
+router.get('/', portfolioController.getPortfolio);
+router.get('/detail/:id', portfolioController.getDetailPortfolio);
+
+router.use(authController.protectAPI);
+
 router.post('/detail', portfolioController.createPortfolio);
-router.patch('/detail', portfolioController.updatePortfolio);
-// router.get('/', portfolioController);
-// router.post('/detail-portfolio', portfolioController);
+router.put('/detail/:id', portfolioController.updatePortfolio);
 
 module.exports = router;
