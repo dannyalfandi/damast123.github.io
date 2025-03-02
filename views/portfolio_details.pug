@@ -14,23 +14,29 @@ block content
                         .portfolio-details-slider.swiper.init-swiper
                             script(type="application/json", class="swiper-config").
                                 {
-                                "loop": true,
-                                "speed": 600,
-                                "autoplay": {
-                                "delay": 5000
-                                },
-                                "slidesPerView": "auto",
-                                "pagination": {
-                                "el": ".swiper-pagination",
-                                "type": "bullets",
-                                "clickable": true
-                                }
+                                    "loop": true,
+                                    "speed": 600,
+                                    "autoplay": {
+                                    "delay": 5000
+                                    },
+                                    "slidesPerView": "auto",
+                                    "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                    },
+                                    "navigation": {
+                                        "nextEl": ".swiper-button-next",
+                                        "prevEl": ".swiper-button-prev"
+                                    }
                                 }
                             .swiper-wrapper.align-items-center
                                 each image in detailPorto.images
                                     .swiper-slide
                                         img(src='/img/portfolio/'+image)
                             .swiper-pagination
+                            .swiper-button-prev
+                            .swiper-button-next
                     .col-lg-4
                         .portfolio-info(data-aos="fade-up", data-aos-delay="200")
                             h3 Project information

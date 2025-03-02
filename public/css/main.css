@@ -1275,6 +1275,57 @@ section,
   background-color: var(--accent-color);
 }
 
+/* Ensure arrows are visible */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #000 !important; /* Change to black or another visible color */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+    border-radius: 50%; /* Make it circular */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Adjust the position */
+.swiper-button-prev {
+    left: 10px; /* Move left */
+}
+.swiper-button-next {
+    right: 10px; /* Move right */
+}
+
+/* Hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: ''; /* Remove default text */
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+/* Left Arrow */
+.swiper-button-prev::after {
+    background-image: url('/img/left-arrow.svg'); /* Your custom left arrow */
+}
+
+/* Right Arrow */
+.swiper-button-next::after {
+    background-image: url('/img/right-arrow.svg'); /* Your custom right arrow */
+}
+
+
 .portfolio-details .portfolio-info {
   background-color: var(--surface-color);
   padding: 30px;
