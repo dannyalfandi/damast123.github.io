@@ -1,6 +1,6 @@
 mixin itemPortfolio(portfolio)
     .col-lg-4.col-md-6.portfolio-item.isotope-item(class=portfolio.filter_type)
-        img.img-fluid(src=`/img/portfolio/${portfolio.images[0]}`, alt="", width="300", height="300")
+        img.img-fluid(src=`/img/portfolio/${portfolio.header_image}`, alt="", max-width="100%", height="auto")
         .portfolio-info
             h4 #{portfolio.project_name}
             p #{portfolio.highlight}
