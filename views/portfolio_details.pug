@@ -11,32 +11,60 @@ block content
             .container(data-aos="fade-up", data-aos-delay="100")
                 .row.gy-4
                     .col-lg-8
-                        .portfolio-details-slider.swiper.init-swiper
-                            script(type="application/json", class="swiper-config").
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                    "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                    "el": ".swiper-pagination",
-                                    "type": "bullets",
-                                    "clickable": true
-                                    },
-                                    "navigation": {
-                                        "nextEl": ".swiper-button-next",
-                                        "prevEl": ".swiper-button-prev"
+                        if detailPorto.filter_type == "filter-mobile-app"
+                            .portfolio-details-slider-mobile.swiper.init-swiper
+                                script(type="application/json", class="swiper-config").
+                                    {
+                                        "loop": true,
+                                        "speed": 600,
+                                        "autoplay": {
+                                        "delay": 5000
+                                        },
+                                        "slidesPerView": "auto",
+                                        "pagination": {
+                                        "el": ".swiper-pagination",
+                                        "type": "bullets",
+                                        "clickable": true
+                                        },
+                                        "navigation": {
+                                            "nextEl": ".swiper-button-next",
+                                            "prevEl": ".swiper-button-prev"
+                                        }
                                     }
-                                }
-                            .swiper-wrapper.align-items-center
-                                each image in detailPorto.images
-                                    .swiper-slide
-                                        img(src='/img/portfolio/'+image)
-                            .swiper-pagination
-                            .swiper-button-prev
-                            .swiper-button-next
+                                .swiper-wrapper.align-items-center
+                                    each image in detailPorto.images
+                                        .swiper-slide
+                                            img(src='/img/portfolio/'+image)
+                                .swiper-pagination
+                                .swiper-button-prev
+                                .swiper-button-next
+                        else
+                            .portfolio-details-slider-web.swiper.init-swiper
+                                script(type="application/json", class="swiper-config").
+                                    {
+                                        "loop": true,
+                                        "speed": 600,
+                                        "autoplay": {
+                                        "delay": 5000
+                                        },
+                                        "slidesPerView": "auto",
+                                        "pagination": {
+                                        "el": ".swiper-pagination",
+                                        "type": "bullets",
+                                        "clickable": true
+                                        },
+                                        "navigation": {
+                                            "nextEl": ".swiper-button-next",
+                                            "prevEl": ".swiper-button-prev"
+                                        }
+                                    }
+                                .swiper-wrapper.align-items-center
+                                    each image in detailPorto.images
+                                        .swiper-slide
+                                            img(src='/img/portfolio/'+image, style="object-fit:contain; width:100%; height:100%; max-height:800px;")
+                                .swiper-pagination
+                                .swiper-button-prev
+                                .swiper-button-next
                     .col-lg-4
                         .portfolio-info(data-aos="fade-up", data-aos-delay="200")
                             h3 Project information
