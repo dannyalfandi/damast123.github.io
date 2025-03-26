@@ -4,7 +4,7 @@ mixin itemPortfolio(portfolio)
         .portfolio-info
             h4 #{portfolio.project_name}
             p #{portfolio.highlight}
-            a.glightbox.preview-link(href=`/img/portfolio/${portfolio.images[0]}`, title=`${portfolio.project_name}`, data-gallery="portfolio-gallery-app")
+            a.glightbox.preview-link(href=`/img/portfolio/${portfolio.header_image}`, title=`${portfolio.project_name}`, data-gallery="portfolio-gallery-app")
                 i.bi.bi-zoom-in
             form
             a.details-link(href=`/detail-portfolio/${portfolio.slug}`, title="More Details")
