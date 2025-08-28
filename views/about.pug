@@ -8,53 +8,57 @@ block content
       section#about.about.section
         // Section Title
         .container.section-title(data-aos="fade-up")
-          h2 About
-          p Danny, He is a Full-Stack Engineer with 3+ years experience designing and delivering in backend services and mobile applications.
+          h2= t('about_page.about')
+          p= t('about_page.content_about_1')
           br
-          p Graduated from University of Surabaya(UBAYA), in 2020. He went to Software House industry. In the middle of 2021, he became the Backend Developer at ICUBE By Sirclo at Jakarta a leading digital agency and proud global Magento and assisted many brand. Also as Fullstack Developer at PT Inaugurasi Pelangi Nusantara in Surabaya.
+          p= t('about_page.content_about_2')
           br
-          p He started this journey from 2020, and already improved his skill and achieve to develop product.
+          p= t('about_page.content_about_3')
         // End Section Title
         .container(data-aos="fade-up", data-aos-delay="100")
           .row.gy-4.justify-content-center
             .col-lg-4
               img.img-fluid(src="/img/profile-image.jpg", alt="")
             .col-lg-8.content
-              h2 Software Developer
-              p.fst-italic.py-3
-                | Bio
+              h2= t('about_page.role')
+              p.fst-italic.py-3= t('about_page.bio')
               .row
                 .col-lg-6
                   ul
                     li
                       i.bi.bi-chevron-right
-                      strong Phone:
+                      strong= t('about_page.phone')
+                      strong :
                       span +62 81333091683
                     li
                       i.bi.bi-chevron-right
-                      strong Email:
+                      strong= t('about_page.email')
+                      strong :
                       span dannyalfandi@gmail.com
                     li
                       i.bi.bi-chevron-right
-                      strong Freelance:
-                      span Available
+                      strong= t('about_page.freelance')
+                      strong :
+                      span= t('about_page.status_work')
                 .col-lg-6
                   ul
                     li
                       i.bi.bi-chevron-right
-                      strong City:
-                      span Surabaya, East Java
+                      strong= t('about_page.city')
+                      strong :
+                      span= t('about_page.location')
                     li
                       i.bi.bi-chevron-right
-                      strong Degree:
-                      span Bachelor Degree
+                      strong= t('about_page.degree')
+                      strong :
+                      span= t('about_page.status_degree')
       // /About Section
       // Skills Section
       section#skills.skills.section
         // Section Title
         .container.section-title(data-aos="fade-up")
-          h2 Skills
-          p This is all my skills based on my previous worked
+          h2= t('about_page.skills')
+          p= t('about_page.content_skills')
         // End Section Title
         .container(data-aos="fade-up", data-aos-delay="100")
           .row.skills-content.skills-animation

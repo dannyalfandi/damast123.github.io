@@ -1,10 +1,10 @@
 doctype html 
-html 
+html(lang=lng) 
     head
         block head
             meta(charset="utf-8")
             meta(content="width=device-width, initial-scale=1.0", name="viewport")
-            title Index - Danny Portfolio
+            title= t('site.title', { defaultValue: 'Danny Portfolio' })
             meta(name="description", content="This is my portfolio project")
             meta(name="keywords", content="Danny Portfolio")
             // Favicons

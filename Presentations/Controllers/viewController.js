@@ -21,8 +21,16 @@ exports.getContactPage = catchAsync(async(req, res, next) => {
 });
 
 exports.getResumePage = catchAsync(async(req, res, next) => {
+    const contentWork4 = req.t('resume_page.content_work_4', { returnObjects: true }) || [];
+    const contentWork3 = req.t('resume_page.content_work_3', { returnObjects: true }) || [];
+    const contentWork2 = req.t('resume_page.content_work_2', { returnObjects: true }) || [];
+    const contentWork1 = req.t('resume_page.content_work_1', { returnObjects: true }) || [];
     res.status(200).render('resume',{
-        title: 'resume'
+        title: 'resume',
+        contentWork4,
+        contentWork3,
+        contentWork2,
+        contentWork1
     });
 });
 
@@ -39,6 +47,7 @@ exports.getPortfolioPage = catchAsync(async(req, res, next) => {
         method: 'get',
         headers: {'Content-Type': 'application/json'}
     });
+
     getPortfolios = await response.json();
     
     getPortfolios.sort((a, b) => {

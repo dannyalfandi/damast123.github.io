@@ -10,5 +10,5 @@ block content
           .row.justify-content-center
             .col-lg-8
               h2 Danny Alfandi
-              p He&apos;s a backend/fullstack developer
-              a.btn-get-started(href="/about") About Me
+              p= t('home_page.description')
+              a.btn-get-started(href="/about")= t('home_page.about_me', { defaultValue: 'About me' })

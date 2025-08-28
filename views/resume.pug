@@ -6,62 +6,48 @@ block content
     main.main
         section#resume.resume.section
             .container.section-title(data-aos="fade-up")
-                h2 Resume
-                p Software Engineer with over 3 years of experience specializing in backend and full-stack development. Focus on optimizing codebase performance, ensuring maintainability, and containerized environments. Demonstrated ability to deliver optimal solutions that enhance user experience and operational efficiency.
+                h2= t('resume_page.resume')
+                p= t('resume_page.content_resume')
             .container
                 .row
                     .col-lg-6(data-aos="fade-up", data-aos-delay="100")
-                        h3.resume-title Education
+                        h3.resume-title= t('resume_page.education')
                         .resume-item
-                            h4 Bachelor Degree Informatics System (GPA 3.632/4.0)
-                            h5 2016 - 2021
+                            h4= t('resume_page.system')
+                            h5= t('resume_page.year')
                             p
-                                em University of Surabaya(UBAYA), Surabaya, East Java
+                                em= t('resume_page.university') + ', ' + t('location.surabaya') + ', ' + t('location.indonesia')
                     .col-lg-6(data-aos="fade-up", data-aos-delay="200")
-                        h3.resume-title Professional Experience
+                        h3.resume-title= t('resume_page.prof_experience')
                         .resume-item
-                            h4 Junior Fullstack Developer (PT Inaugurasi)
-                            h5 Aug 2023 - Aug 2024
+                            h4= `${t('resume_page.fullstack_dev', {defaultValue:'Full-Stack Developer'})} (PT Inaugurasi Pelangi Nusantara)`
+                            h5= `August 2023 - August 2024 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
                             p
-                                em Surabaya, East Java, Indonesia (Remote) 
+                                em= t('location.surabaya') + ', ' + t('location.indonesia') + " (" + t('location.remote') + ")"
                             ul
-                                li Migrated customized codebase from Aquila to Laravel, streamlining the learning curve for new developers.
-                                li Reviewed and optimized teammates's code to uphold quality standards and ensure maintainable, performant solutions.
-                                li Developed a custom Composer package for future projects, enhancing code reuse and improving development efficiency across similar functions.
+                                each line in contentWork4
+                                    li= line
                         .resume-item
-                            h4 Mobile App Freelance
-                            h5 September 2021 - January 2022
+                            h4= `${t('resume_page.mobile_app_freelance', {defaultValue:'Mobile App Freelancer'})} (Projects.co.id)`
+                            h5= `September 2021 - January 2022 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
                             p
-                                em Indonesia (remote)
+                                em= t('location.indonesia') + " (" + t('location.remote') + ")"
                             ul
-                                li Develop mobile order monitoring application for business owners, improving real-time tracking of sales and customer insights. This consumes an API provided by the backend service.
-                                li Integrated geolocation features, allowing businesses to visualize customer distribution via interactive maps. This will help the user to see who using this product.
-                                li Optimized order management with a categorized status system (pending, processing, shipped, received), reducing operational inefficiencies.
-                                li Developed a dynamic leaderboard system to track top-performing products, customers, and employees, boosting engagement and performance analysis.
+                                each line in contentWork3
+                                    li= line
                         .resume-item
-                            h4 Junior - Associate Software Backend Developer (ICUBE by Sirclo)
-                            h5 June 2021 - June 2023
+                            h4= `${t('resume_page.software_backend_dev', {defaultValue:'Software Backend Developer'})} (ICUBE by Sirclo)`
+                            h5= `June 2021 - June 2023 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
                             p
-                                em Tangerang, Jakarta, Indonesia (remote)
+                                em=`${t('location.tangerang')}, ${t('location.jakarta')}, ${t('location.indonesia')} (${t('location.remote')})`
                             ul
-                                li Learn and utilize microservices using Docker for containerization, ensuring consistent deployments across dev, staging, and production.
-                                li Assist senior developers in creating and overriding functions. Partnered with senior developers to implement and override core functions in our codebase, well-documented abstractions.
-                                li Deployed three websites to production, releases and smooth updates.
-                                li Authored and maintained of technical documentation—API specs, deployment guides, and troubleshooting FAQs.
-                                li Built and consumed GraphQL APIs, designing custom queries and mutations, and integrated third-party REST/GraphQL services.
-                                li Integrated and automated end-to-end workflows using n8n to orchestrate data syncs, notifications, and ETL tasks.
+                                each line in contentWork2
+                                    li= line
                         .resume-item
-                            h4 Junior Software Engineer (Hiro Solutions)
-                            h5 March 2021 - June 2021
+                            h4= `${t('resume_page.software_engineer', {defaultValue:'Software Engineer'})} (Hiro Solutions)`
+                            h5= `March 2021 - June 2021`
                             p
-                                em Surabaya, East Java, Indonesia
+                                em=`${t('location.surabaya')}, ${t('location.indonesia')}`
                             ul
-                                li Collaborated with the engineering team and UI/UX designers to build an internal web application.
-                                li Developed a Flutter tournament-management app that automated scheduling workflows.
-                        .resume-item
-                            h4 Freelance mobile app
-                            h5 2019
-                            p
-                                em Remote
-                            ul
-                                li Developed a tracking and product scanning system to improve inventory management.
+                                each line in contentWork1
+                                    li= line

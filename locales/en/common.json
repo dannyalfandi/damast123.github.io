@@ -1,0 +1,59 @@
+{
+  "site": {
+    "title": "Danny Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home_page": {
+    "description": "He's a backend/fullstack developer",
+    "about_me": "About Me"
+  },
+  "about_page": {
+    "about": "About",
+    "content_about_1": "Danny, He is a Full-Stack Engineer with 3+ years experience designing and delivering in backend services and mobile applications.",
+    "content_about_2": "Graduated from University of Surabaya(UBAYA), in 2020. He went to Software House industry. In the middle of 2021, he became the Backend Developer at ICUBE By Sirclo at Jakarta a leading digital agency and proud global Magento and assisted many brand. Also as Fullstack Developer at PT Inaugurasi Pelangi Nusantara in Surabaya.",
+    "content_about_3": "He started this journey from 2020, and already improved his skill and achieve to develop product.",
+    "role": "Software Developer",
+    "bio": "Bio",
+    "phone": "Phone",
+    "email": "Email",
+    "freelance": "Freelance",
+    "status_work": "Available",
+    "city": "City",
+    "location": "Surabaya, East Java",
+    "degree": "Degree",
+    "status_degree": "Bachelor Degree",
+    "skills": "Skills",
+    "content_skills": "This is all my skills based on my previous worked"
+  },
+  "location":{
+    "surabaya": "Surabaya, East Java",
+    "tangerang": "Tangerang",
+    "jakarta": "Jakarta",
+    "indonesia": "Indonesian",
+    "remote": "Remote"
+  },
+  "resume_page": {
+    "resume": "Resume",
+    "content_resume": "Software Developer with over 3 years of experience specializing in backend and full-stack development. Focus on optimizing codebase performance, ensuring maintainability, and containerized environments. Proficient in PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, and DevOps tools (Docker and Git). Demonstrated ability to deliver optimal solutions that enhance user experience and operational.",
+    "education": "Education",
+    "system": "Bachelor Degree Informatics System (GPA 3.632/4.0)",
+    "year": "2016 - 2020",
+    "university": "University of Surabaya(UBAYA)",
+    "prof_experience": "Professional Experience",
+    "fullstack_dev": " Fullstack Developer",
+    "software_engineer": "Software Engineer",
+    "software_backend_dev": "Software Backend Developer",
+    "mobile_app_freelance": "Mobile App Freelancer",
+    "software_house": "Software House",
+    "content_work_4": ["Migrated customized codebase from Aquila to Laravel, streamlining the learning curve for new developers.","Reviewed and optimized teammates's code to uphold quality standards and ensure maintainable, performant solutions.","Developed a custom Composer package to centralize shared functions and standards, cutting duplicate code and speeding up feature delivery across similar projects."],
+    "content_work_3": ["Develop mobile order monitoring application for business owners using flutter, improving real-time tracking of sales and customer insights. This consumes an API provided by the other teams.","Integrated geolocation features, allowing businesses to visualize customer distribution via interactive maps. This will help the user to see who using this product.","Optimized order management with a categorized status system (pending, processing, shipped, received), reducing operational inefficiencies.","Developed a dynamic leaderboard system to track top-performing products, customers, and employees, boosting engagement and performance analysis."],
+    "content_work_2": ["Shipped multiple production e-commerce sites and releases, collaborating with seniors to implement and override core platform functions in magento 2.","Built and integrated GraphQL APIs (custom queries/mutations) and orchestrated third-party REST/GraphQL services used by brand storefronts.","Deployed three websites to production, releases and smooth updates.","Containerized services with Docker to standardize deployments, reducing environment drift and deployment issues.","Integrated and automated end-to-end workflows using n8n to orchestrate data syncs, notifications, and ETL tasks."],
+    "content_work_1": ["Co-built internal web tools with the engineering and UI/UX teams with PHP.","Developed a competition workflow app in Flutter."]
+  }
+}

@@ -99,6 +99,103 @@ h6 {
   font-weight: 600;
 }
 
+@media (min-width: 1200px) {
+  /* make sure the row is flexed */
+  #header .container-fluid {
+    display: flex;
+    align-items: center;
+  }
+
+  /* reset the mobile absolute positioning */
+  #header .logo,
+  #header .lang-switch {
+    position: static;
+    transform: none;
+    margin: 0;
+  }
+
+  /* center nav between logo and globe */
+  #navmenu {
+    flex: 1 1 auto;                 /* nav takes remaining width */
+  }
+  #navmenu > ul {
+    display: flex !important;       /* override any display:none from mobile */
+    justify-content: center;        /* center items */
+    align-items: center;
+    gap: 32px;                      /* spacing between links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* nudge sides a bit if you like */
+  #header .logo { margin-right: 24px; }
+  #header .lang-switch { margin-left: 24px; }
+
+  /* burger must be hidden on desktop */
+  #header .mobile-nav-toggle { display: none !important; }
+}
+
+/* Match your burger breakpoint: d-xl-none => up to 1199.98px */
+@media (max-width: 1199.98px) {
+  /* anchor for absolute/fixed children */
+  #header .container-fluid { position: relative; }
+
+  /* Center the logo */
+  #header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 1001;
+  }
+
+  /* Burger on the left */
+  #header .mobile-nav-toggle {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1002;
+  }
+
+  /* Globe on the right */
+  #header .lang-switch {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1002;
+  }
+
+  /* Hide menu list by default */
+  #navmenu ul {
+    display: none;
+    list-style: none;      /* remove bullets */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* When active: show a clean dropdown/overlay under the header */
+  body.mobile-nav-active #navmenu ul {
+    display: block;
+    position: fixed;
+    top: var(--header-h, 64px);  /* set by JS below */
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 16px 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,.08);
+    z-index: 1000;
+    text-align: center;
+  }
+  body.mobile-nav-active #navmenu ul li { margin: 10px 0; }
+  body.mobile-nav-active #navmenu ul a { display: inline-block; padding: 6px 10px; }
+
+  /* Keep the language dropdown aligned to the right edge */
+  #header .lang-switch .dropdown-menu { right: 0; left: auto; }
+}
+
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;

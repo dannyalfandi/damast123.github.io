@@ -1,0 +1,16 @@
+{
+  "site": {
+    "title": "Danny Portfolio"
+  },
+  "home_page": {
+    "description": "He's a backend/fullstack developer",
+    "about_me": "About me"
+  },
+  "resume_page": {
+    "fullstack_dev": "Full-Stack Developer",
+    "mobile_app_freelance": "Mobile App Freelancer",
+    "software_backend_dev": "Software Backend Developer",
+    "software_engineer": "Software Engineer",
+    "software_house": "Software House"
+  }
+}

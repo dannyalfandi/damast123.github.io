@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Portofolio Danny"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home_page": {
+    "description": "Dia adalah pengembang backend/full-stack",
+    "about_me": "Profil Saya"
+  },
+  "about_page": {
+    "about": "Tentang",
+    "content_about_1": "Danny adalah Full-Stack Engineer dengan pengalaman lebih dari 3 tahun dalam merancang dan membangun layanan backend serta aplikasi mobile.",
+    "content_about_2": "Lulus dari Universitas Surabaya (UBAYA) pada 2020. Ia memulai karier di industri software house. Pada pertengahan 2021, ia menjadi Backend Developer di ICUBE by SIRCLO (Jakarta), sebuah agensi digital terkemuka dan partner global Magento yang membantu banyak brand. Ia juga bekerja sebagai Full-Stack Developer di PT Inaugurasi Pelangi Nusantara (Surabaya).",
+    "content_about_3": "Ia memulai perjalanan ini sejak 2020, terus mengasah keterampilan, dan telah mengembangkan berbagai produk.",
+    "role": "Pengembang Perangkat Lunak",
+    "bio": "Biodata",
+    "phone": "Telepon",
+    "email": "Email",
+    "freelance": "Freelance",
+    "status_work": "Tersedia",
+    "city": "Kota",
+    "location": "Surabaya, Jawa Timur",
+    "degree": "Gelar",
+    "status_degree": "Sarjana (S1)",
+    "skills": "Keahlian",
+    "content_skills": "Berikut adalah keahlian saya berdasarkan pengalaman kerja sebelumnya."
+  },
+  "location": {
+    "surabaya": "Surabaya, Jawa Timur",
+    "tangerang": "Tangerang",
+    "jakarta": "Jakarta",
+    "indonesia": "Indonesia",
+    "remote": "Jarak Jauh"
+  },
+  "resume_page": {
+    "resume": "Resume",
+    "content_resume": "Software Developer dengan pengalaman lebih dari 3 tahun yang berfokus pada pengembangan backend dan full-stack. Berfokus pada optimasi performa kode, menjaga maintainability, dan lingkungan terkontainer. Mahir dalam PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, serta alat DevOps (Docker dan Git). Terbukti mampu menghadirkan solusi optimal yang meningkatkan pengalaman pengguna dan efisiensi operasional.",
+    "education": "Pendidikan",
+    "system": "Sarjana Sistem Informasi (IPK 3,632/4,0)",
+    "year": "2016 - 2020",
+    "university": "Universitas Surabaya (UBAYA)",
+    "prof_experience": "Pengalaman Profesional",
+    "fullstack_dev": "Pengembang Full-Stack",
+    "software_engineer": "Insinyur Perangkat Lunak",
+    "software_backend_dev": "Pengembang Perangkat Lunak Backend",
+    "mobile_app_freelance": "Freelancer Aplikasi Mobile",
+    "software_house": "Software House",
+    "content_work_4": [
+      "Memigrasikan codebase kustom dari Aquila ke Laravel, mempermudah kurva belajar bagi developer baru.",
+      "Meninjau dan mengoptimalkan kode rekan tim untuk menjaga standar kualitas dan memastikan solusi yang mudah dirawat serta berperforma baik.",
+      "Mengembangkan paket Composer kustom untuk memusatkan fungsi bersama dan standar, mengurangi duplikasi kode dan mempercepat pengiriman fitur di proyek serupa."
+    ],
+    "content_work_3": [
+      "Mengembangkan aplikasi pemantauan pesanan mobile untuk pemilik bisnis menggunakan Flutter, meningkatkan pelacakan penjualan dan insight pelanggan secara real-time. Aplikasi ini mengonsumsi API yang disediakan tim lain.",
+      "Mengintegrasikan fitur geolokasi, memungkinkan visualisasi sebaran pelanggan melalui peta interaktif sehingga pemilik bisnis dapat melihat siapa yang menggunakan produk.",
+      "Mengoptimalkan manajemen pesanan dengan sistem status terkategori (pending, processing, shipped, received), mengurangi inefisiensi operasional.",
+      "Membangun sistem papan peringkat dinamis untuk melacak produk, pelanggan, dan karyawan dengan kinerja terbaik, mendorong keterlibatan dan analisis kinerja."
+    ],
+    "content_work_2": [
+      "Merilis beberapa situs e-commerce produksi, berkolaborasi dengan senior untuk mengimplementasikan dan melakukan override fungsi inti platform di Magento 2.",
+      "Membangun dan mengintegrasikan API GraphQL (custom queries/mutations) serta mengorkestrasi layanan REST/GraphQL pihak ketiga yang digunakan oleh storefront brand.",
+      "Mendeploy tiga situs ke produksi serta menangani rilis dan pembaruan dengan lancar.",
+      "Melakukan containerization layanan dengan Docker untuk standarisasi deployment, mengurangi perbedaan lingkungan dan isu deployment.",
+      "Mengintegrasikan serta mengotomatiskan alur kerja end-to-end menggunakan n8n untuk orkestrasi sinkronisasi data, notifikasi, dan tugas ETL."
+    ],
+    "content_work_1": [
+      "Membangun bersama alat web internal dengan tim engineering dan UI/UX menggunakan PHP.",
+      "Mengembangkan aplikasi alur kerja kompetisi dengan Flutter."
+    ]
+  }
+}
