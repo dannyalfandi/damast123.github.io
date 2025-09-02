@@ -47,8 +47,8 @@
     "university": "Universitas Surabaya (UBAYA)",
     "prof_experience": "Pengalaman Profesional",
     "fullstack_dev": "Pengembang Full-Stack",
-    "software_engineer": "Insinyur Perangkat Lunak",
-    "software_backend_dev": "Pengembang Perangkat Lunak Backend",
+    "software_engineer": "Software Engineer",
+    "software_backend_dev": "Pengembang Backend",
     "mobile_app_freelance": "Freelancer Aplikasi Mobile",
     "software_house": "Software House",
     "content_work_4": [
@@ -73,5 +73,20 @@
       "Membangun bersama alat web internal dengan tim engineering dan UI/UX menggunakan PHP.",
       "Mengembangkan aplikasi alur kerja kompetisi dengan Flutter."
     ]
+  },
+  "contact_page": {
+    "contact": "Hubungi Saya",
+    "description": "Jangan ragu untuk menghubungi saya untuk pertanyaan atau kolaborasi.",
+    "address": "Alamat",
+    "whatsapp": "Nomor WhatsApp",
+    "email_me": "Kirim Email"
+  },
+  "portfolio_page": {
+    "all": "Semua",
+    "mobile_app": "Aplikasi Mobile",
+    "web_app": "Aplikasi Web",
+    "portfolio": "Portofolio",
+    "more_details": "Lihat Detail",
+    "description": "Ini adalah portofolio Danny Alfandi yang memuat pengalaman kerja sebelumnya dan proyek freelance. Anda dapat melihat detailnya dengan mengeklik ikon tautan ketika kursor diarahkan ke gambar."
   }
 }

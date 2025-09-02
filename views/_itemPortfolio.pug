@@ -2,10 +2,10 @@ mixin itemPortfolio(portfolio)
     .col-lg-4.col-md-6.portfolio-item.isotope-item(class=portfolio.filter_type)
         img.img-fluid(src=`/img/portfolio/${portfolio.header_image}`, alt="", max-width="100%", height="auto")
         .portfolio-info
-            h4 #{portfolio.project_name}
-            p #{portfolio.highlight}
-            a.glightbox.preview-link(href=`/img/portfolio/${portfolio.header_image}`, title=`${portfolio.project_name}`, data-gallery="portfolio-gallery-app")
+            h4= t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name})
+            p= t('db:portfolio.' + portfolio.slug + '.highlight', {defaultValue: portfolio.highlight})
+            a.glightbox.preview-link(href=`/img/portfolio/${portfolio.header_image}`, title=t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name}), data-gallery="portfolio-gallery-app")
                 i.bi.bi-zoom-in
             form
-            a.details-link(href=`/detail-portfolio/${portfolio.slug}`, title="More Details")
+            a.details-link(href=`/detail-portfolio/${portfolio.slug}`, title=t('portfolio.more_details', { defaultValue: 'More Details' }))
                 i.bi.bi-link-45deg

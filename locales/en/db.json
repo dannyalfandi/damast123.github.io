@@ -1,0 +1,129 @@
+{
+  "portfolio": {
+    "alwayshappi": {
+        "project_name": "Alwayshappi (Baby & children's clothing store)",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "November 2022",
+        "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration.",
+        "description": "Implemented Excel import pipeline with mapping/validation, added homepage popup and custom footer icons, and configured Shopware→N8N connection for downstream workflows."
+      },
+      "ayugold": {
+        "project_name": "Ayugold (Jewelry)",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "December 2021",
+        "highlight": "Custom after-quote logic, BPMN flow design support, and forgot-password redirect fix using Magento 2.",
+        "description": "Split quotes when carts contain READY and PO items. Assisted TL with BPMN diagramming as per defined flows. Investigated and fixed 404 redirect issue from email-based password reset."
+      },
+      "bbp": {
+        "project_name": "BBP (Courier Tracking)",
+        "category_project": "Mobile App",
+        "filter_type": "filter-mobile-app",
+        "project_from": "Freelance",
+        "project_date": "November 2019",
+        "highlight": "Android barcode scan & courier tracking.",
+        "description": "Couriers scan barcodes for all parcels, start trips with GPS enabled; positions are sent to backend so admins can monitor live routes via map pinpoints."
+      },
+      "biofarma": {
+        "project_name": "Biofarma (Life Science)",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "November 2022",
+        "highlight": "Secure GraphQL + storefront/admin features; faster APIs and smoother ops.",
+        "description": "Implemented GraphQL endpoints (products, orders, users) with scoped auth, caching & pagination. Built/updated storefront pages (catalog, product detail) and admin tools (exports, status updates) with clear error states and audit logs."
+      },
+      "charicedecoratie": {
+        "project_name": "Charicedecoratie (Management App)",
+        "category_project": "Mobile App",
+        "filter_type": "filter-mobile-app",
+        "project_from": "UBAYA (Thesis)",
+        "project_date": "January 2020",
+        "highlight": "End-to-end event management app (booking→payment→ops).",
+        "description": "Features booking with conflict checks, Google Place selection, payment via transfer proof, reschedule rules, reminders, freelancer assignment, stock opname, depreciation automation, expense/income charts, and outbound note handling."
+      },
+      "freelite-monemy": {
+        "project_name": "Freelite Monemy",
+        "category_project": "category_project 7",
+        "project_from": "project_from 7",
+        "project_date": "project_date 7",
+        "highlight": "highlight 7",
+        "description": "description 7"
+      },
+      "hotel-at-home": {
+        "project_name": "Hotel At Home",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "march 2023",
+        "highlight": "Storefront modules and admin tools for a home-hotel retail experience; improved product discovery and streamlined checkout.",
+        "description": "Implemented storefront pages (catalog, product detail) with robust filters and validated forms; optimized media and queries to speed first-load. Added admin utilities for content and order/status management, with exportable reports and clear error states."
+      },
+      "lnj-logistic": {
+        "project_name": "LNJ Logistic (ERP)",
+        "category_project": "ERP",
+        "filter_type": "filter-web-app",
+        "project_from": "Inausugura",
+        "project_date": "August 2023",
+        "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls.",
+        "description": "Implemented modules for inbound receiving, outbound shipping, inventory/stock, and sales/purchase orders. Added barcode-based item lookup, printable delivery docs, and reports. Built user/role management and audit trails to meet internal controls."
+      },
+      "msglow": {
+        "project_name": "MS Glow",
+        "category_project": "Mobile App",
+        "filter_type": "filter-mobile-app",
+        "project_from": "Freelance",
+        "project_date": "September 2021",
+        "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation.",
+        "description": "Dashboards for total sales with date filters; pipeline of order statuses (pending, processing, shipped, received) with drilldowns; best-seller bar chart; real-time orders view; profit & loss and gross profit; customer leaderboard; city-level customer distribution map."
+      },
+      "natours": {
+        "project_name": "Natours (travel)",
+        "category_project": "Web App",
+        "filter_type": "filter-web-app",
+        "project_from": "Personal Project (UDEMY)",
+        "project_date": "December 2024",
+        "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews.",
+        "description": "Implemented tour catalog and detail pages with location maps, secure JWT authentication, and role-based access for admin tools. Integrated Stripe for bookings and built user features for profile management, avatar upload, and writing reviews/ratings. Focus on clean API design, validation, and production-like error handling."
+      },
+      "nickscali": {
+        "project_name": "Nickscali",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "February 2022",
+        "highlight": "Furniture e-commerce storefront with PLP/PDP flows and GraphQL integrations; release-ready features and smoother deployments.",
+        "description": "Implemented category (PLP) and product-detail (PDP) pages with robust filtering, media, and validation. Contributed GraphQL queries/mutations used by the storefront and optimized payloads/caching. Improved checkout reliability and deployment."
+      },
+      "sakafarma": {
+        "project_name": "Sakafarma",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "December 2022",
+        "highlight": "Pharmacy e-commerce storefront with searchable catalog, product detail, and order flows; admin tools for safer releases.",
+        "description": "Implemented category (PLP) and product-detail (PDP) pages with search/filter and validated forms. Added order flows and improved error/empty states. Delivered admin utilities to manage content and data, plus exports for operations. Focus on accessibility and predictable performance."
+      },
+      "samsonite": {
+        "project_name": "Samsonite (Laravel)",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "April 2023",
+        "highlight": "Laravel-based Excel import for products & prices with detailed import history logs.",
+        "description": "User imports Excel files for product and price data with validation and mapping error feedback. Import history shows successes and failures for auditability."
+      },
+      "sinarmasapp": {
+        "project_name": "Sinarmasapp (Magento 2)",
+        "category_project": "E-commerce",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "December 2022",
+        "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms.",
+        "description": "Implemented data export in XML format. Extended GraphQL schema/resolvers to expose production date, product reviews/ratings, form labels, and specification-form datasets."
+      }
+  }
+}

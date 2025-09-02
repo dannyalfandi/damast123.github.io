@@ -12,5 +12,8 @@
     "software_backend_dev": "Software Backend Developer",
     "software_engineer": "Software Engineer",
     "software_house": "Software House"
+  },
+  "portfolio": {
+    "more_details": "More Details"
   }
 }

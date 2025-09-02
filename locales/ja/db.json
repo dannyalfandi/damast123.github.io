@@ -1,0 +1,129 @@
+{
+  "portfolio": {
+    "alwayshappi": {
+        "project_name": "Alwayshappi（ベビー＆子ども服ストア）",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "2022年11月",
+        "highlight": "Shopwareストアフロント改善、Excel→DBインポート、カスタムフッター、n8n連携。",
+        "description": "Excelインポートのマッピング／バリデーション付きパイプラインを実装。ホームページのポップアップとカスタムフッターアイコンを追加。Shopware→n8n連携を構成し、後続のワークフローを実現。"
+      },
+      "ayugold": {
+        "project_name": "Ayugold（ジュエリー）",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "2021年12月",
+        "highlight": "カスタムのアフター見積ロジック、BPMNフロー設計支援、Magento 2でのパスワード再設定リダイレクト修正。",
+        "description": "カートにREADYとPO商品が混在する場合に見積を分割。定義済みフローに従ってTLとBPMN図を作成。メールのパスワードリセットからの404リダイレクト問題を調査し修正。"
+      },
+      "bbp": {
+        "project_name": "BBP（配送追跡）",
+        "category_project": "モバイルアプリ",
+        "filter_type": "filter-mobile-app",
+        "project_from": "フリーランス",
+        "project_date": "2019年11月",
+        "highlight": "Androidバーコードスキャン＆配送員トラッキング。",
+        "description": "配送員がすべての荷物のバーコードをスキャンし、GPSを有効にして走行を開始。位置情報はバックエンドへ送信され、管理者は地図上のピンでルートをリアルタイム監視できます。"
+      },
+      "biofarma": {
+        "project_name": "Biofarma（ライフサイエンス）",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "2022年11月",
+        "highlight": "安全なGraphQL＋ストアフロント／管理機能；APIの高速化と運用の円滑化。",
+        "description": "スコープ付き認可・キャッシュ・ページネーションを備えたGraphQLエンドポイント（商品・注文・ユーザー）を実装。ストアフロントや管理ツールを構築／更新し、明確なエラーステートと監査ログを提供。"
+      },
+      "charicedecoratie": {
+        "project_name": "Charicedecoratie（管理アプリ）",
+        "category_project": "モバイルアプリ",
+        "filter_type": "filter-mobile-app",
+        "project_from": "UBAYA（卒業研究）",
+        "project_date": "2020年1月",
+        "highlight": "エンドツーエンドのイベント管理アプリ（予約→支払い→運用）。",
+        "description": "競合チェック付き予約、Google Place選択、振込証による支払い、リスケ規約、リマインダー、フリーランサー割当、棚卸、減価償却の自動化、費用／収入チャート、出庫伝票処理などを実装。"
+      },
+      "freelite-monemy": {
+        "project_name": "Freelite Monemy",
+        "category_project": "カテゴリープロジェクト7",
+        "project_from": "プロジェクト元7",
+        "project_date": "プロジェクト日付7",
+        "highlight": "ハイライト7",
+        "description": "説明7"
+      },
+      "hotel-at-home": {
+        "project_name": "Hotel At Home",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "2023年3月",
+        "highlight": "ホームホテル体験に向けたストアフロント機能と管理ツール；商品発見性向上とスムーズなチェックアウト。",
+        "description": "堅牢なフィルタとバリデーション付きフォームのカタログ／商品詳細を実装。メディアとクエリを最適化して初回表示を高速化。管理ユーティリティでコンテンツと注文／ステータス管理、エクスポート可能なレポート、明確なエラーステートを提供。"
+      },
+      "lnj-logistic": {
+        "project_name": "LNJ Logistic（ERP）",
+        "category_project": "ERP",
+        "filter_type": "filter-web-app",
+        "project_from": "Inausugura",
+        "project_date": "2023年8月",
+        "highlight": "倉庫・物流向けWebアプリ—入出庫、在庫、配送ドキュメントをロールベースで管理。",
+        "description": "入庫受入、出庫配送、在庫／ストック、販売・購買注文の各モジュールを実装。バーコード検索、印刷可能な配送書類、レポートを追加。ユーザー／ロール管理と監査ログで内部統制に対応。"
+      },
+      "msglow": {
+        "project_name": "MS Glow",
+        "category_project": "モバイルアプリ",
+        "filter_type": "filter-mobile-app",
+        "project_from": "フリーランス",
+        "project_date": "2021年9月",
+        "highlight": "Flutter製アナリティクスアプリ（ダッシュボード、リーダーボード、ジオロケーション）。",
+        "description": "日付フィルタ付き売上ダッシュボード、受注ステータスのパイプライン（pending／processing／shipped／received）のドリルダウン、ベストセラーバーチャート、リアルタイム受注ビュー、損益・粗利、顧客リーダーボード、都市別顧客分布マップを実装。"
+      },
+      "natours": {
+        "project_name": "Natours（旅行）",
+        "category_project": "Webアプリ",
+        "filter_type": "filter-web-app",
+        "project_from": "個人プロジェクト（UDEMY）",
+        "project_date": "2024年12月",
+        "highlight": "地図ベースのツアー表示、セキュア認証、Stripe決済、レビュー機能を備えた旅行予約アプリ。",
+        "description": "ロケーションマップ付きツアーカタログ／詳細、JWTによるセキュア認証、管理ツールのロールベースアクセスを実装。Stripe予約を統合し、プロフィール管理・アバターアップロード・レビュー投稿などの機能を構築。クリーンなAPI設計、バリデーション、本番想定のエラーハンドリングに注力。"
+      },
+      "nickscali": {
+        "project_name": "Nickscali",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "2022年2月",
+        "highlight": "家具ECのPLP／PDPフローとGraphQL連携；リリース準備完了の機能とスムーズなデプロイ。",
+        "description": "カテゴリ（PLP）と商品詳細（PDP）ページを堅牢なフィルタ・メディア・バリデーションとともに実装。ストアフロントが利用するGraphQLのQuery／Mutationに貢献し、ペイロードやキャッシュを最適化。チェックアウトの信頼性とデプロイを改善。"
+      },
+      "sakafarma": {
+        "project_name": "Sakafarma",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "ICUBE by SIRCLO",
+        "project_date": "2022年12月",
+        "highlight": "検索可能なカタログ・商品詳細・注文フローを備えた医薬品EC；より安全なリリースのための管理ツール。",
+        "description": "カテゴリ（PLP）と商品詳細（PDP）ページを検索／フィルタとバリデーション付きフォームで実装。注文フローを追加し、エラー／空状態の表現を改善。管理ユーティリティでコンテンツ／データ管理と運用向けエクスポートを提供。"
+      },
+      "samsonite": {
+        "project_name": "Samsonite（Laravel）",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "2023年4月",
+        "highlight": "Laravelベースの商品・価格Excelインポートと詳細なインポート履歴ログ。",
+        "description": "商品と価格データのExcelファイルをバリデーションとマッピングエラーのフィードバック付きでインポート可能。履歴では成功／失敗を表示し、監査性を確保。"
+      },
+      "sinarmasapp": {
+        "project_name": "Sinarmasapp（Magento 2）",
+        "category_project": "Eコマース",
+        "filter_type": "filter-web-app",
+        "project_from": "Icube By Sirclo",
+        "project_date": "2022年12月",
+        "highlight": "XMLエクスポートとGraphQL拡張（製造日、レビュー／評価、フォームラベル、仕様フォーム）。",
+        "description": "XML形式のデータエクスポートを実装。製造日・レビュー／評価・フォームラベル・仕様フォーム用データセットを公開するため、GraphQLスキーマ／リゾルバを拡張。"
+      }
+  }
+}

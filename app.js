@@ -94,7 +94,7 @@ i18next
   .init({
     supportedLngs: ['en', 'id', 'ja'],
     fallbackLng: 'en',
-    ns: ['common'],
+    ns: ['common','db'],
     defaultNS: 'common',
     preload: ['en', 'id', 'ja'],
     backend: {

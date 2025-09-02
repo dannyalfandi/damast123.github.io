@@ -55,5 +55,19 @@
     "content_work_3": ["Develop mobile order monitoring application for business owners using flutter, improving real-time tracking of sales and customer insights. This consumes an API provided by the other teams.","Integrated geolocation features, allowing businesses to visualize customer distribution via interactive maps. This will help the user to see who using this product.","Optimized order management with a categorized status system (pending, processing, shipped, received), reducing operational inefficiencies.","Developed a dynamic leaderboard system to track top-performing products, customers, and employees, boosting engagement and performance analysis."],
     "content_work_2": ["Shipped multiple production e-commerce sites and releases, collaborating with seniors to implement and override core platform functions in magento 2.","Built and integrated GraphQL APIs (custom queries/mutations) and orchestrated third-party REST/GraphQL services used by brand storefronts.","Deployed three websites to production, releases and smooth updates.","Containerized services with Docker to standardize deployments, reducing environment drift and deployment issues.","Integrated and automated end-to-end workflows using n8n to orchestrate data syncs, notifications, and ETL tasks."],
     "content_work_1": ["Co-built internal web tools with the engineering and UI/UX teams with PHP.","Developed a competition workflow app in Flutter."]
+  },
+  "contact_page":{
+    "contact": "Contact Me",
+    "description": "Feel free to reach out for any inquiries or collaborations.",
+    "address": "Address",
+    "whatsapp": "WhatsApp Number",
+    "email_me": "Email Me"
+  },
+  "portfolio_page": {
+    "all": "All",
+    "mobile_app": "Mobile App",
+    "web_app": "Web App",
+    "portfolio": "Portfolio",
+    "description": "This is Danny Alfandi's portfolio from his previous work and freelance projects. You can view the details by clicking the icon link when hovering over the image."
   }
 }

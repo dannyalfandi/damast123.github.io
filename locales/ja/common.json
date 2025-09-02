@@ -73,5 +73,20 @@
       "PHPを用いてエンジニアリング／UI・UXチームと共に社内Webツールを共同開発。",
       "Flutterでコンペ運用向けのワークフローアプリを開発。"
     ]
+  },
+  "contact_page": {
+    "contact": "お問い合わせ",
+    "description": "ご質問やコラボレーションのご相談など、お気軽にご連絡ください。",
+    "address": "住所",
+    "whatsapp": "WhatsApp番号",
+    "email_me": "メールを送る"
+  },
+  "portfolio_page": {
+    "all": "すべて",
+    "mobile_app": "モバイルアプリ",
+    "web_app": "Webアプリ",
+    "portfolio": "ポートフォリオ",
+    "more_details": "詳細を見る",
+    "description": "こちらはDanny Alfandiのポートフォリオで、これまでの職務経験とフリーランス案件を掲載しています。画像にカーソルを合わせた際に表示されるアイコンのリンクをクリックすると詳細を確認できます。"
   }
 }

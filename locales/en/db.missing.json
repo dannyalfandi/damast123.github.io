@@ -1,0 +1,56 @@
+{
+  "portfolio": {
+    "undefined": {
+      "project_name": "Freelite Monemy",
+      "highlight": "highlight 7"
+    },
+    "bbp": {
+      "project_name": "BBP (Courier Tracking)",
+      "highlight": "Android barcode scan & courier tracking."
+    },
+    "charicedecoratie": {
+      "project_name": "Charicedecoratie (Management App)",
+      "highlight": "End‑to‑end event management app (booking→payment→ops)."
+    },
+    "msglow": {
+      "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation."
+    },
+    "ayugold": {
+      "project_name": "Ayugold (Jewelry)",
+      "highlight": "Custom after-quote logic, BPMN flow design support, and forgot-password redirect fix using Magento 2."
+    },
+    "nickscali": {
+      "highlight": "Furniture e‑commerce storefront with PLP/PDP flows and GraphQL integrations; release-ready features and smoother deployments."
+    },
+    "alwayshappi": {
+      "project_name": "Alwayshappi (Baby & children's clothing store)",
+      "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration."
+    },
+    "biofarma": {
+      "project_name": "Biofarma (Life Science)",
+      "highlight": "Secure GraphQL + storefront/admin features; faster APIs and smoother ops."
+    },
+    "sakafarma": {
+      "highlight": "Pharmacy e-commerce storefront with searchable catalog, product detail, and order flows; admin tools for safer releases."
+    },
+    "sinarmasapp": {
+      "project_name": "Sinarmasapp (Magento 2)",
+      "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms."
+    },
+    "hotel-at-home": {
+      "highlight": "Storefront modules and admin tools for a home‑hotel retail experience; improved product discovery and streamlined checkout."
+    },
+    "samsonite": {
+      "project_name": "Samsonite (Laravel)",
+      "highlight": "Laravel-based Excel import for products & prices with detailed import history logs."
+    },
+    "lnj-logistic": {
+      "project_name": "LNJ Logistic (ERP)",
+      "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls."
+    },
+    "natours": {
+      "project_name": "Natours (travel)",
+      "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews."
+    }
+  }
+}

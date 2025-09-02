@@ -7,14 +7,14 @@ block content
     main.main
         section#portfolio.portfolio.section
             .container.section-title(data-aos="fade-up")
-                h2 Portfolio
-                p This is Danny Alfandi's portfolio from his previous work and freelance projects. You can view the details by clicking the icon link when hovering over the image.
+                h2= t('portfolio_page.portfolio')
+                p= t('portfolio_page.description')
             .container
                 .isotope-layout(data-default-filter="*", data-layout="masonry", data-sort="original-order")
                     ul.portfolio-filters.isotope-filters(data-aos="fade-up", data-aos-delay="100")
-                        li.filter-active(data-filter="*") All
-                        li(data-filter=".filter-mobile-app") Mobile App
-                        li(data-filter=".filter-web-app") Web App
+                        li.filter-active(data-filter="*")= t('portfolio_page.all')
+                        li(data-filter=".filter-mobile-app")= t('portfolio_page.mobile_app')
+                        li(data-filter=".filter-web-app")= t('portfolio_page.web_app')
                     .row.gy-4.isotope-container(data-aos="fade-up", data-aos-delay="200")
                         each portfolio in portfolios
                             +itemPortfolio(portfolio)

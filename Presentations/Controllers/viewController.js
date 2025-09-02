@@ -1,6 +1,7 @@
 const fetchNode = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const catchAsync = require('../../utils/catchAsync');
+const i18next = require('i18next');
 
 exports.getHomePage = catchAsync(async(req, res, next) => {
     res.status(200).render('home',{
@@ -49,13 +50,29 @@ exports.getPortfolioPage = catchAsync(async(req, res, next) => {
     });
 
     getPortfolios = await response.json();
-    
-    getPortfolios.sort((a, b) => {
-        const [monthA, yearA] = a.project_date.split(' ').map(Number);
-        const [monthB, yearB] = b.project_date.split(' ').map(Number);
-      
-        return yearA - yearB || monthA - monthB;
-      });
+    const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
+                   july:7,august:8,september:9,october:10,november:11,december:12 };
+    getPortfolios.sort((a,b) => {
+        const [ma, ya] = (a.project_date || '').split(' ');
+        const [mb, yb] = (b.project_date || '').split(' ');
+        const A = (parseInt(ya) || 0) * 100 + (MONTHS[(ma||'').toLowerCase()] || 0);
+        const B = (parseInt(yb) || 0) * 100 + (MONTHS[(mb||'').toLowerCase()] || 0);
+        return A - B;
+    });
+
+    const resources = {};
+    for (const p of getPortfolios) {
+        const slug = (p.slug || p.id || '').toString();
+        if (!slug) continue;
+        const base = `portfolio.${slug}.`;
+        resources[base + 'project_name'] = p.project_name || '';
+        resources[base + 'highlight']    = p.highlight || '';
+        resources[base + 'description']  = p.description || '';
+    }
+
+    if (Object.keys(resources).length) {
+        i18next.addResources('en', 'db', resources);
+    }
 
     res.status(200).render('portfolio',{
         title: 'portfolio',

@@ -11,29 +11,29 @@ header#header.header.d-flex.align-items-center.light-background.sticky-top
         ul
           li
             if title == 'home'
-              a.active(href="/") Home
+              a.active(href="/")= t('nav.home')
             else
-              a(href="/") Home
+              a(href="/")= t('nav.home')
           li
             if title == 'about'
-              a.active(href="/about") About
+              a.active(href="/about")= t('nav.about')
             else
-              a(href="/about") About
+              a(href="/about")= t('nav.about')
           li
             if title == 'resume'
-              a.active(href="/resume") Resume
+              a.active(href="/resume")= t('nav.resume')
             else
-              a(href="/resume") Resume
+              a(href="/resume")= t('nav.resume')
           li
             if title == 'portfolio'
-              a.active(href="/portfolio") Portfolio
+              a.active(href="/portfolio")= t('nav.portfolio')
             else
-              a(href="/portfolio") Portfolio 
+              a(href="/portfolio")= t('nav.portfolio')
           li
             if title == 'contact'
-              a.active(href="/contact") Contact
+              a.active(href="/contact")= t('nav.contact')
             else
-              a(href="/contact") Contact
+              a(href="/contact")= t('nav.contact')
         // mobile hamburger
         i.mobile-nav-toggle.d-xl-none.bi.bi-list
 
