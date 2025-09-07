@@ -124,6 +124,15 @@
         "project_date": "2022年12月",
         "highlight": "XMLエクスポートとGraphQL拡張（製造日、レビュー／評価、フォームラベル、仕様フォーム）。",
         "description": "XML形式のデータエクスポートを実装。製造日・レビュー／評価・フォームラベル・仕様フォーム用データセットを公開するため、GraphQLスキーマ／リゾルバを拡張。"
+      },
+      "air-quality-meteorology":{
+        "project_name": "大気質予測（気象）",
+        "category_project": "データサイエンス",
+        "filter_type": "filter-data-science",
+        "project_from": "qariracademy",
+        "project_date": "2025年6月",
+        "highlight": "気象特徴量およびNO₂／SO₂／O₃／COからPM2.5とPM10（目的変数）を予測。交差検証を用いて線形回帰／勾配ブースティング回帰／ランダムフォレスト回帰を学習。最良モデルはMAE≈0.010、MSE≈0.082（スケーリング後）を達成。",
+        "description": "汚染物質と気象の関係に関するEDA。欠損補完・スケーリング・ワンホットエンコーディングによる前処理。GridSearchCVと交差検証で線形回帰、ランダムフォレスト、勾配ブースティング回帰を学習。R²／MAE／RMSEで評価し、過学習（overfitting）・過小適合（underfitting）・「perfect」の有無も確認。"
       }
   }
 }

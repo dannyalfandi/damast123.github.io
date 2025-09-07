@@ -85,8 +85,16 @@
     "all": "すべて",
     "mobile_app": "モバイルアプリ",
     "web_app": "Webアプリ",
+    "data_science": "データサイエンス",
     "portfolio": "ポートフォリオ",
     "more_details": "詳細を見る",
     "description": "こちらはDanny Alfandiのポートフォリオで、これまでの職務経験とフリーランス案件を掲載しています。画像にカーソルを合わせた際に表示されるアイコンのリンクをクリックすると詳細を確認できます。"
+  },
+  "detail_portfolio_page": {
+    "portfolio_details": "ポートフォリオの詳細",
+    "project_information": "プロジェクト情報",
+    "category": "カテゴリー",
+    "client": "クライアント",
+    "project_date": "プロジェクト日付"
   }
 }

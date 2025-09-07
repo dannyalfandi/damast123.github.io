@@ -51,6 +51,17 @@
     "natours": {
       "project_name": "Natours (travel)",
       "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews."
+    },
+    "airquality-meteorology": {
+      "project_name": "Air Quality Prediction (Meteorology)",
+      "highlight": "Predicted target PM2.5 and PM10 with NO₂/SO₂/O₃/CO from weather features using Linear Regression/Gradient Boosting Regressor/Random Forest Regressor with cross-validation; best model reached MAE≈0.010 and MSE≈0.082 (scaled)."
+    },
+    "air-quality-meteorology": {
+      "category_project": "Data Science",
+      "project_from": "Bootcamp Final Project",
+      "project_date": "June 2025",
+      "project_name": "Air Quality Prediction (Meteorology)",
+      "description": "EDA on pollutant–weather relationships; preprocessing with imputation, scaling, and one-hot encoding; trained Linear Regression, Random Forest, and Gradient Boosting Regressor with GridSearchCV and cross-validation. Evaluated via R²/MAE/RMSE also check if there is an overfitting, underfitting, or perfect."
     }
   }
 }

@@ -67,7 +67,16 @@
     "all": "All",
     "mobile_app": "Mobile App",
     "web_app": "Web App",
+    "data_science": "Data Science",
     "portfolio": "Portfolio",
+    "more_details": "More Details",
     "description": "This is Danny Alfandi's portfolio from his previous work and freelance projects. You can view the details by clicking the icon link when hovering over the image."
+  },
+  "detail_portfolio_page": {
+    "portfolio_details": "Portfolio Details",
+    "project_information": "Project Information",
+    "category": "Category",
+    "client": "Client",
+    "project_date": "Project Date"
   }
 }

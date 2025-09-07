@@ -43,25 +43,30 @@ exports.getServicePage = catchAsync(async(req, res, next) => {
 
 var getPortfolios;
 
-exports.getPortfolioPage = catchAsync(async(req, res, next) => {
-    const response = await fetchNode(process.env.API_URL+'/detail', {
-        method: 'get',
-        headers: {'Content-Type': 'application/json'}
-    });
+async function fetchPortfolios() {
+  const resp = await fetchNode(process.env.API_URL + '/detail', {
+    method: 'get',
+    headers: { 'Content-Type': 'application/json' }
+  });
+  const list = await resp.json();
 
-    getPortfolios = await response.json();
-    const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
+  const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
                    july:7,august:8,september:9,october:10,november:11,december:12 };
-    getPortfolios.sort((a,b) => {
-        const [ma, ya] = (a.project_date || '').split(' ');
-        const [mb, yb] = (b.project_date || '').split(' ');
-        const A = (parseInt(ya) || 0) * 100 + (MONTHS[(ma||'').toLowerCase()] || 0);
-        const B = (parseInt(yb) || 0) * 100 + (MONTHS[(mb||'').toLowerCase()] || 0);
-        return A - B;
-    });
+  list.sort((a,b) => {
+    const [ma, ya] = (a.project_date || '').split(' ');
+    const [mb, yb] = (b.project_date || '').split(' ');
+    const A = (parseInt(ya) || 0) * 100 + (MONTHS[(ma||'').toLowerCase()] || 0);
+    const B = (parseInt(yb) || 0) * 100 + (MONTHS[(mb||'').toLowerCase()] || 0);
+    return A - B;
+  });
+  return list;
+}
+
+exports.getPortfolioPage = catchAsync(async(req, res, next) => {
+    const portfolios = await fetchPortfolios();
 
     const resources = {};
-    for (const p of getPortfolios) {
+    for (const p of portfolios) {
         const slug = (p.slug || p.id || '').toString();
         if (!slug) continue;
         const base = `portfolio.${slug}.`;
@@ -69,21 +74,20 @@ exports.getPortfolioPage = catchAsync(async(req, res, next) => {
         resources[base + 'highlight']    = p.highlight || '';
         resources[base + 'description']  = p.description || '';
     }
+    if (Object.keys(resources).length) i18next.addResources('en', 'db', resources);
 
-    if (Object.keys(resources).length) {
-        i18next.addResources('en', 'db', resources);
-    }
-
-    res.status(200).render('portfolio',{
-        title: 'portfolio',
-        portfolios: getPortfolios 
-    });
+    res.status(200).render('portfolio', { title: 'portfolio', portfolios });
 });
 
 exports.getDetailPortfolioPage = catchAsync(async(req, res, next) => {
-    const getPortfolio = getPortfolios.find(p=>p.slug == req.params.slug);
-    res.status(200).render('portfolio_details',{
+    const portfolios = await fetchPortfolios();
+    const slug = String(req.params.slug || '').toLowerCase();
+    const item = portfolios.find(p => (p.slug || '').toLowerCase() === slug);
+
+    if (!item) return next(new AppError('Portfolio not found', 404));
+
+    res.status(200).render('portfolio_details', {
         title: 'Portfolio Details',
-        detailPorto:getPortfolio
+        detailPorto: item
     });
 });

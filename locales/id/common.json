@@ -85,8 +85,16 @@
     "all": "Semua",
     "mobile_app": "Aplikasi Mobile",
     "web_app": "Aplikasi Web",
+    "data_science": "Data Science",
     "portfolio": "Portofolio",
     "more_details": "Lihat Detail",
     "description": "Ini adalah portofolio Danny Alfandi yang memuat pengalaman kerja sebelumnya dan proyek freelance. Anda dapat melihat detailnya dengan mengeklik ikon tautan ketika kursor diarahkan ke gambar."
+  },
+  "detail_portfolio_page": {
+    "portfolio_details": "Detail Portofolio",
+    "project_information": "Informasi Proyek",
+    "category": "Kategori",
+    "client": "Klien",
+    "project_date": "Tanggal Proyek"
   }
 }

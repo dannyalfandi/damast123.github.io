@@ -6,7 +6,7 @@ block content
     main.main
         section#portfolio-details.portfolio-details.section
             .container.section-title(data-aos="fade-up")
-                h2 Portfolio Details
+                h2= t('detail_portfolio_page.portfolio_details')
                 p 
             .container(data-aos="fade-up", data-aos-delay="100")
                 .row.gy-4
@@ -67,18 +67,22 @@ block content
                                 .swiper-button-next
                     .col-lg-4
                         .portfolio-info(data-aos="fade-up", data-aos-delay="200")
-                            h3 Project information
+                            h3= t('detail_portfolio_page.project_information')
                             ul
                                 li
-                                    strong Category
-                                    | : #{detailPorto.category_project}
+                                    strong= t('detail_portfolio_page.category')
+                                    | :
+                                    span= t('db:portfolio.' + detailPorto.slug + '.category_project', { defaultValue: detailPorto.category_project })
                                 li
-                                    strong Client
-                                    | : #{detailPorto.project_from}
+                                    strong= t('detail_portfolio_page.client')
+                                    | : 
+                                    span= t('db:portfolio.' + detailPorto.slug + '.project_from', { defaultValue: detailPorto.project_from })
                                 li
-                                    strong Project date
-                                    | : #{detailPorto.project_date}
+                                    strong= t('detail_portfolio_page.project_date')
+                                    | :
+                                    span= t('db:portfolio.' + detailPorto.slug + '.project_date', { defaultValue: detailPorto.project_date })
                         .portfolio-description(data-aos="fade-up", data-aos-delay="300")
-                            h2 #{detailPorto.project_name}
+                            h2= t('db:portfolio.' + detailPorto.slug + '.project_name', { defaultValue: detailPorto.project_name })
                             p
-                                | #{detailPorto.description}
+                                |
+                                span= t('db:portfolio.' + detailPorto.slug + '.description', { defaultValue: detailPorto.description })

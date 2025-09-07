@@ -15,6 +15,7 @@ block content
                         li.filter-active(data-filter="*")= t('portfolio_page.all')
                         li(data-filter=".filter-mobile-app")= t('portfolio_page.mobile_app')
                         li(data-filter=".filter-web-app")= t('portfolio_page.web_app')
+                        li(data-filter=".filter-data-science")= t('portfolio_page.data_science')
                     .row.gy-4.isotope-container(data-aos="fade-up", data-aos-delay="200")
                         each portfolio in portfolios
                             +itemPortfolio(portfolio)

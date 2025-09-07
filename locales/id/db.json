@@ -124,6 +124,15 @@
         "project_date": "Desember 2022",
         "highlight": "Ekspor XML dan penambahan GraphQL untuk tanggal produksi, ulasan/penilaian, label formulir, dan formulir spesifikasi.",
         "description": "Mengimplementasikan ekspor data dalam format XML. Memperluas skema/resolver GraphQL untuk mengekspos tanggal produksi, ulasan/penilaian produk, label formulir, dan dataset formulir spesifikasi."
+      },
+      "air-quality-meteorology":{
+        "project_name": "Prediksi Kualitas Udara (Meteorologi)",
+        "category_project": "Ilmu Data",
+        "filter_type": "filter-data-science",
+        "project_from": "qariracademy",
+        "project_date": "Juni 2025",
+        "highlight": "Memprediksi target PM2.5 dan PM10 dari fitur cuaca serta NO₂/SO₂/O₃/CO menggunakan Linear Regression/Gradient Boosting Regressor/Random Forest Regressor dengan cross-validation; model terbaik mencapai MAE≈0,010 dan MSE≈0,082 (ter-skala).",
+        "description": "EDA pada hubungan polutan–cuaca; prapemrosesan dengan imputasi, penskalaan, dan one-hot encoding; melatih Linear Regression, Random Forest, dan Gradient Boosting Regressor dengan GridSearchCV dan cross-validation. Dievaluasi menggunakan R²/MAE/RMSE serta memeriksa apakah terjadi overfitting, underfitting, atau 'perfect'."
       }
   }
 }
