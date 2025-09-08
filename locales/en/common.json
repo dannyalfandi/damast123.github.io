@@ -9,6 +9,13 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
+  "footer_template":{
+    "copyright": "© Copyright Danny Alfandi. All Rights Reserved.",
+    "designed": "Designed by ",
+    "bootstrap_made": "BootstrapMade.",
+    "distributed": "Distributed by ",
+    "theme_wagon": "ThemeWagon."
+  },
   "home_page": {
     "description": "He's a backend/fullstack developer",
     "about_me": "About Me"

@@ -1,9 +1,6 @@
 footer#footer.footer.light-background
     .container
-        .copyright.text-center.
-                © Copyright
-                Danny Alfandi
-                All Rights Reserved
+        .copyright.text-center= t('footer_template.copyright')
         .social-links.d-flex.justify-content-center
             a(href="https://www.facebook.com/dannyalfandi06", target="_blank")
                 i.bi.bi-facebook
@@ -18,11 +15,14 @@ footer#footer.footer.light-background
             // You can delete the links only if you've purchased the pro version.
             // Licensing information: https://bootstrapmade.com/license/
             // Purchase the pro version with working PHP/AJAX contact form: [buy-url]
-            | Designed by
-            a(href="https://bootstrapmade.com/") BootstrapMade
-            | Distributed by
-            a(href="“https:")
-                | ThemeWagon
+            |
+            span= t('footer_template.designed')
+            a(href="https://bootstrapmade.com/")= t('footer_template.bootstrap_made')
+            |
+            span= t('footer_template.distributed')
+            a(href="https://themewagon.com/")
+                |
+                span= t('footer_template.theme_wagon')
                 // Scroll Top
                 a#scroll-top.scroll-top.d-flex.align-items-center.justify-content-center(href="#")
                     i.bi.bi-arrow-up-short

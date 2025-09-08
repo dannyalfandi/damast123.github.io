@@ -13,6 +13,13 @@
     "description": "彼はバックエンド／フルスタックのエンジニアです",
     "about_me": "自己紹介"
   },
+  "footer_template":{
+    "copyright": "著作権 © Danny Alfandi. すべての権利を保有します。",
+    "designed": "デザイン： ",
+    "bootstrap_made": "BootstrapMade.",
+    "distributed": "配布：",
+    "theme_wagon": "ThemeWagon."
+  },
   "about_page": {
     "about": "自己紹介",
     "content_about_1": "Dannyは、バックエンドサービスやモバイルアプリの設計・開発に3年以上の経験をもつフルスタックエンジニアです。",

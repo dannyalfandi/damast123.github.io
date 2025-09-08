@@ -9,6 +9,13 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
+  "footer_template":{
+    "copyright": "Hak Cipta © Danny Alfandi. Seluruh hak dilindungi.",
+    "designed": "Dirancang oleh ",
+    "bootstrap_made": "BootstrapMade.",
+    "distributed": "Didistribusikan oleh ",
+    "theme_wagon": "ThemeWagon."
+  },
   "home_page": {
     "description": "Dia adalah pengembang backend/full-stack",
     "about_me": "Profil Saya"
