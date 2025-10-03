@@ -15,5 +15,9 @@
   },
   "portfolio": {
     "more_details": "More Details"
+  },
+  "detail_portfolio_page": {
+    "description": "detail_portfolio_page.description",
+    "specification": "detail_portfolio_page.specification"
   }
 }

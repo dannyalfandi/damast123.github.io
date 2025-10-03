@@ -10,7 +10,8 @@
     },
     "charicedecoratie": {
       "project_name": "Charicedecoratie (Management App)",
-      "highlight": "End‑to‑end event management app (booking→payment→ops)."
+      "highlight": "End‑to‑end event management app (booking→payment→ops).",
+      "description": "Developing an app to automate Charicedecoratie's entire business process—from package booking (date/time conflict check, package-type dynamic forms), payment with transfer receipt and automatic cancel when deadline exceeded, to rescheduling with rules (only valid if paid and 2+ days in advance). On the operational front, admins get reminders for events, are able to assign freelancers/PICs, perform monthly stock counts, record outbound notes, and monitor auto depreciation of assets by useful life. There's a statistics dashboard: favorite package charts, monthly/yearly income & expense views, and change history for audit purposes. Google Place integration facilitates easy entry of event locations."
     },
     "msglow": {
       "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation."

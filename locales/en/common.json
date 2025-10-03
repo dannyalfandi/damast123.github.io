@@ -22,9 +22,9 @@
   },
   "about_page": {
     "about": "About",
-    "content_about_1": "Danny is a Full-Stack Engineer with 3+ years of experience designing and delivering backend services and mobile applications.",
-    "content_about_2": "He graduated from the University of Surabaya (UBAYA) in 2020 and began his career in the software-house industry. In mid-2021, he joined ICUBE by SIRCLO in Jakarta as a Backend Developer at a leading digital agency and global Magento partner, supporting many brands. He also worked as a Full-Stack Developer at PT Inaugurasi Pelangi Nusantara in Surabaya.",
-    "content_about_3": "He started this journey in 2020 and has continually improved his skills to deliver real products.",
+    "content_about_1": "Danny is a 3+ years experienced Full-Stack Engineer with experience in designing and delivering backend services and mobile applications.",
+    "content_about_2": "He graduated from the University of Surabaya (UBAYA) in 2020 and began his career as a software-house. First he was a software developer at Hiro Solutions. After that, he continued his journey as a Backend Developer at one of the leading digital agencies and Magento partners globally, ICUBE by SIRCLO in Jakarta, in mid-2021 and served many brands. Last his journey as Full-Stack Developer at PT Inaugurasi Pelangi Nusantara in Surabaya.",
+    "content_about_3": "He started his journey in 2020 and has continued to improve his skills to deliver real products.",
     "role": "Software Developer",
     "bio": "Bio",
     "phone": "Phone",
@@ -47,7 +47,7 @@
   },
   "resume_page": {
     "resume": "Resume",
-    "content_resume": "Software Developer with over 3 years of experience specializing in backend and full-stack development. Optimized codebase performance, ensured maintainability, and implemented containerized environments to enhance operational efficiency. Proficient in PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, and DevOps tools (Docker and Git). Demonstrated ability to deliver optimal solutions that enhance user experience and improve operational efficiency.",
+    "content_resume": "Software Developer with over 3 years of experience in full-stack and backend development. Improved codebase performance, ensured maintainability, and containerized environments for better operational efficiency. Proficient in PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, and DevOps tools (Docker and Git). Delivered optimum solutions that improved user experience and increased operational efficiency, demonstrating measurable impact.",
     "education": "Education",
     "system": "Bachelor’s Degree in Information Systems (GPA 3.632/4.0)",
     "year": "06/2016 - 12/2020",
@@ -58,10 +58,10 @@
     "software_backend_dev": "Software Backend Developer",
     "mobile_app_freelance": "Mobile App Freelancer",
     "software_house": "Software House",
-    "content_work_4": ["Migrated customized codebase from Aquila to Laravel, streamlining the learning curve for new developers.","Reviewed and optimized teammates' code to uphold quality standards and ensure maintainable, performant solutions.","Developed a custom Composer package to centralize shared functions and standards, cutting duplicate code and speeding up feature delivery across similar projects."],
-    "content_work_3": ["Developed a mobile order monitoring application for business owners using Flutter, improving real-time tracking of sales and customer insights. This consumes an API provided by the other teams.","Integrated geolocation features, allowing businesses to visualize customer distribution via interactive maps. This enables users to identify who is utilizing this product.","Optimized order management with a categorized status system (pending, processing, shipped, received), reducing operational inefficiencies.","Developed a dynamic leaderboard system to track top-performing products, customers, and employees, boosting engagement and performance analysis."],
-    "content_work_2": ["Shipped multiple production e-commerce sites and releases, collaborating with seniors to implement and override core platform functions in magento 2.","Built and integrated GraphQL APIs (custom queries/mutations) and orchestrated third-party REST/GraphQL services used by brand storefronts.","Deployed three websites to production, releases and smooth updates.","Containerized services with Docker to standardize deployments, reducing environment drift and deployment issues.","Integrated and automated end-to-end workflows using n8n to orchestrate data syncs, notifications, and ETL tasks."],
-    "content_work_1": ["Collaborated with engineering and UI/UX teams to develop internal web tools using PHP, contributing to improved team efficiency and streamlined workflows.","Developed a competition workflow app in Flutter."]
+    "content_work_4": ["Migrated Aquila codebase to Laravel to enhance new developers' learning curve.","Reviewed and optimized teammates' code to maintain quality standards and provide maintainable, efficient solutions.","Developed a custom Composer package to centralize frequent functions and best practices, removing duplicated code and fast-tracking feature deployment on similar projects."],
+    "content_work_3": ["Developed a mobile order monitoring application for business owners using Flutter, improving real-time tracking of sales and customer insights. This involves an API exposed by the other teams.","Integrated geolocation features, which enable companies to map customer distribution through interactive maps. This allows users to see who is utilizing this product.","Optimized order management with a systematic status system (pending, processing, shipped, received), reducing operational inefficiencies.","Developed a dynamic leaderboard system to track high-performing products, customers and products to maximize engagement and performance metrics."],
+    "content_work_2": ["Shipped a number of production e-commerce sites and releases, collaborating with seniors to implement and override core platform functions in magento 2.","Developed and integrated GraphQL APIs (custom queries/mutations) and managed third-party REST/GraphQL services used by brand storefronts.","Released three sites to production, ensuring timely deployments, efficient post-launch support, and seamless version updates.","Containerized Docker-based services to assist in standardizing deployments, reducing environment drift, and deployment issues.","Integrated and automated end-to-end workflows with n8n for automating data syncs, notifications, and ETL processes."],
+    "content_work_1": ["Collaborated with the engineering and UI/UX teams in developing in-house web applications using PHP, facilitating improved team productivity and streamlined processes.","Developed a competition workflow mobile application with Flutter."]
   },
   "contact_page":{
     "contact": "Contact Me",
@@ -84,6 +84,8 @@
     "project_information": "Project Information",
     "category": "Category",
     "client": "Client",
-    "project_date": "Project Date"
+    "project_date": "Project Date",
+    "description": "Description",
+    "specification": "Specification"
   }
 }
