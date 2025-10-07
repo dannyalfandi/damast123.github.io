@@ -83,6 +83,21 @@ block content
                                     span= t('db:portfolio.' + detailPorto.slug + '.project_date', { defaultValue: detailPorto.project_date })
                         .portfolio-description(data-aos="fade-up", data-aos-delay="300")
                             h2= t('db:portfolio.' + detailPorto.slug + '.project_name', { defaultValue: detailPorto.project_name })
-                            p
-                                |
-                                span= t('db:portfolio.' + detailPorto.slug + '.description', { defaultValue: detailPorto.description })
+                            .portfolio-tabs(data-aos="fade-up", data-aos-delay="300")
+                                ul.nav.nav-tabs(role="tablist")
+                                    li.nav-item
+                                        a.nav-link.active(href="#description", data-bs-toggle="tab", role="tab")= t('detail_portfolio_page.description')
+                                    li.nav-item
+                                        a.nav-link(href="#specification", data-bs-toggle="tab", role="tab")= t('detail_portfolio_page.specification')
+                                
+                                .tab-content.mt-3
+                                    #description.tab-pane.fade.show.active(role="tabpanel")
+                                        p(style="text-align: justify;")
+                                            span= t('db:portfolio.' + detailPorto.slug + '.description', { defaultValue: detailPorto.description })
+                                    #specification.tab-pane.fade(role="tabpanel")
+                                        ul
+                                            each specification, i in detailPorto.specifications
+                                                li
+                                                    strong Feature #{i + 1} 
+                                                    |  : 
+                                                    span= t('db:portfolio.' + detailPorto.slug + '.specifications.' + i, {defaultValue: detailPorto.specifications[i]})

@@ -5,125 +5,214 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "2022年11月",
-        "highlight": "Shopwareストアフロント改善、Excel→DBインポート、カスタムフッター、n8n連携。",
-        "description": "Excelインポートのマッピング／バリデーション付きパイプラインを実装。ホームページのポップアップとカスタムフッターアイコンを追加。Shopware→n8n連携を構成し、後続のワークフローを実現。"
+        "project_date": "November 2022",
+        "highlight": "Shopwareストアフロントの改善、Excel→DBインポート、カスタムフッター、N8N連携。",
+        "description": "Excelインポートでデータベースへ書き込み、クリーンなペイロードをN8Nへ転送して下流のワークフローを回す自動化とコンテンツ刷新。ストアフロントにはカスタマイズ可能なホームページポップアップとソーシャルアイコン付きのクリーンなフッターを追加し、信頼性のためにShopware↔N8N接続を構成。プロダクトのオンボーディングが速くなり、反復的な作業は人手から自動化へ移行。",
+        "specifications": [
+          "Excelインポート→DB",
+          "ホームページのポップアップ",
+          "カスタムフッター",
+          "n8n接続"
+        ]
       },
       "ayugold": {
         "project_name": "Ayugold（ジュエリー）",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "2021年12月",
-        "highlight": "カスタムのアフター見積ロジック、BPMNフロー設計支援、Magento 2でのパスワード再設定リダイレクト修正。",
-        "description": "カートにREADYとPO商品が混在する場合に見積を分割。定義済みフローに従ってTLとBPMN図を作成。メールのパスワードリセットからの404リダイレクト問題を調査し修正。"
+        "project_date": "December 2021",
+        "highlight": "カスタムのafter-quoteロジックと、Magento 2によるパスワード再設定リダイレクト修正。",
+        "description": "見積オファーと認証プロセスに焦点を当てた改善で、カートにREADYとPOの商品が混在する場合にポスト見積（post-quote）のフローを分割し、価格とリードタイムの正確性を確保。作業にはバックストアへのフィルター追加と、以前404リダイレクトを引き起こしていた忘れたパスワードフローの修正も含む。これらの修正により、ストアフロントはビジネス実態に合致し、重要なリカバリフローが強化される。",
+        "specifications": [
+          "After-quote分割",
+          "パスワード再設定（Forgot-password）",
+          "POカスタムフィルター"
+        ]
       },
       "bbp": {
         "project_name": "BBP（配送追跡）",
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "フリーランス",
-        "project_date": "2019年11月",
+        "project_date": "November 2019",
         "highlight": "Androidバーコードスキャン＆配送員トラッキング。",
-        "description": "配送員がすべての荷物のバーコードをスキャンし、GPSを有効にして走行を開始。位置情報はバックエンドへ送信され、管理者は地図上のピンでルートをリアルタイム監視できます。"
+        "description": "バーコードスキャンとGPSを組み合わせ、すべての荷物・配送員の動きを可視化する軽量の配送コンパニオン。配送員はすべての荷物をスキャンし、位置情報を有効にして出発、位置をストリーミングして管理者にルートと進捗のライブマップを提供。日々の運行におけるアカウンタビリティが向上。",
+        "specifications": [
+          "バーコードスキャン",
+          "GPSライブトラッキング",
+          "基本的な配達ステータスとルートの可視化"
+        ]
       },
       "biofarma": {
-        "project_name": "Biofarma（ライフサイエンス）",
+        "project_name": "Biofarma",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "2022年11月",
-        "highlight": "安全なGraphQL＋ストアフロント／管理機能；APIの高速化と運用の円滑化。",
-        "description": "スコープ付き認可・キャッシュ・ページネーションを備えたGraphQLエンドポイント（商品・注文・ユーザー）を実装。ストアフロントや管理ツールを構築／更新し、明確なエラーステートと監査ログを提供。"
+        "project_date": "November 2022",
+        "highlight": "注文・請求・顧客向けのバックエンドGraphQL API（スコープ付き認可、キャッシュ、ページネーション）により日常運用を高速かつ安全に。",
+        "description": "注文、請求、顧客データをカバーするバックエンドGraphQLエンドポイントを実装。APIはトークンのスコープ付き認可を用い（認証有無で結果が異なる）、運用アクション（例：注文キャンセル）は監査可能なように検証・記録。エラーモデルも形式化してクライアント側で明確に扱えるようにした。管理ワークフロー（例：利用可能な請求と請求ステータス）をGraphQLで公開し、バックオフィス業務の自動化を促進。",
+        "specifications": [
+          "認証とセキュリティ",
+          "注文と請求",
+          "顧客"
+        ]
       },
       "charicedecoratie": {
         "project_name": "Charicedecoratie（管理アプリ）",
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "UBAYA（卒業研究）",
-        "project_date": "2020年1月",
+        "project_date": "January 2020",
         "highlight": "エンドツーエンドのイベント管理アプリ（予約→支払い→運用）。",
-        "description": "競合チェック付き予約、Google Place選択、振込証による支払い、リスケ規約、リマインダー、フリーランサー割当、棚卸、減価償却の自動化、費用／収入チャート、出庫伝票処理などを実装。"
+        "specifications": [
+          "予約とパッケージ",
+          "支払い",
+          "リスケジュール",
+          "リマインダーと通知",
+          "ジョブ／担当者（PIC）割り当て",
+          "収入と支出",
+          "資産の減価償却",
+          "出庫伝票（Outbound Note）",
+          "棚卸（毎月）",
+          "お気に入りパッケージのチャート",
+          "アイテム購入"
+        ],
+        "description": "Charicedecoratieのビジネスプロセス全体を自動化するアプリを開発—パッケージ予約（日時重複チェック、パッケージ種類に応じた動的フォーム）、振込明細による支払いと期限超過時の自動キャンセル、支払い済みかつ2日以上前でのみ有効なルール付きリスケ。運用面では、管理者はイベントリマインダーの受信、フリーランサー／PICの割当、月次棚卸、出庫伝票の記録、資産の耐用年数に基づく自動減価償却を行える。統計ダッシュボードには、お気に入りパッケージのチャート、月次／年次の収入・支出ビュー、監査用の変更履歴がある。Google Place連携によりイベント場所の入力も容易。"
       },
       "freelite-monemy": {
         "project_name": "Freelite Monemy",
-        "category_project": "カテゴリープロジェクト7",
-        "project_from": "プロジェクト元7",
-        "project_date": "プロジェクト日付7",
-        "highlight": "ハイライト7",
-        "description": "説明7"
+        "category_project": "category_project 7",
+        "project_from": "project_from 7",
+        "project_date": "project_date 7",
+        "highlight": "highlight 7",
+        "description": "description 7"
       },
       "hotel-at-home": {
         "project_name": "Hotel At Home",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "2023年3月",
-        "highlight": "ホームホテル体験に向けたストアフロント機能と管理ツール；商品発見性向上とスムーズなチェックアウト。",
-        "description": "堅牢なフィルタとバリデーション付きフォームのカタログ／商品詳細を実装。メディアとクエリを最適化して初回表示を高速化。管理ユーティリティでコンテンツと注文／ステータス管理、エクスポート可能なレポート、明確なエラーステートを提供。"
+        "project_date": "march 2023",
+        "highlight": "カタログ、カート／チェックアウト、注文、管理／レポート向けのバックエンドREST API（認証、バリデーション、ページネーション、キャッシュ）で日常業務を高速かつ信頼的に。",
+        "description": "Hotel At Homeのプロダクト発見とチェックアウトを支えるバックエンドを実装。製品・カテゴリ・検索／フィルタ／ソート・商品詳細の認証付きエンドポイントに加え、厳格なバリデーションと冪等性を備えたカート／チェックアウトフローで二重送信を防止。注文API（一覧／詳細、ステータス遷移、キャンセル）、バックオフィスのエクスポート／レポート用エンドポイント、標準化されたエラーレスポンスにより、クライアント側の失敗が予測可能に",
+        "specifications": [
+          "認証とセキュリティ",
+          "カタログAPI",
+          "カート／チェックアウトAPI",
+          "注文",
+          "顧客"
+        ]
       },
       "lnj-logistic": {
         "project_name": "LNJ Logistic（ERP）",
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "Inausugura",
-        "project_date": "2023年8月",
-        "highlight": "倉庫・物流向けWebアプリ—入出庫、在庫、配送ドキュメントをロールベースで管理。",
-        "description": "入庫受入、出庫配送、在庫／ストック、販売・購買注文の各モジュールを実装。バーコード検索、印刷可能な配送書類、レポートを追加。ユーザー／ロール管理と監査ログで内部統制に対応。"
+        "project_date": "August 2023",
+        "highlight": "倉庫・物流向けWebアプリ—入出庫、在庫、配送書類をロールベースで管理。",
+        "description": "入庫受入、出庫／配送、在庫、販売／購買注文をロールベースのアクセスにまとめたエンドツーエンドの倉庫・物流ソリューション。検索／ページング対応のテーブルやインラインバリデーション、印刷可能な帳票（納品書、ピッキングリスト、受領書）を備えたレスポンシブ画面。注文・在庫・レポートのREST APIを公開し、エラーを正規化してUIや外部ツールの決定性を担保。結果として日々のオペレーションが高速化し、手作業が減り、アカウンタビリティが明確化。",
+        "specifications": [
+          "認証とセキュリティ",
+          "入庫受入",
+          "出庫／配送",
+          "在庫／ストック",
+          "販売・購買注文",
+          "レポートとエクスポート",
+          "ユーザー／ロール／権限"
+        ]
       },
       "msglow": {
-        "project_name": "MS Glow",
+        "project_name": "MS Glow（モニタリングアプリ）",
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "フリーランス",
-        "project_date": "2021年9月",
-        "highlight": "Flutter製アナリティクスアプリ（ダッシュボード、リーダーボード、ジオロケーション）。",
-        "description": "日付フィルタ付き売上ダッシュボード、受注ステータスのパイプライン（pending／processing／shipped／received）のドリルダウン、ベストセラーバーチャート、リアルタイム受注ビュー、損益・粗利、顧客リーダーボード、都市別顧客分布マップを実装。"
+        "project_date": "September 2021",
+        "highlight": "ダッシュボード、リーダーボード、ジオロケーションを備えたFlutter製アナリティクスアプリ。",
+        "description": "KPIダッシュボード、受注ステータスのパイプライン、ベストセラーの洞察、利益ビューを組み合わせたリアルタイムのセールスパフォーマンス・コックピット。ユーザーはトレンドをフィルタし、pendingからreceivedまでの各段階へドリルダウンし、発生中の注文をライブで監視できる。顧客リーダーボードと都市レベルの地図により、チームはリアルタイムにモメンタムとボトルネックを把握可能。",
+        "specifications": [
+          "売上KPI",
+          "注文パイプライン",
+          "ベストセラー",
+          "リアルタイム注文",
+          "損益／粗利益",
+          "顧客リーダーボード",
+          "顧客マッピング"
+        ]
       },
       "natours": {
         "project_name": "Natours（旅行）",
         "category_project": "Webアプリ",
         "filter_type": "filter-web-app",
-        "project_from": "個人プロジェクト（UDEMY）",
-        "project_date": "2024年12月",
-        "highlight": "地図ベースのツアー表示、セキュア認証、Stripe決済、レビュー機能を備えた旅行予約アプリ。",
-        "description": "ロケーションマップ付きツアーカタログ／詳細、JWTによるセキュア認証、管理ツールのロールベースアクセスを実装。Stripe予約を統合し、プロフィール管理・アバターアップロード・レビュー投稿などの機能を構築。クリーンなAPI設計、バリデーション、本番想定のエラーハンドリングに注力。"
+        "project_from": "Personal Project (UDEMY)",
+        "project_date": "December 2024",
+        "highlight": "地図ベースのツアー表示、セキュア認証、Stripeチェックアウト、ユーザーレビューを備えた旅行予約アプリ。",
+        "description": "クリーンなコントローラと再利用可能なミドルウェアによるMVC構成、役割（ユーザー／管理者）に基づく権限付きのJWT認証、支払い予約を行いユーザー履歴を追加するStripeチェックアウトを実装。ツアーはロケーションを表示する地図付きの詳細ページと、購入後に評価・コメントできるレビュー機能を備える。APIとページが一貫して失敗するよう中央集約のバリデーションとエラーハンドリングを用い、セキュリティミドルウェア（レート制限、サニタイズ）やパフォーマンス最適化（軽量クエリ、適切なキャッシュ）で応答性と本番レベルの体験を保証。",
+        "specifications": [
+          "コアとアーキテクチャ",
+          "認証とセキュリティ",
+          "ツアーとカタログ",
+          "予約と支払い",
+          "ユーザーとレビュー",
+          "品質と運用"
+        ]
       },
       "nickscali": {
         "project_name": "Nickscali",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "2022年2月",
-        "highlight": "家具ECのPLP／PDPフローとGraphQL連携；リリース準備完了の機能とスムーズなデプロイ。",
-        "description": "カテゴリ（PLP）と商品詳細（PDP）ページを堅牢なフィルタ・メディア・バリデーションとともに実装。ストアフロントが利用するGraphQLのQuery／Mutationに貢献し、ペイロードやキャッシュを最適化。チェックアウトの信頼性とデプロイを改善。"
+        "project_date": "February 2022",
+        "highlight": "カタログのバックエンドサービス（PLP/PDP）、ストアビュー／マルチストア規則、READYとPO／バックオーダーのロジック、チケッティング連携—適切なバリデーション、キャッシュ、安定したエラーハンドリング付き。",
+        "description": "子階層カスタムとストアビュー基盤を用いたカテゴリ（PLP）と商品詳細（PDP）ページを実装。READY対PO／バックオーダー商品の可用性モデル（リードタイムと注文制約）を追加。起票されたチケットサービスも確認",
+        "specifications": [
+          "PLP／PDP向けカタログ",
+          "可用性とPO／バックオーダー",
+          "起票チケット"
+        ]
       },
       "sakafarma": {
         "project_name": "Sakafarma",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "2022年12月",
-        "highlight": "検索可能なカタログ・商品詳細・注文フローを備えた医薬品EC；より安全なリリースのための管理ツール。",
-        "description": "カテゴリ（PLP）と商品詳細（PDP）ページを検索／フィルタとバリデーション付きフォームで実装。注文フローを追加し、エラー／空状態の表現を改善。管理ユーティリティでコンテンツ／データ管理と運用向けエクスポートを提供。"
+        "project_date": "December 2022",
+        "highlight": "カタログ／検索、チェックアウト＆注文、管理／レポート向けのバックエンドAPI（認証、バリデーション、キャッシュ、ページネーション）。",
+        "description": "製品／カテゴリ（ページング、フィルタ、ソート、検索）の認証付きエンドポイント、冪等な発注を備えた検証済みのカート／チェックアウト、そして注文API（一覧／詳細、ステータス更新、キャンセル）を実装。バックオフィス向けエクスポート／レポート、正規化されたエラー、キャッシュのターゲティング、トレーサビリティのための監査ログを追加。",
+        "specifications": [
+          "認証とセキュリティ",
+          "カタログAPI",
+          "カート＆チェックアウト",
+          "注文",
+          "管理とレポーティング"
+        ]
       },
       "samsonite": {
         "project_name": "Samsonite（Laravel）",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "2023年4月",
-        "highlight": "Laravelベースの商品・価格Excelインポートと詳細なインポート履歴ログ。",
-        "description": "商品と価格データのExcelファイルをバリデーションとマッピングエラーのフィードバック付きでインポート可能。履歴では成功／失敗を表示し、監査性を確保。"
+        "project_date": "April 2023",
+        "highlight": "商品と価格のExcelインポート（Laravel）と詳細な履歴ログ。",
+        "description": "Excel経由で商品・価格リストを取り込み、検証とマッピングを行い、監査可能な記録を残す段階的な更新パイプライン。失敗は明確に表示され、その場でデータ問題を解決でき、どの行が成功／失敗したかをログで追跡。結果として、トレーサブルで持続する高速な更新を実現。",
+        "specifications": [
+          "Excelインポート",
+          "履歴ログ",
+          "SKUとフィルタリング"
+        ]
       },
       "sinarmasapp": {
         "project_name": "Sinarmasapp（Magento 2）",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "2022年12月",
-        "highlight": "XMLエクスポートとGraphQL拡張（製造日、レビュー／評価、フォームラベル、仕様フォーム）。",
-        "description": "XML形式のデータエクスポートを実装。製造日・レビュー／評価・フォームラベル・仕様フォーム用データセットを公開するため、GraphQLスキーマ／リゾルバを拡張。"
+        "project_date": "December 2022",
+        "highlight": "製造日、レビュー／評価、フォームラベル、仕様フォーム向けのXMLエクスポートとGraphQL拡張。",
+        "description": "フィールドマッピング、ページネーション、検証を備えたXMLエクスポートパイプラインを実装。製造日、レビュー／評価（フィルタ／ソート／ページングと集計付き）、フォームラベル、仕様フォームのデータセットを公開するためにGraphQLスキーマ／リゾルバへ貢献。スコープ付きトークンアクセス、統一されたエラー、N+1回避のためのリゾルババッチング、ホットリードへの選択的キャッシュを追加。",
+        "specifications": [
+          "XMLエクスポートモジュール",
+          "GraphQL拡張",
+          "セキュリティと信頼性"
+        ]
       },
       "air-quality-meteorology":{
         "project_name": "大気質予測（気象）",
@@ -131,8 +220,13 @@
         "filter_type": "filter-data-science",
         "project_from": "qariracademy",
         "project_date": "2025年6月",
-        "highlight": "気象特徴量およびNO₂／SO₂／O₃／COからPM2.5とPM10（目的変数）を予測。交差検証を用いて線形回帰／勾配ブースティング回帰／ランダムフォレスト回帰を学習。最良モデルはMAE≈0.010、MSE≈0.082（スケーリング後）を達成。",
-        "description": "汚染物質と気象の関係に関するEDA。欠損補完・スケーリング・ワンホットエンコーディングによる前処理。GridSearchCVと交差検証で線形回帰、ランダムフォレスト、勾配ブースティング回帰を学習。R²／MAE／RMSEで評価し、過学習（overfitting）・過小適合（underfitting）・「perfect」の有無も確認。"
+        "highlight": "気象特徴量からPM2.5／PM10を予測。Linear／SVRに加え木系／ブースティングモデルを用い、交差検証とチューニングを実施。",
+        "description": "汚染物質と気象の相関をヒートマップや分布で探索。欠損補完・スケーリング・ワンホットエンコーディングによる前処理を実施。Linear Regression、SVR、Random Forest、Gradient Boosting、LightGBMをGridSearchCVと交差検証で学習。R²／MAE／MSE／RMSEで評価し、学習誤差と検証誤差の比較により過学習／過小適合を確認。結果は見やすい表とプロットで可視化。",
+        "specifications": [
+          "前処理",
+          "モデリング",
+          "評価と堅牢性"
+        ]
       }
   }
 }

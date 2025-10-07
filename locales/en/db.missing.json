@@ -62,7 +62,12 @@
       "project_from": "Bootcamp Final Project",
       "project_date": "June 2025",
       "project_name": "Air Quality Prediction (Meteorology)",
-      "description": "EDA on pollutant–weather relationships; preprocessing with imputation, scaling, and one-hot encoding; trained Linear Regression, Random Forest, and Gradient Boosting Regressor with GridSearchCV and cross-validation. Evaluated via R²/MAE/RMSE also check if there is an overfitting, underfitting, or perfect."
+      "description": "Explored pollutant–weather correlations using heatmaps and distributions; performed preprocessing using imputation, scaling, and one-hot encoding. Trained Linear Regression, SVR, Random Forest, Gradient Boosting, and LightGBM using GridSearchCV and cross-validation. Evaluated using R²/MAE/MSE/RMSE and checked over/underfitting using train vs. validation errors comparison; visualized results in clean tables/plots.",
+      "specifications": {
+        "0": "Preprocessing",
+        "1": "Modeling",
+        "2": "Evaluation & Robustness"
+      }
     }
   }
 }

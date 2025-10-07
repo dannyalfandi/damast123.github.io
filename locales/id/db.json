@@ -6,17 +6,28 @@
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "November 2022",
-        "highlight": "Peningkatan storefront Shopware, impor Excel ke DB, footer kustom, dan integrasi n8n.",
-        "description": "Mengimplementasikan pipeline impor Excel dengan pemetaan/validasi, menambahkan popup beranda dan ikon footer kustom, serta mengonfigurasi koneksi Shopware→n8n untuk alur kerja lanjutan."
+        "highlight": "Peningkatan storefront Shopware, impor Excel ke DB, footer kustom, dan integrasi N8N.",
+        "description": "Sebuah otomasi dan penyegaran konten yang berfokus pada impor Excel yang menulis ke database dan meneruskan payload bersih ke N8N untuk alur kerja lanjutan. Storefront mendapatkan popup beranda yang dapat dikustomisasi dan footer rapi dengan ikon sosial, serta konektivitas Shopware↔N8N dikonfigurasi untuk keandalan. Onboarding produk menjadi lebih cepat, dan tugas berulang berpindah dari orang ke otomasi.",
+        "specifications": [
+          "Impor Excel → DB",
+          "Popup beranda",
+          "Footer kustom",
+          "Konektivitas N8N"
+        ]
       },
       "ayugold": {
         "project_name": "Ayugold (Perhiasan)",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "Desember 2021",
-        "highlight": "Logika pasca-quotation kustom, dukungan desain alur BPMN, dan perbaikan pengalihan lupa kata sandi di Magento 2.",
-        "description": "Memecah quotation saat keranjang berisi item READY dan PO. Mendampingi TL (Team Lead) membuat diagram BPMN sesuai alur yang ditetapkan. Menyelidiki dan memperbaiki isu pengalihan 404 dari reset kata sandi via email."
+        "project_date": "December 2021",
+        "highlight": "Logika after-quote kustom, dan perbaikan pengalihan lupa kata sandi menggunakan Magento 2.",
+        "description": "Peningkatan terfokus pada penawaran quote dan proses autentikasi, membagi alur pasca-quote kapan pun keranjang memiliki item READY dan PO sehingga harga dan lead time akurat. Pekerjaan juga mencakup penambahan filter pada backstore dan perbaikan alur lupa kata sandi yang rusak yang sebelumnya menyebabkan pengalihan 404. Bersama-sama, perbaikan ini menyelaraskan storefront dengan realitas bisnis dan memperkuat alur pemulihan yang penting.",
+        "specifications": [
+          "Pembagian after-quote",
+          "Lupa kata sandi",
+          "Filter PO kustom"
+        ]
       },
       "bbp": {
         "project_name": "BBP (Pelacakan Kurir)",
@@ -25,87 +36,155 @@
         "project_from": "Freelance",
         "project_date": "November 2019",
         "highlight": "Pemindaian barcode Android & pelacakan kurir.",
-        "description": "Kurir memindai barcode untuk semua paket, memulai perjalanan dengan GPS aktif; posisi dikirim ke backend sehingga admin dapat memantau rute secara langsung melalui penanda peta."
+        "description": "Pendamping pengantaran ringan yang memasangkan pemindaian barcode dengan GPS sehingga semua pergerakan paket dan kurir dapat dipantau. Kurir memindai semua paket, memulai perjalanan dengan lokasi aktif, dan mengalirkan posisi, memberikan admin peta rute dan progres secara langsung. Hasilnya adalah akuntabilitas yang lebih baik pada perjalanan harian.",
+        "specifications": [
+          "Pemindaian barcode",
+          "Pelacakan GPS langsung",
+          "Status pengantaran dasar dan visibilitas rute"
+        ]
       },
       "biofarma": {
-        "project_name": "Biofarma (Life Science)",
+        "project_name": "Biofarma",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "November 2022",
-        "highlight": "GraphQL aman + fitur storefront/admin; API lebih cepat dan operasional lebih mulus.",
-        "description": "Mengimplementasikan endpoint GraphQL (produk, pesanan, pengguna) dengan otorisasi berbasis cakupan, caching & paginasi. Membangun/memperbarui halaman storefront (katalog, detail produk) dan alat admin (ekspor, pembaruan status) dengan status error yang jelas dan log audit."
+        "highlight": "Backend GraphQL API untuk pesanan, penagihan, dan pelanggan dengan otorisasi berbasis ruang lingkup, caching, dan paginasi—membuat operasi harian lebih cepat dan aman.",
+        "description": "Mengimplementasikan endpoint GraphQL backend yang mencakup data pesanan, penagihan, dan pelanggan. API menggunakan otorisasi bertoken dengan ruang lingkup (hasil berbeda untuk panggilan terautentikasi dan tidak). Aksi operasional (mis., pembatalan pesanan) divalidasi dan dicatat untuk kebutuhan audit, dan model error juga diformalkan sehingga klien merasakan kejelasan. Alur kerja admin seperti tagihan tersedia dan status penagihan diekspos melalui GraphQL untuk memfasilitasi otomasi proses back-office.",
+        "specifications": [
+          "Otentikasi & keamanan",
+          "Pesanan & Penagihan",
+          "Pelanggan"
+        ]
       },
       "charicedecoratie": {
         "project_name": "Charicedecoratie (Aplikasi Manajemen)",
         "category_project": "Aplikasi Mobile",
         "filter_type": "filter-mobile-app",
         "project_from": "UBAYA (Skripsi)",
-        "project_date": "Januari 2020",
+        "project_date": "January 2020",
         "highlight": "Aplikasi manajemen event end-to-end (booking→pembayaran→operasional).",
-        "description": "Fitur pemesanan dengan cek konflik jadwal, pemilihan lokasi Google Place, pembayaran via bukti transfer, aturan penjadwalan ulang, pengingat, penugasan freelancer, stock opname, otomatisasi depresiasi, grafik biaya/pendapatan, dan penanganan outbound note."
+        "specifications": [
+          "Booking & Paket",
+          "Pembayaran",
+          "Penjadwalan ulang",
+          "Pengingat dan notifikasi",
+          "Penugasan Pekerjaan / PIC",
+          "Pendapatan & Pengeluaran",
+          "Depresiasi Aset",
+          "Outbound Note",
+          "Stock Opname (bulanan)",
+          "Grafik Paket Favorit",
+          "Pembelian Item"
+        ],
+        "description": "Mengembangkan aplikasi untuk mengotomatiskan seluruh proses bisnis Charicedecoratie—mulai dari pemesanan paket (cek konflik tanggal/waktu, form dinamis berdasarkan tipe paket), pembayaran dengan bukti transfer dan pembatalan otomatis saat melewati tenggat, hingga penjadwalan ulang dengan aturan (hanya valid jika sudah dibayar dan minimal 2+ hari sebelumnya). Pada sisi operasional, admin mendapatkan pengingat untuk event, dapat menugaskan freelancer/PIC, melakukan hitung stok bulanan, mencatat outbound note, dan memantau depresiasi aset otomatis berdasarkan umur manfaat. Tersedia dashboard statistik: grafik paket favorit, tampilan pendapatan & pengeluaran bulanan/tahunan, dan riwayat perubahan untuk audit. Integrasi Google Place memudahkan input lokasi acara."
       },
       "freelite-monemy": {
         "project_name": "Freelite Monemy",
-        "category_project": "Kategori Proyek 7",
-        "project_from": "Sumber Proyek 7",
-        "project_date": "Tanggal Proyek 7",
-        "highlight": "Sorotan 7",
-        "description": "Deskripsi 7"
+        "category_project": "category_project 7",
+        "project_from": "project_from 7",
+        "project_date": "project_date 7",
+        "highlight": "highlight 7",
+        "description": "description 7"
       },
       "hotel-at-home": {
         "project_name": "Hotel At Home",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "Maret 2023",
-        "highlight": "Modul storefront dan alat admin untuk pengalaman retail bergaya home-hotel; penemuan produk meningkat dan checkout lebih ringkas.",
-        "description": "Mengimplementasikan halaman storefront (katalog, detail produk) dengan filter kuat dan form tervalidasi; mengoptimalkan media dan kueri untuk mempercepat muat awal. Menambahkan utilitas admin untuk manajemen konten dan pesanan/status, dengan laporan yang bisa diekspor dan status error yang jelas."
+        "project_date": "march 2023",
+        "highlight": "Backend REST API untuk katalog, keranjang/checkout, pesanan, dan admin/pelaporan dengan autentikasi, validasi, paginasi, dan caching—mempercepat dan membuat aktivitas harian lebih andal.",
+        "description": "Mengimplementasikan backend yang mendorong penemuan produk dan checkout untuk Hotel At Home. Layanan menyediakan endpoint terautentikasi untuk produk, kategori, pencarian/filter/sortir, dan detail produk, beserta alur keranjang/checkout lengkap dengan validasi ketat dan idempotensi sehingga pesanan tidak bisa terkirim ganda. API pesanan (daftar/detail, transisi status, batal), endpoint ekspor/laporan back-office, serta respons error yang terstandar sehingga klien gagal secara prediktif",
+        "specifications": [
+          "Otentikasi & keamanan",
+          "API Katalog",
+          "API Keranjang/Checkout",
+          "Pesanan",
+          "Pelanggan"
+        ]
       },
       "lnj-logistic": {
         "project_name": "LNJ Logistic (ERP)",
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "Inausugura",
-        "project_date": "Agustus 2023",
+        "project_date": "August 2023",
         "highlight": "Aplikasi web gudang & logistik—melacak inbound/outbound, inventaris, dan dokumen pengiriman dengan kontrol berbasis peran.",
-        "description": "Mengimplementasikan modul penerimaan inbound, pengiriman outbound, inventaris/stok, serta sales/purchase order. Menambahkan pencarian item berbasis barcode, dokumen pengiriman yang dapat dicetak, dan laporan. Membangun manajemen pengguna/peran dan jejak audit untuk memenuhi kontrol internal."
+        "description": "Solusi gudang & logistik end-to-end yang menggabungkan penerimaan inbound, outbound/pengiriman, inventaris, dan sales/purchase order dengan akses berbasis peran. Layar responsif dengan tabel yang dapat dicari/dipaginasi, validasi inline, dan dokumen yang dapat dicetak (delivery note, pick list, goods receipt). Menyediakan REST API untuk pesanan, inventaris, dan laporan; serta error yang dinormalisasi sehingga UI dan alat eksternal deterministik. Hasilnya adalah operasi harian lebih cepat, lebih sedikit pekerjaan manual, dan akuntabilitas lebih jelas.",
+        "specifications": [
+          "Otentikasi & keamanan",
+          "Penerimaan Inbound",
+          "Outbound / Pengiriman",
+          "Inventaris / Stok",
+          "Sales & Purchase Order",
+          "Laporan & Ekspor",
+          "Pengguna, Peran, Izin"
+        ]
       },
       "msglow": {
-        "project_name": "MS Glow",
+        "project_name": "MS Glow (Aplikasi Monitoring)",
         "category_project": "Aplikasi Mobile",
         "filter_type": "filter-mobile-app",
         "project_from": "Freelance",
         "project_date": "September 2021",
         "highlight": "Aplikasi analitik Flutter dengan dashboard, leaderboard, dan geolokasi.",
-        "description": "Dashboard penjualan total dengan filter tanggal; pipeline status pesanan (pending, processing, shipped, received) dengan drill-down; grafik bar best-seller; tampilan pesanan real-time; laba rugi dan laba kotor; leaderboard pelanggan; peta sebaran pelanggan tingkat kota."
+        "description": "Kokpit kinerja penjualan real-time yang menggabungkan dashboard KPI dengan pipeline status pesanan, insight best-seller, dan tampilan profit. Pengguna dapat memfilter tren, melakukan drill ke tahapan dari pending hingga received, dan memantau pesanan langsung saat terjadi. Leaderboard pelanggan dan peta tingkat kota melengkapi agar tim dapat melihat momentum dan bottleneck secara real-time.",
+        "specifications": [
+          "KPI Penjualan",
+          "Pipeline pesanan",
+          "Best seller",
+          "Pesanan real-time",
+          "Laba Rugi / Laba Kotor",
+          "Leaderboard pelanggan",
+          "Pemetaan pelanggan"
+        ]
       },
       "natours": {
         "project_name": "Natours (travel)",
         "category_project": "Aplikasi Web",
         "filter_type": "filter-web-app",
-        "project_from": "Proyek Pribadi (UDEMY)",
-        "project_date": "Desember 2024",
+        "project_from": "Personal Project (UDEMY)",
+        "project_date": "December 2024",
         "highlight": "Aplikasi pemesanan travel/tour dengan tampilan tur berbasis peta, autentikasi aman, checkout Stripe, dan ulasan pengguna.",
-        "description": "Mengimplementasikan katalog tur dan halaman detail dengan peta lokasi, autentikasi JWT yang aman, serta akses berbasis peran untuk alat admin. Mengintegrasikan Stripe untuk pemesanan dan membangun fitur pengguna untuk pengelolaan profil, unggah avatar, serta menulis ulasan/penilaian. Fokus pada desain API yang bersih, validasi, dan penanganan error ala produksi."
+        "description": "Mengimplementasikan struktur MVC dengan controller yang rapi dan middleware yang dapat digunakan ulang, autentikasi JWT dengan izin berbasis peran (user/admin), dan proses checkout Stripe yang membuat pemesanan berbayar dan menambahkan riwayat pengguna. Tur memiliki halaman detail kaya dengan peta untuk menampilkan lokasi, serta sistem ulasan agar pengguna dapat memberi rating dan komentar setelah pembelian. Aplikasi menggunakan validasi dan penanganan error terpusat agar API dan halaman gagal secara konsisten, dengan middleware keamanan (pembatasan laju, sanitasi) dan optimasi performa (kueri lean, caching sesuai kebutuhan) untuk memastikan responsivitas dan pengalaman siap produksi.",
+        "specifications": [
+          "Inti & Arsitektur",
+          "Otentikasi & Keamanan",
+          "Tur & Katalog",
+          "Booking & Pembayaran",
+          "Pengguna & Ulasan",
+          "Kualitas & Operasional"
+        ]
       },
       "nickscali": {
         "project_name": "Nickscali",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "Februari 2022",
-        "highlight": "Storefront e-commerce furnitur dengan alur PLP/PDP dan integrasi GraphQL; fitur siap rilis dan deployment lebih mulus.",
-        "description": "Mengimplementasikan halaman kategori (PLP) dan detail produk (PDP) dengan pemfilteran, media, dan validasi yang kuat. Berkontribusi pada query/mutation GraphQL yang digunakan storefront dan mengoptimalkan payload/caching. Meningkatkan keandalan checkout dan proses deployment."
+        "project_date": "February 2022",
+        "highlight": "Layanan backend katalog (PLP/PDP), aturan store-view/multi-store, logika READY vs PO/backorder, dan integrasi ticketing—dengan validasi yang baik, caching, dan penanganan error yang stabil.",
+        "description": "Mengimplementasikan halaman kategori (PLP) dan detail produk (PDP) dengan child kustom dan basis storeview. Menambahkan model ketersediaan untuk produk READY vs PO/backorder (lead time dan batasan pesanan). Juga memeriksa layanan tiket yang diajukan",
+        "specifications": [
+          "Katalog untuk PLP/PDP",
+          "Ketersediaan & PO/Backorder",
+          "Tiket yang diajukan"
+        ]
       },
       "sakafarma": {
         "project_name": "Sakafarma",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "Desember 2022",
-        "highlight": "Storefront e-commerce farmasi dengan katalog pencarian, detail produk, dan alur pesanan; alat admin untuk rilis yang lebih aman.",
-        "description": "Mengimplementasikan halaman kategori (PLP) dan detail produk (PDP) dengan pencarian/filter dan form tervalidasi. Menambahkan alur pesanan serta meningkatkan penanganan error/empty state. Menyediakan utilitas admin untuk mengelola konten dan data, plus ekspor untuk operasional. Fokus pada aksesibilitas dan performa yang prediktabel."
+        "project_date": "December 2022",
+        "highlight": "API backend katalog/pencarian, checkout & pesanan, dan admin/pelaporan dengan autentikasi, validasi, caching, dan paginasi.",
+        "description": "Mengimplementasikan endpoint terautentikasi untuk produk/kategori (paginasi, filter, sortir, pencarian), proses keranjang/checkout tervalidasi dengan place-order idempoten, dan API pesanan untuk daftar/detail, pembaruan status, dan pembatalan. Menambahkan ekspor/laporan untuk back-office, error yang dinormalisasi, penargetan cache, dan log audit untuk keterlacakan.",
+        "specifications": [
+          "Otentikasi & Keamanan",
+          "API Katalog",
+          "Keranjang & Checkout",
+          "Pesanan",
+          "Admin & Pelaporan"
+        ]
       },
       "samsonite": {
         "project_name": "Samsonite (Laravel)",
@@ -113,17 +192,27 @@
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "April 2023",
-        "highlight": "Impor Excel berbasis Laravel untuk produk & harga dengan log riwayat impor terperinci.",
-        "description": "Pengguna mengimpor file Excel untuk data produk dan harga dengan validasi serta umpan balik kesalahan pemetaan. Riwayat impor menampilkan keberhasilan dan kegagalan untuk kebutuhan audit."
+        "highlight": "Impor Excel berbasis Laravel untuk produk & harga dengan log riwayat terperinci.",
+        "description": "Pipeline pembaruan bertahap di mana daftar produk dan harga diambil melalui Excel, divalidasi dan dipetakan, serta meninggalkan catatan yang dapat diaudit. Kegagalan ditampilkan dengan jelas sehingga masalah data dapat diselesaikan saat itu juga dan log melacak baris mana yang berhasil atau gagal. Hasilnya adalah pembaruan yang lebih cepat dengan keterlacakan yang bertahan.",
+        "specifications": [
+          "Impor Excel",
+          "Log riwayat",
+          "SKU & pemfilteran"
+        ]
       },
       "sinarmasapp": {
         "project_name": "Sinarmasapp (Magento 2)",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "Desember 2022",
-        "highlight": "Ekspor XML dan penambahan GraphQL untuk tanggal produksi, ulasan/penilaian, label formulir, dan formulir spesifikasi.",
-        "description": "Mengimplementasikan ekspor data dalam format XML. Memperluas skema/resolver GraphQL untuk mengekspos tanggal produksi, ulasan/penilaian produk, label formulir, dan dataset formulir spesifikasi."
+        "project_date": "December 2022",
+        "highlight": "Ekspor XML dan penambahan GraphQL untuk tanggal produksi, ulasan/penilaian, label formulir, dan form spesifikasi.",
+        "description": "Mengimplementasikan pipeline ekspor XML dengan pemetaan field, paginasi, dan validasi untuk sistem hilir. Berkontribusi pada skema/resolver GraphQL untuk mengekspos tanggal produksi, ulasan/penilaian (dengan filter/sort/paginasi dan agregat), label formulir, dan dataset form spesifikasi. Menambahkan akses bertoken dengan ruang lingkup, error yang konsisten, batching resolver untuk menghindari N+1, dan caching selektif pada pembacaan yang sering.",
+        "specifications": [
+          "Modul Ekspor XML",
+          "Ekstensi GraphQL",
+          "Keamanan & Keandalan"
+        ]
       },
       "air-quality-meteorology":{
         "project_name": "Prediksi Kualitas Udara (Meteorologi)",
@@ -131,8 +220,13 @@
         "filter_type": "filter-data-science",
         "project_from": "qariracademy",
         "project_date": "Juni 2025",
-        "highlight": "Memprediksi target PM2.5 dan PM10 dari fitur cuaca serta NO₂/SO₂/O₃/CO menggunakan Linear Regression/Gradient Boosting Regressor/Random Forest Regressor dengan cross-validation; model terbaik mencapai MAE≈0,010 dan MSE≈0,082 (ter-skala).",
-        "description": "EDA pada hubungan polutan–cuaca; prapemrosesan dengan imputasi, penskalaan, dan one-hot encoding; melatih Linear Regression, Random Forest, dan Gradient Boosting Regressor dengan GridSearchCV dan cross-validation. Dievaluasi menggunakan R²/MAE/RMSE serta memeriksa apakah terjadi overfitting, underfitting, atau 'perfect'."
+        "highlight": "Memprediksi PM2.5/PM10 dari fitur cuaca menggunakan model Linear/SVR + pohon/boosting dengan cross-validation dan tuning.",
+        "description": "Mengeksplorasi korelasi polutan–cuaca menggunakan heatmap dan distribusi; melakukan prapemrosesan dengan imputasi, penskalaan, dan one-hot encoding. Melatih Linear Regression, SVR, Random Forest, Gradient Boosting, dan LightGBM menggunakan GridSearchCV dan cross-validation. Dievaluasi menggunakan R²/MAE/MSE/RMSE serta memeriksa over/underfitting melalui perbandingan error train vs. validasi; memvisualisasikan hasil dalam tabel/plot yang rapi.",
+        "specifications": [
+          "Prapemrosesan",
+          "Pemodelan",
+          "Evaluasi & Ketahanan"
+        ]
       }
   }
 }

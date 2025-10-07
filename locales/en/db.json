@@ -7,7 +7,13 @@
         "project_from": "Icube By Sirclo",
         "project_date": "November 2022",
         "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration.",
-        "description": "Implemented Excel import pipeline with mapping/validation, added homepage popup and custom footer icons, and configured Shopware→N8N connection for downstream workflows."
+        "description": "An automation and content refresh targeting Excel imports that write to the database and forward clean payloads to N8N for downstream workflows. The storefront gained a customizable homepage popup and clean footer with social icons, and Shopware↔N8N connectivity was configured for reliability. Product onboarding is quicker, and repetitive tasks move off people and into automation.",
+        "specifications": [
+          "Excel import → DB",
+          "Homepage popup",
+          "Custom footer",
+          "N8N connectivity"
+        ]
       },
       "ayugold": {
         "project_name": "Ayugold (Jewelry)",
@@ -15,8 +21,13 @@
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "December 2021",
-        "highlight": "Custom after-quote logic, BPMN flow design support, and forgot-password redirect fix using Magento 2.",
-        "description": "Split quotes when carts contain READY and PO items. Assisted TL with BPMN diagramming as per defined flows. Investigated and fixed 404 redirect issue from email-based password reset."
+        "highlight": "Custom after-quote logic, and forgot-password redirect fix using Magento 2.",
+        "description": "A focused enhancement to the quote offer and authentication process, dividing post-quote flows whenever carts have READY and PO items so pricing and lead times are accurate. The work also included adding filter on backstore and fix to a broken forgot-password flow that previously caused 404 redirects. Together, these fixes brings the storefront into alignment with business reality and solidifies an important recovery flow.",
+        "specifications": [
+          "After-quote split",
+          "Forgot-password",
+          "Custom Filter PO"
+        ]
       },
       "bbp": {
         "project_name": "BBP (Courier Tracking)",
@@ -25,16 +36,26 @@
         "project_from": "Freelance",
         "project_date": "November 2019",
         "highlight": "Android barcode scan & courier tracking.",
-        "description": "Couriers scan barcodes for all parcels, start trips with GPS enabled; positions are sent to backend so admins can monitor live routes via map pinpoints."
+        "description": "A lightweight delivery companion that pairs barcode scanning with GPS so that all parcel and courier movement is within view. Couriers scan all parcels, start trips with location enabled, and stream positions, giving admins a live map of routes and progress. The result is improved accountability across daily runs.",
+        "specifications": [
+          "Barcode scanning",
+          "GPS live tracking",
+          "Basic delivery status and route visibility"
+        ]
       },
       "biofarma": {
-        "project_name": "Biofarma (Life Science)",
+        "project_name": "Biofarma",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "November 2022",
-        "highlight": "Secure GraphQL + storefront/admin features; faster APIs and smoother ops.",
-        "description": "Implemented GraphQL endpoints (products, orders, users) with scoped auth, caching & pagination. Built/updated storefront pages (catalog, product detail) and admin tools (exports, status updates) with clear error states and audit logs."
+        "highlight": "Backend GraphQL APIs for orders, billing, and customers with scoped auth, caching, and pagination—making day-to-day operations faster and safer.",
+        "description": "Implemented backend GraphQL endpoints covering orders, billing, and customer data. The APIs use token-scoped authorization (different results for authenticated and unauthenticated call). Operational actions (e.g., cancel order) are validated and logged for audibility, and the error model is also formalized so clients experience clear. Admin workflows such as available bill and billing status are surfaced with GraphQL to facilitate automation of back-office processes.",
+        "specifications": [
+          "Auth & security",
+          "Orders & Billing",
+          "Customers"
+        ]
       },
       "charicedecoratie": {
         "project_name": "Charicedecoratie (Management App)",
@@ -72,8 +93,15 @@
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
         "project_date": "march 2023",
-        "highlight": "Storefront modules and admin tools for a home-hotel retail experience; improved product discovery and streamlined checkout.",
-        "description": "Implemented storefront pages (catalog, product detail) with robust filters and validated forms; optimized media and queries to speed first-load. Added admin utilities for content and order/status management, with exportable reports and clear error states."
+        "highlight": "Backend REST APIs for catalog, cart/checkout, orders, and admin/reporting with auth, validation, pagination, and caching—speeding up and making day-to-day activities more reliable.",
+        "description": "Implemented backend that drives product discovery and checkout for Hotel At Home. The service provides authenticated endpoints for products, categories, search/filter/sort, and product detail, along with a full cart/checkout flow with hard validation and idempotency so orders can't double-submit. Order APIs (list/detail, status transitions, cancel), back-office export/report endpoints, and standardized error responses so clients fail predictably",
+        "specifications": [
+          "Auth & security",
+          "Catalog APIs",
+          "Cart/Checkout APIs",
+          "Orders",
+          "Customers"
+        ]
       },
       "lnj-logistic": {
         "project_name": "LNJ Logistic (ERP)",
@@ -82,16 +110,34 @@
         "project_from": "Inausugura",
         "project_date": "August 2023",
         "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls.",
-        "description": "Implemented modules for inbound receiving, outbound shipping, inventory/stock, and sales/purchase orders. Added barcode-based item lookup, printable delivery docs, and reports. Built user/role management and audit trails to meet internal controls."
+        "description": "An end-to-end warehouse & logistics solution that rolls inbound receiving, outbound/shipping, inventory, and sales/purchase orders into role-based access. Responsive screens with searchable/paginated tables, inline validation, and printable documents (delivery notes, pick lists, goods receipts). Exposed REST API for orders, inventory, and reports; and normalized errors so the UI and external tools are deterministic. The upshot is faster day-to-day operation, less manual fiddling, and clearer accountability.",
+        "specifications": [
+          "Auth & security",
+          "Inbound Receiving",
+          "Outbound / Shipping",
+          "Inventory / Stock",
+          "Sales & Purchase Orders",
+          "Reports & Exports",
+          "Users, Roles, Permissions"
+        ]
       },
       "msglow": {
-        "project_name": "MS Glow",
+        "project_name": "MS Glow (Monitoring App)",
         "category_project": "Mobile App",
         "filter_type": "filter-mobile-app",
         "project_from": "Freelance",
         "project_date": "September 2021",
         "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation.",
-        "description": "Dashboards for total sales with date filters; pipeline of order statuses (pending, processing, shipped, received) with drilldowns; best-seller bar chart; real-time orders view; profit & loss and gross profit; customer leaderboard; city-level customer distribution map."
+        "description": "A real-time sales performance cockpit combining KPI dashboards with an order status pipeline, best-seller insights, and views of profits. Users can filter trends, drill into stages from pending to received, and monitor live orders as they happen. A customer leaderboard and map at the city level rounds it out so teams can see momentum and bottlenecks in real-time.",
+        "specifications": [
+          "Sales KPI",
+          "Order pipeline",
+          "Best sellers",
+          "Real-time orders",
+          "P&L / Gross Profit",
+          "Customer leaderboard",
+          "Customer mapping"
+        ]
       },
       "natours": {
         "project_name": "Natours (travel)",
@@ -100,7 +146,15 @@
         "project_from": "Personal Project (UDEMY)",
         "project_date": "December 2024",
         "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews.",
-        "description": "Implemented tour catalog and detail pages with location maps, secure JWT authentication, and role-based access for admin tools. Integrated Stripe for bookings and built user features for profile management, avatar upload, and writing reviews/ratings. Focus on clean API design, validation, and production-like error handling."
+        "description": "Implemented an MVC structure with clean controllers and reusable middleware, JWT authentication with permission based on role (user/admin), and a Stripe checkout process which makes paid bookings and adds user history. Tours feature rich detail pages with map to display locations, as well as a reviews system to enable users to rate and comment after purchase. The app uses central validation and error handling so that both API and pages fail consistently, with security middleware (rate-limit, sanitizing) and performance optimizations (lean queries, caching where appropriate) to guarantee responsiveness and production-ready experience.",
+        "specifications": [
+          "Core & Architecture",
+          "Auth & Security",
+          "Tours & Catalog",
+          "Booking & Payments",
+          "Users & Reviews",
+          "Quality & Ops"
+        ]
       },
       "nickscali": {
         "project_name": "Nickscali",
@@ -108,8 +162,13 @@
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
         "project_date": "February 2022",
-        "highlight": "Furniture e-commerce storefront with PLP/PDP flows and GraphQL integrations; release-ready features and smoother deployments.",
-        "description": "Implemented category (PLP) and product-detail (PDP) pages with robust filtering, media, and validation. Contributed GraphQL queries/mutations used by the storefront and optimized payloads/caching. Improved checkout reliability and deployment."
+        "highlight": "Catalog backend services (PLP/PDP), store-view/multi-store rules, READY vs PO/backorder logic, and ticketing integration—with good validation, caching, and stable error handling.",
+        "description": "Implemented category (PLP) and product-detail (PDP) pages with custom child and storeview base. Add availability models for READY vs PO/backorder products (lead times and order constraints). Also check raised ticket services",
+        "specifications": [
+          "Catalog for PLP/PDP",
+          "Availability & PO/Backorder",
+          "Raised ticket"
+        ]
       },
       "sakafarma": {
         "project_name": "Sakafarma",
@@ -117,8 +176,15 @@
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
         "project_date": "December 2022",
-        "highlight": "Pharmacy e-commerce storefront with searchable catalog, product detail, and order flows; admin tools for safer releases.",
-        "description": "Implemented category (PLP) and product-detail (PDP) pages with search/filter and validated forms. Added order flows and improved error/empty states. Delivered admin utilities to manage content and data, plus exports for operations. Focus on accessibility and predictable performance."
+        "highlight": "Backend catalog/search, checkout & orders, and admin/reporting APIs with auth, validation, caching, and pagination.",
+        "description": "Implemented authenticated endpoints for products/categories (pagination, filtering, sorting, searching), a validated cart/checkout process with idempotent place-order, and order APIs for list/detail, status update, and cancellation. Added exports/reports for back-office, normalized error, cache targeting, and audit logs for traceability.",
+        "specifications": [
+          "Auth & Security",
+          "Catalog APIs",
+          "Cart & Checkout",
+          "Orders",
+          "Admin & Reporting"
+        ]
       },
       "samsonite": {
         "project_name": "Samsonite (Laravel)",
@@ -126,8 +192,13 @@
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
         "project_date": "April 2023",
-        "highlight": "Laravel-based Excel import for products & prices with detailed import history logs.",
-        "description": "User imports Excel files for product and price data with validation and mapping error feedback. Import history shows successes and failures for auditability."
+        "highlight": "Laravel-based Excel import for products & prices with detailed history logs.",
+        "description": "A staged update pipeline where product and price lists are ingested via Excel, validated and mapped, and an auditable record is left behind. Showing failures are exposed with clarity to allow data issues to be resolved in the moment and a log tracks which rows passed or failed. The result is faster updates with traceability that endures.",
+        "specifications": [
+          "Excel import",
+          "History log",
+          "SKU & filtering"
+        ]
       },
       "sinarmasapp": {
         "project_name": "Sinarmasapp (Magento 2)",
@@ -136,7 +207,12 @@
         "project_from": "Icube By Sirclo",
         "project_date": "December 2022",
         "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms.",
-        "description": "Implemented data export in XML format. Extended GraphQL schema/resolvers to expose production date, product reviews/ratings, form labels, and specification-form datasets."
+        "description": "Implemented XML export pipeline with field mapping, pagination, and validation for downstream systems. Contributed to the GraphQL schema/resolvers to expose production date, reviews/ratings (with filter/sort/pagination and aggregates), form labels, and specification-form datasets. Added token-scoped access, consistent errors, resolver batching to avoid N+1, and selective caching on hot reads.",
+        "specifications": [
+          "XML Export Module",
+          "GraphQL Extensions",
+          "Security & Reliability"
+        ]
       },
       "air-quality-meteorology":{
         "project_name": "Air Quality Prediction (Meteorology)",
@@ -144,8 +220,13 @@
         "filter_type": "filter-data-science",
         "project_from": "qariracademy",
         "project_date": "June 2025",
-        "highlight": "Predicted target PM2.5 and PM10 with NO₂/SO₂/O₃/CO from weather features using Linear Regression/Gradient Boosting Regressor/Random Forest Regressor with cross-validation; best model reached MAE≈0.010 and MSE≈0.082 (scaled).",
-        "description": "EDA on pollutant–weather relationships; preprocessing with imputation, scaling, and one-hot encoding; trained Linear Regression, Random Forest, and Gradient Boosting Regressor with GridSearchCV and cross-validation. Evaluated via R²/MAE/RMSE also check if there is an overfitting, underfitting, or perfect."
+        "highlight": "Predict PM2.5/PM10 from weather features using Linear/SVR + tree/boosting models with cross-validation and tuning.",
+        "description": "Explored pollutant–weather correlations using heatmaps and distributions; performed preprocessing using imputation, scaling, and one-hot encoding. Trained Linear Regression, SVR, Random Forest, Gradient Boosting, and LightGBM using GridSearchCV and cross-validation. Evaluated using R²/MAE/MSE/RMSE and checked over/underfitting using train vs. validation errors comparison; visualized results in clean tables/plots.",
+        "specifications": [
+          "Preprocessing",
+          "Modeling",
+          "Evaluation & Robustness"
+        ]
       }
   }
 }
