@@ -214,7 +214,7 @@
           "Security & Reliability"
         ]
       },
-      "air-quality-meteorology":{
+      "air-quality-meteorology": {
         "project_name": "Air Quality Prediction (Meteorology)",
         "category_project": "Data Science",
         "filter_type": "filter-data-science",
@@ -226,6 +226,24 @@
           "Preprocessing",
           "Modeling",
           "Evaluation & Robustness"
+        ]
+      },
+      "limfid-mina-bahari": {
+        "project_name": "Limfid Mina Bahari",
+        "category_project": "Company Profile",
+        "filter_type": "filter-web-app",
+        "project_from": "Freelance",
+        "project_date": "Augustus 2025",
+        "highlight": "Figma-to-Laravel company profile with WhatsApp Direct Chat, and hero slider.",
+        "description": "Designed in Figma and implemented using Laravel Blade components. Pages are Home, About Us, Vision & Mission, Products, Product Detail, and Contact. Added WhatsApp Direct Chat for quick inquiries/questions, hero slider, responsive layout, and mobile-friendly.",
+        "specifications": [
+          "Figma-to-Laravel build with Blade components",
+          "Responsive layout (mobile-first)",
+          "Home hero slider & image gallery",
+          "About Us + Vision & Mission sections",
+          "Products listing & Product Detail page",
+          "Contact page with CTA (map/embed optional)",
+          "WhatsApp Direct Chat (prefilled message)"
         ]
       }
   }

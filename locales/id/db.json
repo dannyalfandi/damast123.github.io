@@ -227,6 +227,24 @@
           "Pemodelan",
           "Evaluasi & Ketahanan"
         ]
+      },
+      "limfid-mina-bahari": {
+        "project_name": "Limfid Mina Bahari",
+        "category_project": "Profil Perusahaan",
+        "filter_type": "filter-web-app",
+        "project_from": "Freelance",
+        "project_date": "Agustus 2025",
+        "highlight": "Company profile Figma-ke-Laravel dengan WhatsApp Direct Chat dan hero slider.",
+        "description": "Dirancang di Figma dan diimplementasikan menggunakan komponen Laravel Blade. Halaman mencakup Beranda, Tentang Kami, Visi & Misi, Produk, Detail Produk, dan Kontak. Ditambahkan WhatsApp Direct Chat untuk pertanyaan/permintaan cepat, hero slider, tata letak responsif, dan ramah seluler.",
+        "specifications": [
+          "Build Figma-ke-Laravel dengan komponen Blade",
+          "Tata letak responsif (mobile-friendly)",
+          "Hero slider Beranda & galeri gambar",
+          "Bagian Tentang Kami + Visi & Misi",
+          "Daftar Produk & halaman Detail Produk",
+          "Halaman Kontak dengan CTA (opsional peta/sematan)",
+          "WhatsApp Direct Chat (pesan praisi)"
+        ]
       }
   }
 }

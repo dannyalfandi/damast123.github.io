@@ -227,6 +227,24 @@
           "モデリング",
           "評価と堅牢性"
         ]
+      },
+      "limfid-mina-bahari": {
+        "project_name": "Limfid Mina Bahari",
+        "category_project": "会社概要",
+        "filter_type": "filter-web-app",
+        "project_from": "フリーランス",
+        "project_date": "2025年8月",
+        "highlight": "FigmaからLaravelへの会社概要サイト。WhatsAppダイレクトチャットとヒーロースライダー対応。",
+        "description": "Figmaで設計し、Laravel Bladeコンポーネントで実装。ページはHome、About Us、Vision & Mission、Products、Product Detail、Contact。迅速な問い合わせ／質問のためにWhatsAppダイレクトチャットを追加し、ヒーロースライダー、レスポンシブレイアウト、モバイルフレンドリーに対応。",
+        "specifications": [
+          "BladeコンポーネントによるFigma→Laravel構築",
+          "レスポンシブレイアウト（モバイルフレンドリー）",
+          "ホームのヒーロースライダー＆画像ギャラリー",
+          "About Us＋Vision & Missionセクション",
+          "Products一覧＆Product Detailページ",
+          "CTA付きContactページ（地図／埋め込みは任意）",
+          "WhatsAppダイレクトチャット（定型文入り）"
+        ]
       }
   }
 }
