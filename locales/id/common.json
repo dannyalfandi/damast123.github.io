@@ -47,7 +47,7 @@
     },
     "resume_page": {
       "resume": "Resume",
-      "content_resume": "Software Developer dengan pengalaman lebih dari 3 tahun di pengembangan full-stack dan backend. Meningkatkan performa codebase, memastikan maintainability, serta menerapkan lingkungan terkontainer untuk efisiensi operasional yang lebih baik. Menguasai PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, serta alat DevOps (Docker dan Git). Terbukti menghadirkan solusi optimal yang meningkatkan pengalaman pengguna dan efisiensi operasional dengan dampak terukur.",
+      "content_resume": "Software Developer dengan pengalaman lebih dari 3 tahun dalam pengembangan full-stack dan backend, mengembangkan sistem yang skalabel dan mudah dirawat untuk meningkatkan kinerja bisnis. Terampil dalam PHP (Laravel), JavaScript (Node.js, GraphQL), Flutter, dan alat DevOps (Docker, Git). Mengoptimalkan basis kode, mengurangi utang teknis, dan menerapkan lingkungan terkontainerisasi untuk operasi yang lebih efisien. Memiliki semangat dalam memanfaatkan rekayasa perangkat lunak dan wawasan berbasis data untuk mengembangkan solusi berdampak dan berkinerja tinggi. Saat ini mencari peluang sebagai Full-Stack Developer atau beralih ke bidang Data Science.",
       "education": "Pendidikan",
       "system": "Gelar Sarjana Sistem Informasi (IPK 3,632/4,0)",
       "year": "06/2016 - 12/2020",
@@ -59,26 +59,26 @@
       "mobile_app_freelance": "Freelancer Aplikasi Mobile",
       "software_house": "Software House",
       "content_work_4": [
-        "Memigrasikan codebase Aquila ke Laravel untuk mempermudah kurva belajar developer baru.",
-        "Meninjau dan mengoptimalkan kode rekan tim guna menjaga standar kualitas dan menyediakan solusi yang mudah dirawat serta efisien.",
-        "Mengembangkan paket Composer kustom untuk memusatkan fungsi umum dan praktik terbaik, menghilangkan duplikasi kode dan mempercepat delivery fitur pada proyek serupa."
+        "Memigrasikan kode dasar Aquila ke Laravel untuk mengurangi kurva pembelajaran bagi pengembang baru serta memudahkan pemeliharaan struktur data dan model untuk integrasi analitik di masa depan.",
+        "Meninjau dan merombak kode rekan kerja untuk menjaga standar kualitas dan memberikan solusi yang optimal dan mudah dipelihara, dengan mengadopsi teknik optimasi yang sama seperti yang digunakan pada sistem data dan pipeline performa.",
+        "Mengembangkan paket Composer kustom untuk mengelompokkan fungsi umum dan praktik terbaik, mengurangi duplikasi kode, serta memungkinkan komponen modular dan alur kerja yang dapat digunakan kembali."
       ],
       "content_work_3": [
-        "Mengembangkan aplikasi pemantauan pesanan mobile untuk pemilik bisnis menggunakan Flutter, meningkatkan pelacakan penjualan dan insight pelanggan secara real-time. Aplikasi ini memanfaatkan API yang diekspos tim lain.",
-        "Mengintegrasikan fitur geolokasi yang memungkinkan perusahaan memetakan sebaran pelanggan melalui peta interaktif. Fitur ini membantu pengguna melihat siapa yang menggunakan produk.",
-        "Mengoptimalkan manajemen pesanan dengan sistem status yang terstruktur (pending, processing, shipped, received) sehingga mengurangi inefisiensi operasional.",
-        "Membangun sistem leaderboard dinamis untuk melacak produk, pelanggan, dan karyawan berperforma tinggi guna memaksimalkan engagement dan metrik kinerja."
+        "Mengembangkan aplikasi pemantauan pesanan mobile untuk pemilik bisnis menggunakan Flutter, meningkatkan pelacakan penjualan dan data pelanggan secara real-time melalui dasbor dan visualisasi analitik berbasis data. Termasuk API yang disediakan oleh tim lain.",
+        "Mengintegrasikan fitur geolokasi yang memungkinkan bisnis memvisualisasikan distribusi pelanggan melalui peta interaktif, memungkinkan analisis dan visualisasi data spasial untuk pengambilan keputusan bisnis. Hal ini memungkinkan pengguna melihat siapa yang menggunakan produk ini.",
+        "Meningkatkan manajemen pesanan dengan sistem status yang terstruktur (pending, processing, shipped, received) untuk mengurangi ketidakefisienan operasional dan melacak kinerja melalui data proses yang terorganisir.",
+        "Mengembangkan sistem leaderboard dinamis untuk melacak produk dan pelanggan berperforma tinggi guna menghasilkan data kinerja yang dapat ditindaklanjuti dan tren data untuk pengambilan keputusan."
       ],
       "content_work_2": [
-        "Merilis sejumlah situs e-commerce produksi dan rilisnya; berkolaborasi dengan senior untuk mengimplementasikan dan meng-override fungsi inti platform di Magento 2.",
-        "Mengembangkan dan mengintegrasikan API GraphQL (custom query/mutation) serta mengelola layanan REST/GraphQL pihak ketiga yang digunakan oleh storefront brand.",
-        "Merilis tiga situs ke produksi, memastikan deployment tepat waktu, dukungan pasca-rilis yang efisien, dan pembaruan versi yang mulus.",
-        "Melakukan containerization layanan berbasis Docker untuk standarisasi deployment, mengurangi pergeseran lingkungan, dan meminimalkan isu deployment.",
-        "Mengintegrasikan dan mengotomatisasi alur kerja end-to-end dengan n8n untuk sinkronisasi data, notifikasi, dan proses ETL."
+        "Meluncurkan beberapa situs e-commerce produksi dan rilisnya, bekerja sama dengan senior untuk mengimplementasikan dan menyesuaikan fungsi inti platform di Magento 2, serta berkontribusi pada struktur data yang bersih dan logika horizontal yang mendukung konsumsi analitik.",
+        "Mengimplementasikan dan mengintegrasikan GraphQL API (query/mutation kustom) serta mengelola layanan REST/GraphQL pihak ketiga yang digunakan oleh brand storefront, dengan fokus pada pengambilan data yang cepat dan terstruktur untuk analitik dan pelaporan.",
+        "Merilis tiga situs ke produksi dengan peluncuran tepat waktu, dukungan pasca rilis yang berhasil, dan pembaruan versi yang bersih, menjaga integritas data yang konsisten untuk pemantauan kinerja dan pembuatan wawasan.",
+        "Mengkonteinerisasi aplikasi berbasis Docker untuk membantu standarisasi deployment, mengurangi perbedaan lingkungan, dan meminimalkan kegagalan deployment.",
+        "Mengintegrasikan dan mengotomatisasi proses ujung-ke-ujung menggunakan n8n untuk sinkronisasi data, notifikasi, dan proses ETL, memperoleh pengalaman inti dalam otomasi pipeline data dan alur transformasi."
       ],
       "content_work_1": [
-        "Berkolaborasi dengan tim engineering dan UI/UX dalam mengembangkan aplikasi web internal menggunakan PHP, sehingga produktivitas tim meningkat dan proses menjadi lebih ringkas.",
-        "Mengembangkan aplikasi mobile alur kerja kompetisi dengan Flutter."
+        "Berkolaborasi dengan tim engineering dan UI/UX dalam mengembangkan aplikasi web internal menggunakan PHP, meningkatkan produktivitas tim dan efisiensi proses.",
+        "Mengembangkan aplikasi mobile alur kompetisi menggunakan Flutter."
       ]
   },
   "contact_page": {
