@@ -17,6 +17,22 @@ block content
                             h5= t('resume_page.year')
                             p
                                 em= t('resume_page.university') + ', ' + t('location.surabaya') + ', ' + t('location.indonesia')
+                        h3.resume-title= t('resume_page.certifications')
+                        .resume-item
+                            h4 Node.js Express, MongoDB & More: The Complete Bootcamp
+                            h5= `${t('resume_page.issue')} - ${t('resume_page.node_certification')}`
+                            br
+                            a(href=download_url_node)= `${t('resume_page.click_here_to_download')}`
+                        .resume-item
+                            h4 AI Engineering Camp
+                            h5= `${t('resume_page.issue')} - ${t('resume_page.ai_engineer_issue')}`
+                            br
+                            a(href=download_url_ai_camp)= `${t('resume_page.click_here_to_download')}`
+                        .resume-item
+                            h4 Belajar Dasar AI
+                            h5= `${t('resume_page.issue')} - ${t('resume_page.dasar_ai_issue')} | ${t('resume_page.expired')} - ${t('resume_page.dasar_ai_expired')}`
+                            br
+                            a(href=download_url_dasar_ai, target="_blank")= `${t('resume_page.click_here_to_download')}`
                     .col-lg-6(data-aos="fade-up", data-aos-delay="200")
                         h3.resume-title= t('resume_page.prof_experience')
                         .resume-item

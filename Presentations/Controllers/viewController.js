@@ -28,6 +28,9 @@ exports.getResumePage = catchAsync(async(req, res, next) => {
     const contentWork1 = req.t('resume_page.content_work_1', { returnObjects: true }) || [];
     res.status(200).render('resume',{
         title: 'resume',
+        download_url_node: '/download/node',
+        download_url_ai_camp: '/download/ai-camp',
+        download_url_dasar_ai: '/download/dasar-ai',
         contentWork4,
         contentWork3,
         contentWork2,
