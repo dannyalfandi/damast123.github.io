@@ -245,6 +245,21 @@
           "Contact page with CTA (map/embed optional)",
           "WhatsApp Direct Chat (prefilled message)"
         ]
+      },
+      "ud-anugrah-sembilan-surya": {
+        "project_name": "UD Anugrah Sembilan Surya",
+        "category_project": "ERP",
+        "filter_type": "filter-web-app",
+        "project_from": "Freelance",
+        "project_date": "February 2026",
+        "highlight": "ERP system for managing inventory, sales, and financial operations.",
+        "description": "This is a project freelance with my friend. So this is an ERP system designed to streamline inventory management, sales tracking, and financial operations for UD Anugrah Sembilan Surya. The system includes modules for product catalog management, order processing, customer relationship management, and financial reporting. It features a user-friendly interface to ensure their operational efficiency. My role in this project to develop feature for add image by dynamical on stock item, minor change on stock feature, add image on subcategory stock. Show image on datatable. Add Retrack Sales Order, with store procedure crud. Add and alter some table in database. Update responsive design on some page. Add and update field datatable in sales feature. Make warning stock base on minimum brand stock. Last make contact person dynamical on customer and supplier.",
+        "specifications": [
+          "Dashboard with key metrics and insights",
+          "Master Data Management (Products, Customers, Suppliers, etc.)",
+          "Management of inventory, sales orders, and purchase orders",
+          "Financial reporting"
+        ]
       }
   }
 }

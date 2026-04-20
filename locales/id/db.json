@@ -245,6 +245,21 @@
           "Halaman Kontak dengan CTA (opsional peta/sematan)",
           "WhatsApp Direct Chat (pesan praisi)"
         ]
+      },
+      "ud-anugrah-sembilan-surya": {
+        "project_name": "UD Anugrah Sembilan Surya",
+        "category_project": "ERP",
+        "filter_type": "filter-web-app",
+        "project_from": "Freelance",
+        "project_date": "Februari 2026",
+        "highlight": "Sistem ERP untuk mengelola inventaris, penjualan, dan operasional keuangan.",
+        "description": "Ini adalah proyek freelance bersama teman saya. Sistem ERP ini dirancang untuk menyederhanakan manajemen inventaris, pelacakan penjualan, dan operasional keuangan untuk UD Anugrah Sembilan Surya. Sistem ini mencakup modul untuk manajemen katalog produk, pemrosesan pesanan, manajemen hubungan pelanggan, dan pelaporan keuangan. Sistem ini memiliki antarmuka yang mudah digunakan untuk memastikan efisiensi operasional. Peran saya dalam proyek ini adalah mengembangkan fitur penambahan gambar secara dinamis pada item stok, perubahan kecil pada fitur stok, menambahkan gambar pada subkategori stok, menampilkan gambar pada datatable, menambahkan fitur Retrack Sales Order dengan stored procedure CRUD, menambah dan mengubah beberapa tabel di database, memperbarui desain responsif pada beberapa halaman, menambah dan memperbarui field datatable pada fitur penjualan, membuat peringatan stok berdasarkan minimum stok brand, serta membuat contact person dinamis pada customer dan supplier.",
+        "specifications": [
+          "Dashboard dengan metrik dan insight utama",
+          "Manajemen Data Master (Produk, Customer, Supplier, dll.)",
+          "Manajemen inventaris, sales order, dan purchase order",
+          "Pelaporan keuangan"
+        ]
       }
   }
 }
