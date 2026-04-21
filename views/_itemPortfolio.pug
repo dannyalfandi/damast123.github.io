@@ -8,6 +8,8 @@ mixin itemPortfolio(portfolio)
         )
         .portfolio-info
             h4= t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name})
+            strong= "Project Date: "
+            strong=  t('db:portfolio.' + portfolio.slug + '.project_date', {defaultValue: portfolio.client})
             p= t('db:portfolio.' + portfolio.slug + '.highlight', {defaultValue: portfolio.highlight})
             a.glightbox.preview-link(href=`/img/portfolio/${portfolio.header_image}`, title=t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name}), data-gallery="portfolio-gallery-app")
                 i.bi.bi-zoom-in
