@@ -1,6 +1,11 @@
 mixin itemPortfolio(portfolio)
     .col-lg-4.col-md-6.portfolio-item.isotope-item(class=portfolio.filter_type)
-        img.img-fluid(src=`/img/portfolio/${portfolio.header_image}`, alt="", max-width="100%", height="auto")
+        //- img.img-fluid(src=`/img/portfolio/${portfolio.header_image}`, alt="", max-width="100%", height="30%")
+        img.portfolio-img(
+        src=`/img/portfolio/${portfolio.header_image}`,
+        alt="",
+        loading="lazy"
+        )
         .portfolio-info
             h4= t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name})
             p= t('db:portfolio.' + portfolio.slug + '.highlight', {defaultValue: portfolio.highlight})
