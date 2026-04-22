@@ -26,6 +26,7 @@ exports.getResumePage = catchAsync(async(req, res, next) => {
     const contentWork3 = req.t('resume_page.content_work_3', { returnObjects: true }) || [];
     const contentWork2 = req.t('resume_page.content_work_2', { returnObjects: true }) || [];
     const contentWork1 = req.t('resume_page.content_work_1', { returnObjects: true }) || [];
+    
     res.status(200).render('resume',{
         title: 'resume',
         download_url_node: '/download/node',
@@ -34,7 +35,8 @@ exports.getResumePage = catchAsync(async(req, res, next) => {
         contentWork4,
         contentWork3,
         contentWork2,
-        contentWork1
+        contentWork1,
+        cookies: req.cookies.i18next
     });
 });
 
@@ -53,14 +55,10 @@ async function fetchPortfolios() {
   });
   const list = await resp.json();
 
-  const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
-                   july:7,august:8,september:9,october:10,november:11,december:12 };
-  list.sort((a,b) => {
-    const [ma, ya] = (a.project_date || '').split(' ');
-    const [mb, yb] = (b.project_date || '').split(' ');
-    const A = (parseInt(ya) || 0) * 100 + (MONTHS[(ma||'').toLowerCase()] || 0);
-    const B = (parseInt(yb) || 0) * 100 + (MONTHS[(mb||'').toLowerCase()] || 0);
-    return A - B;
+  list.sort((a, b) => {
+    const dateA = new Date(a.project_date);
+    const dateB = new Date(b.project_date);
+    return dateB - dateA;
   });
   return list;
 }
@@ -79,7 +77,7 @@ exports.getPortfolioPage = catchAsync(async(req, res, next) => {
     }
     if (Object.keys(resources).length) i18next.addResources('en', 'db', resources);
 
-    res.status(200).render('portfolio', { title: 'portfolio', portfolios });
+    res.status(200).render('portfolio', { title: 'portfolio', portfolios, cookies: req.cookies.i18next });
 });
 
 exports.getDetailPortfolioPage = catchAsync(async(req, res, next) => {
@@ -91,6 +89,7 @@ exports.getDetailPortfolioPage = catchAsync(async(req, res, next) => {
 
     res.status(200).render('portfolio_details', {
         title: 'Portfolio Details',
-        detailPorto: item
+        detailPorto: item,
+        cookies: req.cookies.i18next
     });
 });

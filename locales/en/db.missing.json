@@ -6,52 +6,84 @@
     },
     "bbp": {
       "project_name": "BBP (Courier Tracking)",
-      "highlight": "Android barcode scan & courier tracking."
+      "highlight": "Android barcode scan & courier tracking.",
+      "month": "11"
     },
     "charicedecoratie": {
       "project_name": "Charicedecoratie (Management App)",
       "highlight": "End‑to‑end event management app (booking→payment→ops).",
-      "description": "Developing an app to automate Charicedecoratie's entire business process—from package booking (date/time conflict check, package-type dynamic forms), payment with transfer receipt and automatic cancel when deadline exceeded, to rescheduling with rules (only valid if paid and 2+ days in advance). On the operational front, admins get reminders for events, are able to assign freelancers/PICs, perform monthly stock counts, record outbound notes, and monitor auto depreciation of assets by useful life. There's a statistics dashboard: favorite package charts, monthly/yearly income & expense views, and change history for audit purposes. Google Place integration facilitates easy entry of event locations."
+      "description": "Developing an app to automate Charicedecoratie's entire business process—from package booking (date/time conflict check, package-type dynamic forms), payment with transfer receipt and automatic cancel when deadline exceeded, to rescheduling with rules (only valid if paid and 2+ days in advance). On the operational front, admins get reminders for events, are able to assign freelancers/PICs, perform monthly stock counts, record outbound notes, and monitor auto depreciation of assets by useful life. There's a statistics dashboard: favorite package charts, monthly/yearly income & expense views, and change history for audit purposes. Google Place integration facilitates easy entry of event locations.",
+      "month": "01"
     },
     "msglow": {
-      "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation."
+      "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation.",
+      "month": "09",
+      "project_name": "MS Glow (Monitoring App)"
     },
     "ayugold": {
       "project_name": "Ayugold (Jewelry)",
-      "highlight": "Custom after-quote logic, BPMN flow design support, and forgot-password redirect fix using Magento 2."
+      "highlight": "Custom after-quote logic, and forgot-password redirect fix using Magento 2.",
+      "month": "12"
     },
     "nickscali": {
-      "highlight": "Furniture e‑commerce storefront with PLP/PDP flows and GraphQL integrations; release-ready features and smoother deployments."
+      "highlight": "Catalog backend services (PLP/PDP), store-view/multi-store rules, READY vs PO/backorder logic, and ticketing integration—with good validation, caching, and stable error handling.",
+      "month": "02"
     },
     "alwayshappi": {
       "project_name": "Alwayshappi (Baby & children's clothing store)",
-      "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration."
+      "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration.",
+      "month": "11",
+      "description": "An automation and content refresh targeting Excel imports that write to the database and forward clean payloads to N8N for downstream workflows. The storefront gained a customizable homepage popup and clean footer with social icons, and Shopware↔N8N connectivity was configured for reliability. Product onboarding is quicker, and repetitive tasks move off people and into automation.",
+      "specifications": {
+        "0": "Excel import → DB",
+        "1": "Homepage popup",
+        "2": "Custom footer",
+        "3": "N8N connectivity"
+      },
+      "category_project": "E-commerce"
     },
     "biofarma": {
       "project_name": "Biofarma (Life Science)",
-      "highlight": "Secure GraphQL + storefront/admin features; faster APIs and smoother ops."
+      "highlight": "Backend GraphQL APIs for orders, billing, and customers with scoped auth, caching, and pagination—making day-to-day operations faster and safer.",
+      "month": "11"
     },
     "sakafarma": {
-      "highlight": "Pharmacy e-commerce storefront with searchable catalog, product detail, and order flows; admin tools for safer releases."
+      "highlight": "Backend catalog/search, checkout & orders, and admin/reporting APIs with auth, validation, caching, and pagination.",
+      "month": "12"
     },
     "sinarmasapp": {
-      "project_name": "Sinarmasapp (Magento 2)",
-      "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms."
+      "project_name": "Sinarmasapp",
+      "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms.",
+      "month": "12"
     },
     "hotel-at-home": {
-      "highlight": "Storefront modules and admin tools for a home‑hotel retail experience; improved product discovery and streamlined checkout."
+      "highlight": "Backend REST APIs for catalog, cart/checkout, orders, and admin/reporting with auth, validation, pagination, and caching—speeding up and making day-to-day activities more reliable.",
+      "month": "03"
     },
     "samsonite": {
-      "project_name": "Samsonite (Laravel)",
-      "highlight": "Laravel-based Excel import for products & prices with detailed import history logs."
+      "project_name": "Samsonite",
+      "highlight": "Laravel-based Excel import for products & prices with detailed history logs.",
+      "month": "04"
     },
     "lnj-logistic": {
       "project_name": "LNJ Logistic (ERP)",
-      "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls."
+      "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls.",
+      "month": "08"
     },
     "natours": {
       "project_name": "Natours (travel)",
-      "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews."
+      "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews.",
+      "month": "12",
+      "category_project": "Web App",
+      "description": "Implemented an MVC structure with clean controllers and reusable middleware, JWT authentication with permission based on role (user/admin), and a Stripe checkout process which makes paid bookings and adds user history. Tours feature rich detail pages with map to display locations, as well as a reviews system to enable users to rate and comment after purchase. The app uses central validation and error handling so that both API and pages fail consistently, with security middleware (rate-limit, sanitizing) and performance optimizations (lean queries, caching where appropriate) to guarantee responsiveness and production-ready experience.",
+      "specifications": {
+        "0": "Core & Architecture",
+        "1": "Auth & Security",
+        "2": "Tours & Catalog",
+        "3": "Booking & Payments",
+        "4": "Users & Reviews",
+        "5": "Quality & Ops"
+      }
     },
     "airquality-meteorology": {
       "project_name": "Air Quality Prediction (Meteorology)",
@@ -67,7 +99,17 @@
         "0": "Preprocessing",
         "1": "Modeling",
         "2": "Evaluation & Robustness"
-      }
+      },
+      "month": "06",
+      "highlight": "Predict PM2.5/PM10 from weather features using Linear/SVR + tree/boosting models with cross-validation and tuning."
+    },
+    "limfid-mina-bahari": {
+      "month": "08",
+      "highlight": "Figma-to-Laravel company profile with WhatsApp Direct Chat, and hero slider."
+    },
+    "ud-anugrah-sembilan-surya": {
+      "month": "02",
+      "highlight": "ERP system for managing inventory, sales, and financial operations."
     }
   }
 }

@@ -1,12 +1,9 @@
 header#header.header.d-flex.align-items-center.light-background.sticky-top
   .container-fluid.position-relative.d-flex.align-items-center
-    // LEFT: logo
     a.logo.d-flex.align-items-center.me-auto.me-xl-0(href="/")
       h1.sitename Danny A
 
-    // RIGHT GROUP: nav + globe
     .header-right.d-flex.align-items-center.flex-grow-1
-      // Nav (center on desktop, right on mobile)
       nav#navmenu.navmenu.mx-lg-auto
         ul
           li
@@ -34,10 +31,8 @@ header#header.header.d-flex.align-items-center.light-background.sticky-top
               a.active(href="/contact")= t('nav.contact')
             else
               a(href="/contact")= t('nav.contact')
-        // mobile hamburger
         i.mobile-nav-toggle.d-xl-none.bi.bi-list
 
-      // Language dropdown (will stay right on desktop, and on mobile too)
     .dropdown.lang-switch.ms-3
         a#langDropdown.nav-link.p-0.d-inline-flex.align-items-center.gap-1(
           href="#"

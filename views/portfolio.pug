@@ -23,4 +23,4 @@ block content
                     //-                 p= t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name})
                     .row.gy-4.isotope-container(data-aos="fade-up", data-aos-delay="200")
                         each portfolio in portfolios
-                            +itemPortfolio(portfolio)
+                            +itemPortfolio(portfolio, cookies)

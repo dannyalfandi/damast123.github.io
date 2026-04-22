@@ -66,6 +66,7 @@ block content
                                 .swiper-button-prev
                                 .swiper-button-next
                     .col-lg-4
+                        - var date = detailPorto.project_date.split('-')
                         .portfolio-info(data-aos="fade-up", data-aos-delay="200")
                             h3= t('detail_portfolio_page.project_information')
                             ul
@@ -80,7 +81,10 @@ block content
                                 li
                                     strong= t('detail_portfolio_page.project_date')
                                     | :
-                                    span= t('db:portfolio.' + detailPorto.slug + '.project_date', { defaultValue: detailPorto.project_date })
+                                    if language == 'ja'
+                                        span=  `${date[0]}${t('common:year.nen')}${t('common:month.' + date[1])}`
+                                    else
+                                        span=  `${t('common:month.' + date[1])} ${date[0]}`
                         .portfolio-description(data-aos="fade-up", data-aos-delay="300")
                             h2= t('db:portfolio.' + detailPorto.slug + '.project_name', { defaultValue: detailPorto.project_name })
                             .portfolio-tabs(data-aos="fade-up", data-aos-delay="300")

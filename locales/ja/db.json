@@ -5,7 +5,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "November 2022",
         "highlight": "Shopwareストアフロントの改善、Excel→DBインポート、カスタムフッター、N8N連携。",
         "description": "Excelインポートでデータベースへ書き込み、クリーンなペイロードをN8Nへ転送して下流のワークフローを回す自動化とコンテンツ刷新。ストアフロントにはカスタマイズ可能なホームページポップアップとソーシャルアイコン付きのクリーンなフッターを追加し、信頼性のためにShopware↔N8N接続を構成。プロダクトのオンボーディングが速くなり、反復的な作業は人手から自動化へ移行。",
         "specifications": [
@@ -20,7 +19,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "December 2021",
         "highlight": "カスタムのafter-quoteロジックと、Magento 2によるパスワード再設定リダイレクト修正。",
         "description": "見積オファーと認証プロセスに焦点を当てた改善で、カートにREADYとPOの商品が混在する場合にポスト見積（post-quote）のフローを分割し、価格とリードタイムの正確性を確保。作業にはバックストアへのフィルター追加と、以前404リダイレクトを引き起こしていた忘れたパスワードフローの修正も含む。これらの修正により、ストアフロントはビジネス実態に合致し、重要なリカバリフローが強化される。",
         "specifications": [
@@ -34,7 +32,6 @@
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "フリーランス",
-        "project_date": "November 2019",
         "highlight": "Androidバーコードスキャン＆配送員トラッキング。",
         "description": "バーコードスキャンとGPSを組み合わせ、すべての荷物・配送員の動きを可視化する軽量の配送コンパニオン。配送員はすべての荷物をスキャンし、位置情報を有効にして出発、位置をストリーミングして管理者にルートと進捗のライブマップを提供。日々の運行におけるアカウンタビリティが向上。",
         "specifications": [
@@ -48,7 +45,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "November 2022",
         "highlight": "注文・請求・顧客向けのバックエンドGraphQL API（スコープ付き認可、キャッシュ、ページネーション）により日常運用を高速かつ安全に。",
         "description": "注文、請求、顧客データをカバーするバックエンドGraphQLエンドポイントを実装。APIはトークンのスコープ付き認可を用い（認証有無で結果が異なる）、運用アクション（例：注文キャンセル）は監査可能なように検証・記録。エラーモデルも形式化してクライアント側で明確に扱えるようにした。管理ワークフロー（例：利用可能な請求と請求ステータス）をGraphQLで公開し、バックオフィス業務の自動化を促進。",
         "specifications": [
@@ -62,7 +58,6 @@
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "UBAYA（卒業研究）",
-        "project_date": "January 2020",
         "highlight": "エンドツーエンドのイベント管理アプリ（予約→支払い→運用）。",
         "specifications": [
           "予約とパッケージ",
@@ -79,20 +74,11 @@
         ],
         "description": "Charicedecoratieのビジネスプロセス全体を自動化するアプリを開発—パッケージ予約（日時重複チェック、パッケージ種類に応じた動的フォーム）、振込明細による支払いと期限超過時の自動キャンセル、支払い済みかつ2日以上前でのみ有効なルール付きリスケ。運用面では、管理者はイベントリマインダーの受信、フリーランサー／PICの割当、月次棚卸、出庫伝票の記録、資産の耐用年数に基づく自動減価償却を行える。統計ダッシュボードには、お気に入りパッケージのチャート、月次／年次の収入・支出ビュー、監査用の変更履歴がある。Google Place連携によりイベント場所の入力も容易。"
       },
-      "freelite-monemy": {
-        "project_name": "Freelite Monemy",
-        "category_project": "category_project 7",
-        "project_from": "project_from 7",
-        "project_date": "project_date 7",
-        "highlight": "highlight 7",
-        "description": "description 7"
-      },
       "hotel-at-home": {
         "project_name": "Hotel At Home",
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "march 2023",
         "highlight": "カタログ、カート／チェックアウト、注文、管理／レポート向けのバックエンドREST API（認証、バリデーション、ページネーション、キャッシュ）で日常業務を高速かつ信頼的に。",
         "description": "Hotel At Homeのプロダクト発見とチェックアウトを支えるバックエンドを実装。製品・カテゴリ・検索／フィルタ／ソート・商品詳細の認証付きエンドポイントに加え、厳格なバリデーションと冪等性を備えたカート／チェックアウトフローで二重送信を防止。注文API（一覧／詳細、ステータス遷移、キャンセル）、バックオフィスのエクスポート／レポート用エンドポイント、標準化されたエラーレスポンスにより、クライアント側の失敗が予測可能に",
         "specifications": [
@@ -108,7 +94,6 @@
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "Inausugura",
-        "project_date": "August 2023",
         "highlight": "倉庫・物流向けWebアプリ—入出庫、在庫、配送書類をロールベースで管理。",
         "description": "入庫受入、出庫／配送、在庫、販売／購買注文をロールベースのアクセスにまとめたエンドツーエンドの倉庫・物流ソリューション。検索／ページング対応のテーブルやインラインバリデーション、印刷可能な帳票（納品書、ピッキングリスト、受領書）を備えたレスポンシブ画面。注文・在庫・レポートのREST APIを公開し、エラーを正規化してUIや外部ツールの決定性を担保。結果として日々のオペレーションが高速化し、手作業が減り、アカウンタビリティが明確化。",
         "specifications": [
@@ -126,7 +111,6 @@
         "category_project": "モバイルアプリ",
         "filter_type": "filter-mobile-app",
         "project_from": "フリーランス",
-        "project_date": "September 2021",
         "highlight": "ダッシュボード、リーダーボード、ジオロケーションを備えたFlutter製アナリティクスアプリ。",
         "description": "KPIダッシュボード、受注ステータスのパイプライン、ベストセラーの洞察、利益ビューを組み合わせたリアルタイムのセールスパフォーマンス・コックピット。ユーザーはトレンドをフィルタし、pendingからreceivedまでの各段階へドリルダウンし、発生中の注文をライブで監視できる。顧客リーダーボードと都市レベルの地図により、チームはリアルタイムにモメンタムとボトルネックを把握可能。",
         "specifications": [
@@ -144,7 +128,6 @@
         "category_project": "Webアプリ",
         "filter_type": "filter-web-app",
         "project_from": "Personal Project (UDEMY)",
-        "project_date": "December 2024",
         "highlight": "地図ベースのツアー表示、セキュア認証、Stripeチェックアウト、ユーザーレビューを備えた旅行予約アプリ。",
         "description": "クリーンなコントローラと再利用可能なミドルウェアによるMVC構成、役割（ユーザー／管理者）に基づく権限付きのJWT認証、支払い予約を行いユーザー履歴を追加するStripeチェックアウトを実装。ツアーはロケーションを表示する地図付きの詳細ページと、購入後に評価・コメントできるレビュー機能を備える。APIとページが一貫して失敗するよう中央集約のバリデーションとエラーハンドリングを用い、セキュリティミドルウェア（レート制限、サニタイズ）やパフォーマンス最適化（軽量クエリ、適切なキャッシュ）で応答性と本番レベルの体験を保証。",
         "specifications": [
@@ -161,7 +144,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "February 2022",
         "highlight": "カタログのバックエンドサービス（PLP/PDP）、ストアビュー／マルチストア規則、READYとPO／バックオーダーのロジック、チケッティング連携—適切なバリデーション、キャッシュ、安定したエラーハンドリング付き。",
         "description": "子階層カスタムとストアビュー基盤を用いたカテゴリ（PLP）と商品詳細（PDP）ページを実装。READY対PO／バックオーダー商品の可用性モデル（リードタイムと注文制約）を追加。起票されたチケットサービスも確認",
         "specifications": [
@@ -175,7 +157,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "December 2022",
         "highlight": "カタログ／検索、チェックアウト＆注文、管理／レポート向けのバックエンドAPI（認証、バリデーション、キャッシュ、ページネーション）。",
         "description": "製品／カテゴリ（ページング、フィルタ、ソート、検索）の認証付きエンドポイント、冪等な発注を備えた検証済みのカート／チェックアウト、そして注文API（一覧／詳細、ステータス更新、キャンセル）を実装。バックオフィス向けエクスポート／レポート、正規化されたエラー、キャッシュのターゲティング、トレーサビリティのための監査ログを追加。",
         "specifications": [
@@ -191,7 +172,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "April 2023",
         "highlight": "商品と価格のExcelインポート（Laravel）と詳細な履歴ログ。",
         "description": "Excel経由で商品・価格リストを取り込み、検証とマッピングを行い、監査可能な記録を残す段階的な更新パイプライン。失敗は明確に表示され、その場でデータ問題を解決でき、どの行が成功／失敗したかをログで追跡。結果として、トレーサブルで持続する高速な更新を実現。",
         "specifications": [
@@ -205,7 +185,6 @@
         "category_project": "Eコマース",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "December 2022",
         "highlight": "製造日、レビュー／評価、フォームラベル、仕様フォーム向けのXMLエクスポートとGraphQL拡張。",
         "description": "フィールドマッピング、ページネーション、検証を備えたXMLエクスポートパイプラインを実装。製造日、レビュー／評価（フィルタ／ソート／ページングと集計付き）、フォームラベル、仕様フォームのデータセットを公開するためにGraphQLスキーマ／リゾルバへ貢献。スコープ付きトークンアクセス、統一されたエラー、N+1回避のためのリゾルババッチング、ホットリードへの選択的キャッシュを追加。",
         "specifications": [
@@ -219,7 +198,6 @@
         "category_project": "データサイエンス",
         "filter_type": "filter-data-science",
         "project_from": "qariracademy",
-        "project_date": "2025年6月",
         "highlight": "気象特徴量からPM2.5／PM10を予測。Linear／SVRに加え木系／ブースティングモデルを用い、交差検証とチューニングを実施。",
         "description": "汚染物質と気象の相関をヒートマップや分布で探索。欠損補完・スケーリング・ワンホットエンコーディングによる前処理を実施。Linear Regression、SVR、Random Forest、Gradient Boosting、LightGBMをGridSearchCVと交差検証で学習。R²／MAE／MSE／RMSEで評価し、学習誤差と検証誤差の比較により過学習／過小適合を確認。結果は見やすい表とプロットで可視化。",
         "specifications": [
@@ -233,7 +211,6 @@
         "category_project": "会社概要",
         "filter_type": "filter-web-app",
         "project_from": "フリーランス",
-        "project_date": "2025年8月",
         "highlight": "FigmaからLaravelへの会社概要サイト。WhatsAppダイレクトチャットとヒーロースライダー対応。",
         "description": "Figmaで設計し、Laravel Bladeコンポーネントで実装。ページはHome、About Us、Vision & Mission、Products、Product Detail、Contact。迅速な問い合わせ／質問のためにWhatsAppダイレクトチャットを追加し、ヒーロースライダー、レスポンシブレイアウト、モバイルフレンドリーに対応。",
         "specifications": [
@@ -251,7 +228,6 @@
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "フリーランス",
-        "project_date": "2026年2月",
         "highlight": "在庫、販売、財務業務を管理するためのERPシステム。",
         "description": "これは友人と共同で行ったフリーランスプロジェクトです。本ERPシステムは、UD Anugrah Sembilan Suryaの在庫管理、販売追跡、および財務業務を効率化するために設計されました。システムには、商品カタログ管理、注文処理、顧客関係管理、および財務レポートのモジュールが含まれています。操作効率を高めるために、ユーザーフレンドリーなインターフェースを備えています。私の役割は、在庫アイテムへの画像を動的に追加する機能の開発、在庫機能の軽微な修正、在庫サブカテゴリーへの画像追加、データテーブルでの画像表示、ストアドプロシージャによるCRUDを用いたRetrack Sales Orderの追加、データベースのテーブルの追加および変更、一部ページのレスポンシブデザインの更新、販売機能のデータテーブルのフィールド追加および更新、ブランドの最小在庫に基づく在庫警告の作成、そして顧客およびサプライヤーの連絡先を動的に管理する機能の実装です。",
         "specifications": [

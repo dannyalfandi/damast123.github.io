@@ -5,7 +5,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "November 2022",
         "highlight": "Shopware storefront improvements, Excel import to DB, custom footer, and N8N integration.",
         "description": "An automation and content refresh targeting Excel imports that write to the database and forward clean payloads to N8N for downstream workflows. The storefront gained a customizable homepage popup and clean footer with social icons, and Shopware↔N8N connectivity was configured for reliability. Product onboarding is quicker, and repetitive tasks move off people and into automation.",
         "specifications": [
@@ -20,7 +19,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "December 2021",
         "highlight": "Custom after-quote logic, and forgot-password redirect fix using Magento 2.",
         "description": "A focused enhancement to the quote offer and authentication process, dividing post-quote flows whenever carts have READY and PO items so pricing and lead times are accurate. The work also included adding filter on backstore and fix to a broken forgot-password flow that previously caused 404 redirects. Together, these fixes brings the storefront into alignment with business reality and solidifies an important recovery flow.",
         "specifications": [
@@ -34,7 +32,6 @@
         "category_project": "Mobile App",
         "filter_type": "filter-mobile-app",
         "project_from": "Freelance",
-        "project_date": "November 2019",
         "highlight": "Android barcode scan & courier tracking.",
         "description": "A lightweight delivery companion that pairs barcode scanning with GPS so that all parcel and courier movement is within view. Couriers scan all parcels, start trips with location enabled, and stream positions, giving admins a live map of routes and progress. The result is improved accountability across daily runs.",
         "specifications": [
@@ -48,7 +45,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "November 2022",
         "highlight": "Backend GraphQL APIs for orders, billing, and customers with scoped auth, caching, and pagination—making day-to-day operations faster and safer.",
         "description": "Implemented backend GraphQL endpoints covering orders, billing, and customer data. The APIs use token-scoped authorization (different results for authenticated and unauthenticated call). Operational actions (e.g., cancel order) are validated and logged for audibility, and the error model is also formalized so clients experience clear. Admin workflows such as available bill and billing status are surfaced with GraphQL to facilitate automation of back-office processes.",
         "specifications": [
@@ -62,7 +58,6 @@
         "category_project": "Mobile App",
         "filter_type": "filter-mobile-app",
         "project_from": "UBAYA (Thesis)",
-        "project_date": "January 2020",
         "highlight": "End-to-end event management app (booking→payment→ops).",
         "specifications": [
           "Booking & Packages",
@@ -79,20 +74,11 @@
         ],
         "description": "Developing an app to automate Charicedecoratie's entire business process—from package booking (date/time conflict check, package-type dynamic forms), payment with transfer receipt and automatic cancel when deadline exceeded, to rescheduling with rules (only valid if paid and 2+ days in advance). On the operational front, admins get reminders for events, are able to assign freelancers/PICs, perform monthly stock counts, record outbound notes, and monitor auto depreciation of assets by useful life. There's a statistics dashboard: favorite package charts, monthly/yearly income & expense views, and change history for audit purposes. Google Place integration facilitates easy entry of event locations."
       },
-      "freelite-monemy": {
-        "project_name": "Freelite Monemy",
-        "category_project": "category_project 7",
-        "project_from": "project_from 7",
-        "project_date": "project_date 7",
-        "highlight": "highlight 7",
-        "description": "description 7"
-      },
       "hotel-at-home": {
         "project_name": "Hotel At Home",
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "march 2023",
         "highlight": "Backend REST APIs for catalog, cart/checkout, orders, and admin/reporting with auth, validation, pagination, and caching—speeding up and making day-to-day activities more reliable.",
         "description": "Implemented backend that drives product discovery and checkout for Hotel At Home. The service provides authenticated endpoints for products, categories, search/filter/sort, and product detail, along with a full cart/checkout flow with hard validation and idempotency so orders can't double-submit. Order APIs (list/detail, status transitions, cancel), back-office export/report endpoints, and standardized error responses so clients fail predictably",
         "specifications": [
@@ -108,7 +94,6 @@
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "Inausugura",
-        "project_date": "August 2023",
         "highlight": "Warehouse & logistics web app—tracks inbound/outbound, inventory, and delivery documents with role-based controls.",
         "description": "An end-to-end warehouse & logistics solution that rolls inbound receiving, outbound/shipping, inventory, and sales/purchase orders into role-based access. Responsive screens with searchable/paginated tables, inline validation, and printable documents (delivery notes, pick lists, goods receipts). Exposed REST API for orders, inventory, and reports; and normalized errors so the UI and external tools are deterministic. The upshot is faster day-to-day operation, less manual fiddling, and clearer accountability.",
         "specifications": [
@@ -126,7 +111,6 @@
         "category_project": "Mobile App",
         "filter_type": "filter-mobile-app",
         "project_from": "Freelance",
-        "project_date": "September 2021",
         "highlight": "Flutter analytics app with dashboards, leaderboards, and geolocation.",
         "description": "A real-time sales performance cockpit combining KPI dashboards with an order status pipeline, best-seller insights, and views of profits. Users can filter trends, drill into stages from pending to received, and monitor live orders as they happen. A customer leaderboard and map at the city level rounds it out so teams can see momentum and bottlenecks in real-time.",
         "specifications": [
@@ -144,7 +128,6 @@
         "category_project": "Web App",
         "filter_type": "filter-web-app",
         "project_from": "Personal Project (UDEMY)",
-        "project_date": "December 2024",
         "highlight": "Travel/tour booking app with map-based tour views, secure auth, Stripe checkout, and user reviews.",
         "description": "Implemented an MVC structure with clean controllers and reusable middleware, JWT authentication with permission based on role (user/admin), and a Stripe checkout process which makes paid bookings and adds user history. Tours feature rich detail pages with map to display locations, as well as a reviews system to enable users to rate and comment after purchase. The app uses central validation and error handling so that both API and pages fail consistently, with security middleware (rate-limit, sanitizing) and performance optimizations (lean queries, caching where appropriate) to guarantee responsiveness and production-ready experience.",
         "specifications": [
@@ -161,7 +144,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "February 2022",
         "highlight": "Catalog backend services (PLP/PDP), store-view/multi-store rules, READY vs PO/backorder logic, and ticketing integration—with good validation, caching, and stable error handling.",
         "description": "Implemented category (PLP) and product-detail (PDP) pages with custom child and storeview base. Add availability models for READY vs PO/backorder products (lead times and order constraints). Also check raised ticket services",
         "specifications": [
@@ -175,7 +157,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "ICUBE by SIRCLO",
-        "project_date": "December 2022",
         "highlight": "Backend catalog/search, checkout & orders, and admin/reporting APIs with auth, validation, caching, and pagination.",
         "description": "Implemented authenticated endpoints for products/categories (pagination, filtering, sorting, searching), a validated cart/checkout process with idempotent place-order, and order APIs for list/detail, status update, and cancellation. Added exports/reports for back-office, normalized error, cache targeting, and audit logs for traceability.",
         "specifications": [
@@ -191,7 +172,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "April 2023",
         "highlight": "Laravel-based Excel import for products & prices with detailed history logs.",
         "description": "A staged update pipeline where product and price lists are ingested via Excel, validated and mapped, and an auditable record is left behind. Showing failures are exposed with clarity to allow data issues to be resolved in the moment and a log tracks which rows passed or failed. The result is faster updates with traceability that endures.",
         "specifications": [
@@ -205,7 +185,6 @@
         "category_project": "E-commerce",
         "filter_type": "filter-web-app",
         "project_from": "Icube By Sirclo",
-        "project_date": "December 2022",
         "highlight": "XML export and GraphQL additions for production date, reviews/ratings, form labels, and spec forms.",
         "description": "Implemented XML export pipeline with field mapping, pagination, and validation for downstream systems. Contributed to the GraphQL schema/resolvers to expose production date, reviews/ratings (with filter/sort/pagination and aggregates), form labels, and specification-form datasets. Added token-scoped access, consistent errors, resolver batching to avoid N+1, and selective caching on hot reads.",
         "specifications": [
@@ -219,7 +198,6 @@
         "category_project": "Data Science",
         "filter_type": "filter-data-science",
         "project_from": "qariracademy",
-        "project_date": "June 2025",
         "highlight": "Predict PM2.5/PM10 from weather features using Linear/SVR + tree/boosting models with cross-validation and tuning.",
         "description": "Explored pollutant–weather correlations using heatmaps and distributions; performed preprocessing using imputation, scaling, and one-hot encoding. Trained Linear Regression, SVR, Random Forest, Gradient Boosting, and LightGBM using GridSearchCV and cross-validation. Evaluated using R²/MAE/MSE/RMSE and checked over/underfitting using train vs. validation errors comparison; visualized results in clean tables/plots.",
         "specifications": [
@@ -233,7 +211,6 @@
         "category_project": "Company Profile",
         "filter_type": "filter-web-app",
         "project_from": "Freelance",
-        "project_date": "Augustus 2025",
         "highlight": "Figma-to-Laravel company profile with WhatsApp Direct Chat, and hero slider.",
         "description": "Designed in Figma and implemented using Laravel Blade components. Pages are Home, About Us, Vision & Mission, Products, Product Detail, and Contact. Added WhatsApp Direct Chat for quick inquiries/questions, hero slider, responsive layout, and mobile-friendly.",
         "specifications": [
@@ -251,7 +228,6 @@
         "category_project": "ERP",
         "filter_type": "filter-web-app",
         "project_from": "Freelance",
-        "project_date": "February 2026",
         "highlight": "ERP system for managing inventory, sales, and financial operations.",
         "description": "This is a project freelance with my friend. So this is an ERP system designed to streamline inventory management, sales tracking, and financial operations for UD Anugrah Sembilan Surya. The system includes modules for product catalog management, order processing, customer relationship management, and financial reporting. It features a user-friendly interface to ensure their operational efficiency. My role in this project to develop feature for add image by dynamical on stock item, minor change on stock feature, add image on subcategory stock. Show image on datatable. Add Retrack Sales Order, with store procedure crud. Add and alter some table in database. Update responsive design on some page. Add and update field datatable in sales feature. Make warning stock base on minimum brand stock. Last make contact person dynamical on customer and supplier.",
         "specifications": [

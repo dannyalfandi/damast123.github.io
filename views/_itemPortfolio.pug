@@ -1,4 +1,4 @@
-mixin itemPortfolio(portfolio)
+mixin itemPortfolio(portfolio, language)
     .col-lg-4.col-md-6.portfolio-item.isotope-item(class=portfolio.filter_type)
         //- img.img-fluid(src=`/img/portfolio/${portfolio.header_image}`, alt="", max-width="100%", height="30%")
         img.portfolio-img(
@@ -7,9 +7,13 @@ mixin itemPortfolio(portfolio)
         loading="lazy"
         )
         .portfolio-info
+            - var date = portfolio.project_date.split('-')
             h4= t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name})
             strong= "Project Date: "
-            strong=  t('db:portfolio.' + portfolio.slug + '.project_date', {defaultValue: portfolio.client})
+            if language == 'ja'
+                strong=  `${date[0]}${t('common:year.nen')}${t('common:month.' + date[1])}`
+            else
+                strong=  `${t('common:month.' + date[1])} ${date[0]}`
             p= t('db:portfolio.' + portfolio.slug + '.highlight', {defaultValue: portfolio.highlight})
             a.glightbox.preview-link(href=`/img/portfolio/${portfolio.header_image}`, title=t('db:portfolio.' + portfolio.slug + '.project_name', {defaultValue: portfolio.project_name}), data-gallery="portfolio-gallery-app")
                 i.bi.bi-zoom-in

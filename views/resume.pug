@@ -37,7 +37,12 @@ block content
                         h3.resume-title= t('resume_page.prof_experience')
                         .resume-item
                             h4= `${t('resume_page.fullstack_dev', {defaultValue:'Full-Stack Developer'})} (PT Inaugurasi Pelangi Nusantara)`
-                            h5= `08/2023 - 08/2024 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            if cookies == 'ja'
+                                h5= `2023年8月 - 2024年8月 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
+                            else if cookies == 'en'
+                                h5= `08/2023 - 08/2024 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            else
+                                h5= `2023/08 - 2024/08 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
                             p
                                 em= t('location.surabaya') + ', ' + t('location.indonesia') + " (" + t('location.remote') + ")"
                             ul
@@ -45,7 +50,12 @@ block content
                                     li= line
                         .resume-item
                             h4= `${t('resume_page.mobile_app_freelance', {defaultValue:'Mobile App Freelancer'})} (Projects.co.id)`
-                            h5= `09/2021 - 01/2022 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            if cookies == 'ja'
+                                h5= `2021年9月 - 2022年1月 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
+                            else if cookies == 'en'
+                                h5= `09/2021 - 01/2022 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            else
+                                h5= `2021/09 - 2022/01 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
                             p
                                 em= t('location.indonesia') + " (" + t('location.remote') + ")"
                             ul
@@ -53,7 +63,12 @@ block content
                                     li= line
                         .resume-item
                             h4= `${t('resume_page.software_backend_dev', {defaultValue:'Software Backend Developer'})} (ICUBE by Sirclo)`
-                            h5= `06/2021 - 06/2023 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            if cookies == 'ja'
+                                h5= `2021年6月 - 2022年6月 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
+                            else if cookies == 'en'
+                                h5= `06/2021 - 06/2023 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            else
+                                h5= `2021/06 - 2022/06 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
                             p
                                 em=`${t('location.tangerang')}, ${t('location.jakarta')}, ${t('location.indonesia')} (${t('location.remote')})`
                             ul
@@ -61,7 +76,12 @@ block content
                                     li= line
                         .resume-item
                             h4= `${t('resume_page.software_engineer', {defaultValue:'Software Engineer'})} (Hiro Solutions)`
-                            h5= `03/2021 - 06/2021 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            if cookies == 'ja'
+                                h5= `2021年3月 - 2021年6月 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
+                            else if cookies == 'en'
+                                h5= `03/2021 - 06/2021 | ${t('resume_page.software_house', {defaultValue:'Software House'})}`
+                            else
+                                h5= `2021/03 - 2021/06 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
                             p
                                 em=`${t('location.surabaya')}, ${t('location.indonesia')}`
                             ul
