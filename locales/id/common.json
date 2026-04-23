@@ -79,7 +79,17 @@
       "software_engineer": "Software Engineer",
       "software_backend_dev": "Software Backend Developer",
       "mobile_app_freelance": "Freelancer Aplikasi Mobile",
+      "web_app_freelance": "Freelancer Aplikasi Web",
       "software_house": "Software House",
+      "content_work_5": [
+        "Mengimplementasikan gambar dinamis (unggah & tampilkan pada item stok, subkategori, dan datatable).",
+        "Menambahkan keterlacakan penjualan dengan mengembangkan fitur retracking Sales Order menggunakan stored procedure, memungkinkan pemantauan riwayat pesanan yang lebih baik.",
+        "Menambahkan dan memodifikasi tabel/field di database, memastikan data mendukung kebutuhan baru.",
+        "Meningkatkan efisiensi operasional dengan menyempurnakan fitur manajemen stok, termasuk peringatan stok rendah otomatis berdasarkan batas minimum brand.",
+        "Mengimplementasikan manajemen contact person dinamis untuk customer dan supplier, meningkatkan fleksibilitas data dan alur komunikasi.",
+        "Meningkatkan pengalaman pengguna dengan menerapkan perbaikan desain responsif pada halaman utama, memastikan kegunaan yang lebih baik di berbagai perangkat.",
+        "Menambahkan dan memperbarui field serta datatable pada sales order."
+      ],
       "content_work_4": [
         "Memigrasikan dan mengoptimalkan kode warisan ke Laravel, meningkatkan kemudahan pemeliharaan dan mengurangi waktu onboarding sebesar 20%.",
         "Merombak kode tim menggunakan alat profiling dan arsitektur bersih, menghasilkan pengurangan 10% pada code smells.",

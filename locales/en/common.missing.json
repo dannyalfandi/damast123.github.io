@@ -11,7 +11,8 @@
     "mobile_app_freelance": "Mobile App Freelancer",
     "software_backend_dev": "Software Backend Developer",
     "software_engineer": "Software Engineer",
-    "software_house": "Software House"
+    "software_house": "Software House",
+    "web_app_freelance": "Web App Freelancer"
   },
   "portfolio": {
     "more_details": "More Details"

@@ -22,6 +22,7 @@ exports.getContactPage = catchAsync(async(req, res, next) => {
 });
 
 exports.getResumePage = catchAsync(async(req, res, next) => {
+    const contentWork5 = req.t('resume_page.content_work_5', { returnObjects: true }) || [];
     const contentWork4 = req.t('resume_page.content_work_4', { returnObjects: true }) || [];
     const contentWork3 = req.t('resume_page.content_work_3', { returnObjects: true }) || [];
     const contentWork2 = req.t('resume_page.content_work_2', { returnObjects: true }) || [];
@@ -32,6 +33,7 @@ exports.getResumePage = catchAsync(async(req, res, next) => {
         download_url_node: '/download/node',
         download_url_ai_camp: '/download/ai-camp',
         download_url_dasar_ai: '/download/dasar-ai',
+        contentWork5,
         contentWork4,
         contentWork3,
         contentWork2,

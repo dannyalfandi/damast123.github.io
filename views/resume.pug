@@ -36,6 +36,19 @@ block content
                     .col-lg-6(data-aos="fade-up", data-aos-delay="200")
                         h3.resume-title= t('resume_page.prof_experience')
                         .resume-item
+                            h4= `${t('resume_page.web_app_freelance', {defaultValue:'Web App Freelancer'})} (UD Anugrah Sembilan Surya)`
+                            if cookies == 'ja'
+                                h5= `2026年2月 - 2026年5月` 
+                            else if cookies == 'en'
+                                h5= `02/2026 - 05/2026`
+                            else
+                                h5= `2026/02 - 2026/05` 
+                            p
+                                em= t('location.surabaya') + ', ' + t('location.indonesia') + " (" + t('location.remote') + ")"
+                            ul
+                                each line in contentWork5
+                                    li= line
+                        .resume-item
                             h4= `${t('resume_page.fullstack_dev', {defaultValue:'Full-Stack Developer'})} (PT Inaugurasi Pelangi Nusantara)`
                             if cookies == 'ja'
                                 h5= `2023年8月 - 2024年8月 | ${t('resume_page.software_house', {defaultValue:'Software House'})}` 
