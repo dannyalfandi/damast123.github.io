@@ -61,7 +61,7 @@
     },
     "resume_page": {
       "resume": "Resume",
-      "content_resume": "Sebagai Fullstack Developer dan Software Engineer yang penuh semangat, saya berkembang dalam menciptakan aplikasi web dan mobile yang inovatif untuk meningkatkan pengalaman pengguna. Dengan latar belakang yang kuat dalam pengembangan backend dan perhatian tinggi terhadap detail, saya siap berkontribusi dengan kemampuan saya ke dalam tim Anda. Saya antusias terhadap kesempatan untuk berkolaborasi, belajar, dan berkembang sambil menghadirkan solusi berkualitas tinggi yang memenuhi tujuan proyek Anda dan melampaui ekspektasi klien.",
+      "content_resume": "Full-Stack Developer dengan pengalaman 3 tahun membangun solusi web dan mobile menggunakan PHP/Laravel, Magento 2, Node.js (Express), Flutter, GraphQL, dan Docker dengan MySQL/PostgreSQL/MongoDB. Berhasil menghadirkan onboarding 10% lebih cepat melalui migrasi Laravel, mengurangi 15% permintaan klien melalui optimasi GraphQL, dan melakukan tiga peluncuran produksi tanpa masalah; berfokus pada maintainability, performa, dan delivery yang andal.",
       "education": "Pendidikan",
       "certifications": "Sertifikasi",
       "system": "Sarjana Sistem Informasi (IPK 3.632/4.0)",
@@ -82,37 +82,39 @@
       "web_app_freelance": "Freelancer Aplikasi Web",
       "software_house": "Software House",
       "content_work_5": [
-        "Mengimplementasikan gambar dinamis (unggah & tampilkan pada item stok, subkategori, dan datatable).",
-        "Menambahkan keterlacakan penjualan dengan mengembangkan fitur retracking Sales Order menggunakan stored procedure, memungkinkan pemantauan riwayat pesanan yang lebih baik.",
-        "Menambahkan dan memodifikasi tabel/field di database, memastikan data mendukung kebutuhan baru.",
-        "Meningkatkan efisiensi operasional dengan menyempurnakan fitur manajemen stok, termasuk peringatan stok rendah otomatis berdasarkan batas minimum brand.",
-        "Mengimplementasikan manajemen contact person dinamis untuk customer dan supplier, meningkatkan fleksibilitas data dan alur komunikasi.",
-        "Meningkatkan pengalaman pengguna dengan menerapkan perbaikan desain responsif pada halaman utama, memastikan kegunaan yang lebih baik di berbagai perangkat.",
-        "Menambahkan dan memperbarui field serta datatable pada sales order."
+        "Mengembangkan fitur manajemen gambar dinamis untuk item stok dan subkategori, termasuk fungsi upload, penyimpanan, dan tampilan datatable menggunakan PHP (CodeIgniter) dan SQL Server.",
+        "Membangun modul retracking Sales Order menggunakan stored procedure, meningkatkan keterlacakan penjualan dan efisiensi pemantauan riwayat pesanan.",
+        "Memodifikasi dan mengoptimalkan skema database, tabel, dan field untuk mendukung kebutuhan operasional yang terus berkembang dan meningkatkan konsistensi data.",
+        "Meningkatkan operasional inventaris dengan mengimplementasikan sistem peringatan stok rendah otomatis berdasarkan batas minimum brand yang dapat dikonfigurasi.",
+        "Mengembangkan fitur manajemen contact person dinamis untuk customer dan supplier, meningkatkan fleksibilitas dalam alur komunikasi bisnis.",
+        "Meningkatkan responsive UI/UX di berbagai halaman, meningkatkan usability dan accessibility pada perangkat desktop maupun mobile.",
+        "Memperbarui datatable dan form sales order untuk meningkatkan visibilitas data dan efisiensi operasional."
       ],
       "content_work_4": [
-        "Memigrasikan dan mengoptimalkan kode warisan ke Laravel, meningkatkan kemudahan pemeliharaan dan mengurangi waktu onboarding sebesar 20%.",
-        "Merombak kode tim menggunakan alat profiling dan arsitektur bersih, menghasilkan pengurangan 10% pada code smells.",
-        "Mengembangkan paket Composer yang dapat digunakan kembali untuk logika bisnis bersama, menghilangkan duplikasi kode dan mempercepat pengiriman fitur.",
-        "Menerapkan teknik optimasi sistem data untuk mempercepat eksekusi query dan caching, meningkatkan waktu respons serta mengurangi penggunaan sumber daya server."
+        "Memigrasikan dan memodernisasi sistem lama ke arsitektur Laravel, meningkatkan maintainability dan mengurangi waktu onboarding developer sebesar 10%.",
+        "Melakukan refactor modul backend menggunakan prinsip clean architecture dan profiling tools, serta meningkatkan keterbacaan kode.",
+        "Mengembangkan reusable Composer package untuk business logic bersama, mempercepat delivery fitur dan meminimalkan duplikasi kode antar proyek.",
+        "Mengoptimalkan query database, strategi caching, dan workflow sistem, meningkatkan response time aplikasi dan mengurangi konsumsi resource server.",
+        "Berkolaborasi dengan tim lintas fungsi untuk mengembangkan aplikasi web yang scalable menggunakan Laravel, PostgreSQL, dan REST API."
       ],
       "content_work_3": [
-        "Mengembangkan aplikasi pemantauan pesanan mobile menggunakan Flutter untuk meningkatkan pelacakan penjualan secara real-time.",
-        "Mengintegrasikan fitur geolokasi untuk memvisualisasikan distribusi pelanggan melalui peta interaktif.",
-        "Menerapkan sistem status yang sistematis untuk manajemen pesanan, mengurangi ketidakefisienan operasional.",
-        "Membuat sistem leaderboard dinamis untuk mengidentifikasi produk dan pelanggan dengan performa tinggi."
+        "Mengembangkan aplikasi mobile berbasis Flutter untuk monitoring pesanan dan pelacakan penjualan secara real-time.",
+        "Mengintegrasikan fitur geolokasi dan peta interaktif untuk memvisualisasikan distribusi pelanggan dan cakupan operasional.",
+        "Mengimplementasikan workflow manajemen status pesanan yang terstruktur, meningkatkan visibilitas operasional dan mengurangi upaya pelacakan manual.",
+        "Membangun sistem leaderboard dinamis untuk mengidentifikasi pelanggan dan produk dengan performa tinggi untuk analisis bisnis."
       ],
       "content_work_2": [
-        "Meluncurkan beberapa platform e-commerce menggunakan Magento 2, menyederhanakan fungsi inti storefront.",
-        "Mengoptimalkan GraphQL API untuk meningkatkan efisiensi pengambilan data, mengurangi permintaan sisi klien sebesar 25%.",
-        "Menyebarkan tiga situs produksi tanpa masalah kritis pasca-peluncuran, memastikan peningkatan versi berjalan mulus.",
-        "Mengkonteinerisasi komponen layanan dengan Docker untuk menstandarisasi lingkungan dan meminimalkan inkonsistensi deployment.",
-        "Mengintegrasikan dan mengotomatisasi proses ujung ke ujung menggunakan n8n untuk sinkronisasi data otomatis."
+        "Mengembangkan dan meluncurkan beberapa platform e-commerce Magento 2, mendukung fungsi storefront dan checkout yang scalable.",
+        "Mengoptimalkan GraphQL API untuk meningkatkan efisiensi pengambilan data, mengurangi permintaan sisi klien sebesar 15%.",
+        "Berhasil melakukan deployment tiga rilis produksi tanpa masalah kritis pasca peluncuran, memastikan upgrade stabil dan deployment yang lancar.",
+        "Mengkonteinerisasi layanan aplikasi menggunakan Docker, menstandarisasi environment development dan meminimalkan inkonsistensi deployment.",
+        "Mengotomatisasi workflow operasional end-to-end menggunakan n8n, meningkatkan efisiensi sinkronisasi antar sistem terintegrasi.",
+        "Berkolaborasi dengan tim frontend, QA, dan DevOps untuk menghadirkan solusi enterprise e-commerce yang andal."
       ],
       "content_work_1": [
-        "Berkolaborasi dengan tim engineering dan UI/UX untuk mengembangkan aplikasi web internal menggunakan PHP.",
-        "Merancang aplikasi mobile untuk alur kerja kompetisi menggunakan Flutter.",
-        "Meningkatkan produktivitas tim dan menyederhanakan proses melalui kolaborasi yang efektif."
+        "Berkolaborasi dengan tim engineering dan UI/UX untuk mengembangkan aplikasi web internal menggunakan PHP dan MySQL.",
+        "Mengembangkan aplikasi workflow kompetisi berbasis Flutter untuk mendukung manajemen operasional acara.",
+        "Berkontribusi pada peningkatan proses dan produktivitas tim melalui kolaborasi lintas fungsi yang efektif."
       ]
   },
   "contact_page": {
