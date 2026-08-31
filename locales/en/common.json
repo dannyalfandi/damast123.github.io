@@ -23,7 +23,7 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
-  "footer_template":{
+  "footer_template": {
     "copyright": "© Copyright Danny Alfandi. All Rights Reserved.",
     "designed": "Designed by ",
     "bootstrap_made": "BootstrapMade.",
@@ -52,7 +52,7 @@
     "skills": "Skills",
     "content_skills": "These are my soft skills and hard skills that I have."
   },
-  "location":{
+  "location": {
     "surabaya": "Surabaya, East Java",
     "tangerang": "Tangerang",
     "jakarta": "Jakarta",
@@ -71,6 +71,7 @@
     "node_certification": "Oct 2024",
     "ai_engineer_issue": "Jul 2025",
     "dasar_ai_issue": "Oct 2025",
+    "ef": "Aug 2026",
     "dasar_ai_expired": "Oct 2028",
     "click_here_to_download": "Click here to download",
     "university": "University of Surabaya (UBAYA)",
@@ -81,13 +82,43 @@
     "mobile_app_freelance": "Mobile App Freelancer",
     "web_app_freelance": "Web App Freelancer",
     "software_house": "Software House",
-    "content_work_5": ["Developed dynamic image management features for stock items and subcategories, including upload, storage, and datatable display functionality using PHP (Codeigniter) and SQL Server.","Built a Sales Order retracking module with stored procedures, improving sales traceability and order-history monitoring efficiency.","Modified and optimized database schemas, tables, and fields to support evolving operational requirements and improve data consistency.","Improved inventory operations by implementing automated low-stock warning systems based on configurable minimum brand thresholds.","Developed dynamic customer and supplier contact-person management features, increasing flexibility in business communication workflows.","Enhanced responsive UI/UX across multiple pages, improving usability and accessibility on desktop and mobile devices.","Updated sales-order datatables and forms to improve data visibility and operational efficiency."],
-    "content_work_4": ["Migrated and modernized legacy systems into Laravel architecture, improving maintainability and reducing developer onboarding time by 10%.","Refactored backend modules using clean architecture principles and profiling tools, and improving code readability.","Developed reusable Composer packages for shared business logic, accelerating feature delivery and minimizing duplicated code across projects.","Optimized database queries, caching strategies, and system workflows, improving application response times and reducing server resource consumption.","Collaborated with cross-functional teams to deliver scalable web applications using Laravel, PostgresSQL, and REST APIs."],
-    "content_work_3": ["Developed a Flutter-based mobile application for real-time order monitoring and sales tracking.","Integrated geolocation and interactive map features to visualize customer distribution and operational coverage.","Implemented structured order-status management workflows, improving operational visibility and reducing manual tracking efforts.","Built dynamic leaderboard systems to identify high-performing customers and products for business analysis."],
-    "content_work_2": ["Developed and launched multiple Magento 2 e-commerce platforms, supporting scalable storefront and checkout functionality.","Optimized GraphQL APIs to improve data retrieval efficiency, reducing client-side requests by 15%.","Successfully deployed three production releases with zero critical post-launch issues, ensuring stable upgrades and smooth deployments.","Containerized application services using Docker, standardizing development environments and minimizing deployment inconsistencies.","Automated end-to-end operational workflows using n8n, improving synchronization efficiency between integrated systems.","Collaborated with frontend, QA, and DevOps teams to deliver reliable enterprise e-commerce solutions."],
-    "content_work_1": ["Collaborated with engineering and UI/UX teams to develop internal web applications using PHP and MySQL.","Developed Flutter-based competition workflow applications to support operational event management.","Contributed to process improvements and team productivity through effective cross-functional collaboration."]
+    "content_work_5": [
+      "Developed dynamic image management features for stock items and subcategories, including upload, storage, and datatable display functionality using PHP (Codeigniter) and SQL Server.",
+      "Built a Sales Order retracking module with stored procedures, improving sales traceability and order-history monitoring efficiency.",
+      "Modified and optimized database schemas, tables, and fields to support evolving operational requirements and improve data consistency.",
+      "Improved inventory operations by implementing automated low-stock warning systems based on configurable minimum brand thresholds.",
+      "Developed dynamic customer and supplier contact-person management features, increasing flexibility in business communication workflows.",
+      "Enhanced responsive UI/UX across multiple pages, improving usability and accessibility on desktop and mobile devices.",
+      "Updated sales-order datatables and forms to improve data visibility and operational efficiency."
+    ],
+    "content_work_4": [
+      "Migrated and modernized legacy systems into Laravel architecture, improving maintainability and reducing developer onboarding time by 10%.",
+      "Refactored backend modules using clean architecture principles and profiling tools, and improving code readability.",
+      "Developed reusable Composer packages for shared business logic, accelerating feature delivery and minimizing duplicated code across projects.",
+      "Optimized database queries, caching strategies, and system workflows, improving application response times and reducing server resource consumption.",
+      "Collaborated with cross-functional teams to deliver scalable web applications using Laravel, PostgresSQL, and REST APIs."
+    ],
+    "content_work_3": [
+      "Developed a Flutter-based mobile application for real-time order monitoring and sales tracking.",
+      "Integrated geolocation and interactive map features to visualize customer distribution and operational coverage.",
+      "Implemented structured order-status management workflows, improving operational visibility and reducing manual tracking efforts.",
+      "Built dynamic leaderboard systems to identify high-performing customers and products for business analysis."
+    ],
+    "content_work_2": [
+      "Developed and launched multiple Magento 2 e-commerce platforms, supporting scalable storefront and checkout functionality.",
+      "Optimized GraphQL APIs to improve data retrieval efficiency, reducing client-side requests by 15%.",
+      "Successfully deployed three production releases with zero critical post-launch issues, ensuring stable upgrades and smooth deployments.",
+      "Containerized application services using Docker, standardizing development environments and minimizing deployment inconsistencies.",
+      "Automated end-to-end operational workflows using n8n, improving synchronization efficiency between integrated systems.",
+      "Collaborated with frontend, QA, and DevOps teams to deliver reliable enterprise e-commerce solutions."
+    ],
+    "content_work_1": [
+      "Collaborated with engineering and UI/UX teams to develop internal web applications using PHP and MySQL.",
+      "Developed Flutter-based competition workflow applications to support operational event management.",
+      "Contributed to process improvements and team productivity through effective cross-functional collaboration."
+    ]
   },
-  "contact_page":{
+  "contact_page": {
     "contact": "Contact Me",
     "description": "Feel free to reach out for any inquiries or collaborations.",
     "address": "Address",
