@@ -5,7 +5,7 @@ const router = express.Router();
 const authController = require('./../../Presentations/Controllers/authController');
 const portfolioController = require('./../../Presentations/Controllers/portfolioController');
 
-router.get('/', portfolioController.getPortfolio);
+router.get('/detail', portfolioController.getPortfolio);
 router.get('/detail/:id', portfolioController.getDetailPortfolio);
 
 router.use(authController.protectAPI);

@@ -3,6 +3,9 @@
     "title": "Portofolio Danny"
   },
   "month": {
+    "10": "Oktober",
+    "11": "November",
+    "12": "Desember",
     "01": "Januari",
     "02": "Februari",
     "03": "Maret",
@@ -11,10 +14,7 @@
     "06": "Juni",
     "07": "Juli",
     "08": "Agustus",
-    "09": "September",
-    "10": "Oktober",
-    "11": "November",
-    "12": "Desember"
+    "09": "September"
   },
   "nav": {
     "home": "Beranda",
@@ -142,5 +142,8 @@
     "project_date": "Tanggal Proyek",
     "description": "Deskripsi",
     "specification": "Spesifikasi"
+  },
+  "year": {
+    "nen": "年"
   }
 }

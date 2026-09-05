@@ -10,16 +10,11 @@
     "express-xss-sanitizer": "^2.0.0",
     "helmet": "^8.0.0",
     "hpp": "^0.2.3",
-    "i18next": "^25.4.2",
-    "i18next-fs-backend": "^2.6.0",
-    "i18next-http-middleware": "^3.8.0",
     "jsonfile": "^6.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
-    "path": "^0.12.7",
-    "pug": "^3.0.3",
     "slug": "^10.0.0"
   },
   "name": "server",
@@ -27,8 +22,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "mkdir dist && xcopy /E /I public dist"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
