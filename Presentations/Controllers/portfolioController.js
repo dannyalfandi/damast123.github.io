@@ -1,73 +1,69 @@
-const fetchNode = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-
 const catchAsync = require('./../../utils/catchAsync');
+const AppError = require('./../../utils/appError');
+const Portfolio = require('./../../Models/portfolioModel');
 
 exports.createPortfolio = catchAsync(async(req, res, next) => {
-    const body = {project_name: req.body.project_name, category_project: req.body.category_project, project_from:req.body.project_from, project_date:req.body.project_date, highlight:req.body.highlight, description:req.body.description, images:req.body.images};
-
-    const response = await fetchNode(process.env.API_URL+'/detail', {
-        method: 'post',
-        body: JSON.stringify(body),
-        headers: {'Content-Type': 'application/json'}
+    const newPortfolio = await Portfolio.create({
+        project_name: req.body.project_name,
+        category_project: req.body.category_project,
+        project_from: req.body.project_from,
+        project_date: req.body.project_date,
+        highlight: req.body.highlight,
+        description: req.body.description,
+        images: req.body.images
     });
-    const newPortfolio = await response.json();
 
-    if(newPortfolio){
-        res.status(200).json({
-            status: 'success',
-            data:{
-                newPortfolio
-            }
-        });
-    }
-    else{
-        res.status(401).json({
-            status: 'success',
-            message:"Error when creating portfolio"
-        });
-    }
+    res.status(200).json({
+        status: 'success',
+        data:{
+            newPortfolio
+        }
+    });
 });
 
 exports.updatePortfolio = catchAsync(async(req, res, next) => {
-    const body = {images:req.body.images};
-
-    const response = await fetchNode(process.env.API_URL+'/detail/'+req.params.id, {
-        method: 'put',
-        body: JSON.stringify(body),
-        headers: {'Content-Type': 'application/json'}
+    const newPortfolio = await Portfolio.findByIdAndUpdate(req.params.id, {
+        images: req.body.images
+    }, {
+        new: true,
+        runValidators: true
     });
-    const newPortfolio = await response.json();
 
-    if(newPortfolio){
-        res.status(200).json({
-            status: 'success',
-            data:{
-                newPortfolio
-            }
-        });
+    if(!newPortfolio){
+        return next(new AppError('No portfolio found with that ID', 404));
     }
-    else{
-        res.status(401).json({
-            status: 'success',
-            message:"Error when creating portfolio"
-        });
-    }
+
+    res.status(200).json({
+        status: 'success',
+        data:{
+            newPortfolio
+        }
+    });
 });
 
 exports.getPortfolio = catchAsync(async(req, res, next) => {
-    const response = await fetchNode(process.env.API_URL+'/detail', {
-        method: 'get',
-        headers: {'Content-Type': 'application/json'}
+    const portfolios = await Portfolio.find();
+
+    res.status(200).json({
+        status: 'success',
+        results: portfolios.length,
+        data: {
+            portfolios
+        }
     });
-    const portfolios = await response.json();
-    res.status(200).json(portfolios);
 });
 
 exports.getDetailPortfolio = catchAsync(async(req, res, next) => {
-    const response = await fetchNode(process.env.API_URL+'/detail/'+req.params.id, {
-        method: 'get',
-        headers: {'Content-Type': 'application/json'}
+    const portfolio = await Portfolio.findById(req.params.id);
+
+    if(!portfolio){
+        return next(new AppError('No portfolio found with that ID', 404));
+    }
+
+    res.status(200).json({
+        status: 'success',
+        data: {
+            portfolio
+        }
     });
-    const portfolio = await response.json();
-    res.status(200).json(portfolio);
 });

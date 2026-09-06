@@ -1,11 +1,8 @@
-const dotenv = require('dotenv');
-
-dotenv.config({path: './../config.env'});
-
 const {
     PORT,
     NODE_ENV,
     CLIENT_URL,
+    FRONTEND_URL,
     MONGODB_URL,
     SENDER_EMAIL,
     DATABASE_PASSWORD,
@@ -13,14 +10,14 @@ const {
     MONGODB_LOCAL,
     JWT_SECRET,
     JWT_EXPIRES_IN,
-    JWT_EXPIRES_COOKIES,
-    API_URL
- } = process.env;
+    JWT_EXPIRES_COOKIES
+} = process.env;
 
- export {
+module.exports = {
     PORT,
     NODE_ENV,
     CLIENT_URL,
+    FRONTEND_URL,
     MONGODB_URL,
     SENDER_EMAIL,
     DATABASE_PASSWORD,
@@ -28,6 +25,5 @@ const {
     MONGODB_LOCAL,
     JWT_SECRET,
     JWT_EXPIRES_IN,
-    JWT_EXPIRES_COOKIES,
-    API_URL
- };
+    JWT_EXPIRES_COOKIES
+};

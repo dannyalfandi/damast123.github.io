@@ -8,6 +8,7 @@ var cors = require('cors');
 const { xss } = require("express-xss-sanitizer");
 const hpp = require('hpp');
 const AppError = require('./utils/appError');
+const globalErrorHandler = require('./Presentations/Controllers/errorController');
 const indexRouter = require('./Presentations/Routes/index');
 
 const app = express();
@@ -56,8 +57,8 @@ else{
 }
 
 const limiter = rateLimit({
-    max: 40,
-    window: 60 * 60 * 1000,
+    limit: 40,
+    windowMs: 60 * 60 * 1000,
     message: 'Too many request from this IP, please try again in an hour!'
 });
 
@@ -86,6 +87,6 @@ app.all('*', (req, res, next) => {
     next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
 
-// app.use(globalErrorHandler);
+app.use(globalErrorHandler);
 
 module.exports = app;
